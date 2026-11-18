@@ -4,7 +4,7 @@ Learn and quiz yourself on human anatomy in 3D, in the browser.
 
 **Live site:** https://quendall.github.io/anatomy-quiz-tools/
 
-- **Explore**: turn body systems, groups and single structures on and off, select structures to label them, and use X-ray or isolate to see deeper parts.
+- **Explore**: turn body systems, groups and single structures on and off, select structures to label them, and use X-ray or isolate to see deeper parts. Lymph nodes can be drawn up to 4× their size, and hovering one lights up its whole group.
 - **Learn**: the camera frames a highlighted structure. You start with 4 choices, then type the name once you know it. Missed structures come back sooner.
 - **Flashcards**: flip between the 3D view and the name, star cards, and filter by starred.
 - **Find**: you're given a name and click that structure in the 3D viewer.

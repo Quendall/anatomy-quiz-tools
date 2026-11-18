@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import {
+		CircleDot,
 		EyeOff,
 		Focus,
 		Hand,
@@ -17,7 +18,7 @@
 	import { onMount } from 'svelte';
 	import LayerTree from '#lib/components/LayerTree.svelte';
 	import { partIndex, partName, partPath, SYSTEMS } from '#lib/data/systems.ts';
-	import { scene, type ScrollMode } from '#lib/state/scene.svelte.ts';
+	import { NODE_SCALE, scene, type ScrollMode } from '#lib/state/scene.svelte.ts';
 	import { viewer } from '#lib/viewer/api.ts';
 
 	let panelOpen = $state(true);
@@ -131,6 +132,21 @@
 			>
 				<Crosshair size={18} aria-hidden="true" /> Isolate
 			</button>
+			{#if !scene.hiddenSystems.has('lymphoid')}
+				<span class="sep" aria-hidden="true"></span>
+				<label class="tool size" title="Draw lymph nodes larger than life, to make them easier to see and click">
+					<CircleDot size={18} aria-hidden="true" /> Node size
+					<input
+						type="range"
+						min={NODE_SCALE.min}
+						max={NODE_SCALE.max}
+						step={NODE_SCALE.step}
+						value={scene.nodeScale}
+						oninput={(e) => scene.setNodeScale(Number(e.currentTarget.value))}
+					/>
+					<span class="val">{scene.nodeScale}×</span>
+				</label>
+			{/if}
 			<span class="sep" aria-hidden="true"></span>
 			<button class="tool" onclick={cycleScroll} title={scrollInfo.hint} aria-label="Scroll behavior: {scrollInfo.label}. {scrollInfo.hint}">
 				{#if scene.scrollMode === 'zoom'}<Mouse size={18} aria-hidden="true" />{:else}<Hand size={18} aria-hidden="true" />{/if}
@@ -320,6 +336,15 @@
 	.tool[aria-pressed='true'] {
 		background: var(--pressed);
 		color: var(--accent);
+	}
+	.size input {
+		width: 84px;
+		accent-color: var(--accent);
+	}
+	.size .val {
+		min-width: 2.6em;
+		font-variant-numeric: tabular-nums;
+		color: var(--text);
 	}
 	.sep {
 		width: 1px;

@@ -1,5 +1,5 @@
 import { SvelteSet } from 'svelte/reactivity';
-import { groupKey, partIndex, SYSTEMS } from '#lib/data/systems.ts';
+import { groupKey, partIndex, sameNodeGroup, SYSTEMS } from '#lib/data/systems.ts';
 import { load, save } from './persist';
 
 export type ScrollMode = 'auto' | 'orbit' | 'zoom';
@@ -8,6 +8,8 @@ export type MeshState =
 	| 'hidden'
 	| 'normal'
 	| 'hover'
+	/** A lymph node in the same group as the hovered one (the hovered node too). */
+	| 'peer'
 	| 'selected'
 	| 'xray'
 	| 'ghost'
@@ -44,6 +46,8 @@ export type PickHandler = (
 ) => void;
 
 const SCROLL_KEY = 'scroll-mode';
+const NODE_SCALE_KEY = 'node-scale';
+export const NODE_SCALE = { min: 1, max: 4, step: 0.5 } as const;
 
 /** Parts the manifests mark as hidden at first (e.g. the pleura, which covers the lungs). */
 const DEFAULT_HIDDEN = [...partIndex.values()].filter((e) => e.part.hidden).map((e) => e.part.id);
@@ -68,6 +72,8 @@ class SceneState {
 	xray = $state(false);
 	isolate = $state(false);
 	scrollMode = $state<ScrollMode>(load<ScrollMode>(SCROLL_KEY, 1, 'auto'));
+	/** Lymph nodes are drawn this many times their size, for illustration (1 = true size). */
+	nodeScale = $state<number>(load<number>(NODE_SCALE_KEY, 1, 1));
 
 	quiz = $state<QuizView | null>(null);
 	labelAnchors = $state<LabelAnchor[]>([]);
@@ -100,7 +106,14 @@ class SceneState {
 		if (this.selected.has(partId)) return 'selected';
 		if (this.selected.size && this.isolate) return 'hidden';
 		if (this.selected.size && this.xray) return 'xray';
+		// Hovering a lymph node lights up every node of its group, itself included.
+		if (this.hovered && sameNodeGroup(this.hovered, partId)) return 'peer';
 		return this.hovered === partId ? 'hover' : 'normal';
+	}
+
+	setNodeScale(v: number) {
+		this.nodeScale = Math.min(NODE_SCALE.max, Math.max(NODE_SCALE.min, v));
+		save(NODE_SCALE_KEY, 1, this.nodeScale);
 	}
 
 	setScrollMode(m: ScrollMode) {

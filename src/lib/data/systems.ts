@@ -87,3 +87,16 @@ export function nodeSide(node: string): Side | null {
 	if (node.endsWith('__r')) return 'right';
 	return null;
 }
+
+/** Lymph nodes: tiny spheres the viewer can enlarge (the thymus, spleen and tonsils are not). */
+export const LYMPH_NODES = new Set(
+	[...partIndex.values()]
+		.filter((e) => e.system.id === 'lymphoid' && /\bnodes?\b/i.test(e.part.name))
+		.map((e) => e.part.id)
+);
+
+/** Two lymph nodes in the same layer group (e.g. "Pelvic lymph nodes"). */
+export function sameNodeGroup(a: string, b: string): boolean {
+	if (!LYMPH_NODES.has(a) || !LYMPH_NODES.has(b)) return false;
+	return partIndex.get(a)!.group.id === partIndex.get(b)!.group.id;
+}

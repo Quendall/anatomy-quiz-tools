@@ -6,9 +6,10 @@
 	import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
 	import { acceleratedRaycast, computeBoundsTree, disposeBoundsTree } from 'three-mesh-bvh';
 	import { onMount } from 'svelte';
-	import { nodeToPart, partIndex, type SystemDef } from '#lib/data/systems.ts';
+	import { LYMPH_NODES, nodeToPart, partIndex, type SystemDef } from '#lib/data/systems.ts';
 	import { scene } from '#lib/state/scene.svelte.ts';
 	import { createMaterials } from './materials';
+	import { scalableBlobs } from './nodeScale';
 	import { registry } from './registry';
 
 	// BVH-accelerated raycasting: picking and hover stay fast on ~350k-vertex models.
@@ -29,6 +30,8 @@
 	}
 	let root = $state<Object3D | null>(null);
 	let meshes: { mesh: Mesh; partId: string }[] = [];
+	/** Lymph node meshes, which can be drawn larger than life (scene.nodeScale). */
+	let scalers: ((scale: number) => void)[] = [];
 	let error = $state<string | null>(null);
 
 	onMount(() => {
@@ -46,7 +49,10 @@
 						o.visible = false;
 						return;
 					}
-					o.geometry.computeBoundsTree();
+					// Lymph nodes are tiny (a few hundred vertices) and change shape with
+					// scene.nodeScale, so they use three's plain raycast instead of a BVH.
+					if (LYMPH_NODES.has(partId)) scalers.push(scalableBlobs(o));
+					else o.geometry.computeBoundsTree();
 					registry.add(o, partId);
 					meshes.push({ mesh: o, partId });
 				});
@@ -61,6 +67,13 @@
 		return () => {
 			cancelled = true;
 		};
+	});
+
+	$effect(() => {
+		const s = scene.nodeScale;
+		if (!root || !scalers.length) return;
+		for (const apply of scalers) apply(s);
+		invalidate();
 	});
 
 	// Re-apply visibility + material for every mesh whenever scene state changes.

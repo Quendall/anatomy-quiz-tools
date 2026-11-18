@@ -24,6 +24,8 @@ export function createMaterials(baseColor: string): Record<Exclude<MeshState, 'h
 	return {
 		normal: std(baseColor),
 		hover: std(baseColor, { emissive: base.clone().multiplyScalar(0.18) }),
+		// The app's accent, so a hovered group stands out on nodes a few pixels across.
+		peer: std(TEAL, { emissive: new Color(TEAL).multiplyScalar(0.5) }),
 		selected: std(AMBER, { emissive: new Color(AMBER).multiplyScalar(0.25) }),
 		target: std(AMBER, { emissive: new Color(AMBER).multiplyScalar(0.45), ...ON_TOP }),
 		correct: std(TEAL, { emissive: new Color(TEAL).multiplyScalar(0.3), ...ON_TOP }),
