@@ -1,0 +1,3234 @@
+{
+ "id": "muscular",
+ "name": "Muscular system",
+ "color": "#E2665C",
+ "model": "models/muscular.glb",
+ "groups": [
+  {
+   "id": "extra_ocular_muscles",
+   "name": "Extra-ocular muscles",
+   "path": [
+    "Cranial part of muscular system",
+    "Muscles of head",
+    "Extra-ocular muscles"
+   ],
+   "parts": [
+    {
+     "id": "common_tendinous_ring",
+     "name": "Common tendinous ring",
+     "nodes": [
+      "common_tendinous_ring__l",
+      "common_tendinous_ring__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_oblique_muscle",
+     "name": "Inferior oblique muscle",
+     "nodes": [
+      "inferior_oblique_muscle__l",
+      "inferior_oblique_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_rectus_muscle",
+     "name": "Inferior rectus muscle",
+     "nodes": [
+      "inferior_rectus_muscle__l",
+      "inferior_rectus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_tarsus",
+     "name": "Inferior tarsus",
+     "nodes": [
+      "inferior_tarsus__l",
+      "inferior_tarsus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_rectus_muscle",
+     "name": "Lateral rectus muscle",
+     "nodes": [
+      "lateral_rectus_muscle__l",
+      "lateral_rectus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "levator_palpebrae_superioris",
+     "name": "Levator palpebrae superioris",
+     "nodes": [
+      "levator_palpebrae_superioris__l",
+      "levator_palpebrae_superioris__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_rectus_muscle",
+     "name": "Medial rectus muscle",
+     "nodes": [
+      "medial_rectus_muscle__l",
+      "medial_rectus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_oblique_muscle",
+     "name": "Superior oblique muscle",
+     "nodes": [
+      "superior_oblique_muscle__l",
+      "superior_oblique_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_rectus_muscle",
+     "name": "Superior rectus muscle",
+     "nodes": [
+      "superior_rectus_muscle__l",
+      "superior_rectus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_tarsus",
+     "name": "Superior tarsus",
+     "nodes": [
+      "superior_tarsus__l",
+      "superior_tarsus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "trochlea_of_superior_oblique_muscle",
+     "name": "Trochlea of superior oblique muscle",
+     "nodes": [
+      "trochlea_of_superior_oblique_muscle__l",
+      "trochlea_of_superior_oblique_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "masticatory_muscles",
+   "name": "Masticatory muscles",
+   "path": [
+    "Cranial part of muscular system",
+    "Muscles of head",
+    "Masticatory muscles"
+   ],
+   "parts": [
+    {
+     "id": "lateral_pterygoid_muscle",
+     "name": "Lateral pterygoid muscle",
+     "nodes": [
+      "inferior_head_of_lateral_pterygoid_muscle__l",
+      "inferior_head_of_lateral_pterygoid_muscle__r",
+      "superior_head_of_lateral_pterygoid_muscle__l",
+      "superior_head_of_lateral_pterygoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "masseter",
+     "name": "Masseter",
+     "nodes": [
+      "deep_part_of_masseter__l",
+      "deep_part_of_masseter__r",
+      "superficial_part_of_masseter__l",
+      "superficial_part_of_masseter__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_pterygoid_muscle",
+     "name": "Medial pterygoid muscle",
+     "nodes": [
+      "medial_pterygoid_muscle__l",
+      "medial_pterygoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "temporalis_muscle",
+     "name": "Temporalis muscle",
+     "nodes": [
+      "temporalis_muscle__l",
+      "temporalis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "muscles_of_soft_palate",
+   "name": "Muscles of soft palate",
+   "path": [
+    "Cranial part of muscular system",
+    "Muscles of head",
+    "Muscles of soft palate"
+   ],
+   "parts": [
+    {
+     "id": "palatopharyngeus_muscle",
+     "name": "Palatopharyngeus muscle",
+     "nodes": [
+      "palatopharyngeus_muscle__l",
+      "palatopharyngeus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "muscles_of_tongue",
+   "name": "Muscles of tongue",
+   "path": [
+    "Cranial part of muscular system",
+    "Muscles of head",
+    "Muscles of tongue"
+   ],
+   "parts": [
+    {
+     "id": "genioglossus_muscle",
+     "name": "Genioglossus muscle",
+     "nodes": [
+      "genioglossus_muscle__l",
+      "genioglossus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "hyoglossus_muscle",
+     "name": "Hyoglossus muscle",
+     "nodes": [
+      "hyoglossus_muscle__l",
+      "hyoglossus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "epicranius_muscle",
+   "name": "Epicranius muscle",
+   "path": [
+    "Cranial part of muscular system",
+    "Muscles of head",
+    "Superficial muscles of head",
+    "Epicranius muscle"
+   ],
+   "parts": [
+    {
+     "id": "epicranial_aponeurosis",
+     "name": "Epicranial aponeurosis",
+     "nodes": [
+      "epicranial_aponeurosis__l",
+      "epicranial_aponeurosis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "frontalis_muscle",
+     "name": "Frontalis muscle",
+     "nodes": [
+      "frontalis_muscle__l",
+      "frontalis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "occipitalis_muscle",
+     "name": "Occipitalis muscle",
+     "nodes": [
+      "occipitalis_muscle__l",
+      "occipitalis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "temporoparietalis_muscle",
+     "name": "Temporoparietalis muscle",
+     "nodes": [
+      "temporoparietalis_muscle__l",
+      "temporoparietalis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "facial_muscles",
+   "name": "Facial muscles",
+   "path": [
+    "Cranial part of muscular system",
+    "Muscles of head",
+    "Superficial muscles of head",
+    "Facial muscles"
+   ],
+   "parts": [
+    {
+     "id": "bucinator",
+     "name": "Bucinator",
+     "nodes": [
+      "bucinator__l",
+      "bucinator__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "corrugator_supercilii",
+     "name": "Corrugator supercilii",
+     "nodes": [
+      "corrugator_supercilii__l",
+      "corrugator_supercilii__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "depressor_anguli_oris",
+     "name": "Depressor anguli oris",
+     "nodes": [
+      "depressor_anguli_oris__l",
+      "depressor_anguli_oris__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "depressor_labii_inferioris",
+     "name": "Depressor labii inferioris",
+     "nodes": [
+      "depressor_labii_inferioris__l",
+      "depressor_labii_inferioris__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "depressor_septi_nasi",
+     "name": "Depressor septi nasi",
+     "nodes": [
+      "depressor_septi_nasi__l",
+      "depressor_septi_nasi__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "levator_anguli_oris",
+     "name": "Levator anguli oris",
+     "nodes": [
+      "levator_anguli_oris__l",
+      "levator_anguli_oris__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "levator_labii_superioris",
+     "name": "Levator labii superioris",
+     "nodes": [
+      "levator_labii_superioris__l",
+      "levator_labii_superioris__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "levator_nasolabialis",
+     "name": "Levator nasolabialis",
+     "nodes": [
+      "levator_nasolabialis__l",
+      "levator_nasolabialis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "mentalis_muscle",
+     "name": "Mentalis muscle",
+     "nodes": [
+      "mentalis_muscle__l",
+      "mentalis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nasalis_muscle",
+     "name": "Nasalis muscle",
+     "nodes": [
+      "nasalis_muscle__l",
+      "nasalis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "orbicularis_oculi",
+     "name": "Orbicularis oculi",
+     "nodes": [
+      "orbital_part_of_orbicularis_oculi__l",
+      "orbital_part_of_orbicularis_oculi__r",
+      "palpebral_part_of_orbicularis_oculi__l",
+      "palpebral_part_of_orbicularis_oculi__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "orbicularis_oris_muscle",
+     "name": "Orbicularis oris muscle",
+     "nodes": [
+      "orbicularis_oris_muscle__l",
+      "orbicularis_oris_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "procerus_muscle",
+     "name": "Procerus muscle",
+     "nodes": [
+      "procerus_muscle__l",
+      "procerus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "risorius_muscle",
+     "name": "Risorius muscle",
+     "nodes": [
+      "risorius_muscle__l",
+      "risorius_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "zygomaticus_major_muscle",
+     "name": "Zygomaticus major muscle",
+     "nodes": [
+      "zygomaticus_major_muscle__l",
+      "zygomaticus_major_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "zygomaticus_minor_muscle",
+     "name": "Zygomaticus minor muscle",
+     "nodes": [
+      "zygomaticus_minor_muscle__l",
+      "zygomaticus_minor_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "muscles_of_neck",
+   "name": "Muscles of neck",
+   "path": [
+    "Cervical part of muscular system",
+    "Muscles of neck"
+   ],
+   "parts": [
+    {
+     "id": "longus_capitis_muscle",
+     "name": "Longus capitis muscle",
+     "nodes": [
+      "longus_capitis_muscle__l",
+      "longus_capitis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "longus_colli_muscle",
+     "name": "Longus colli muscle",
+     "nodes": [
+      "longus_colli_muscle__l",
+      "longus_colli_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "platysma",
+     "name": "Platysma",
+     "nodes": [
+      "platysma__l",
+      "platysma__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "rectus_anterior_capitis_muscle",
+     "name": "Rectus anterior capitis muscle",
+     "nodes": [
+      "rectus_anterior_capitis_muscle__l",
+      "rectus_anterior_capitis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "rectus_lateralis_capitis_muscle",
+     "name": "Rectus lateralis capitis muscle",
+     "nodes": [
+      "rectus_lateralis_capitis_muscle__l",
+      "rectus_lateralis_capitis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "scalenus_anterior_muscle",
+     "name": "Scalenus anterior muscle",
+     "nodes": [
+      "scalenus_anterior_muscle__l",
+      "scalenus_anterior_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "scalenus_medius_muscle",
+     "name": "Scalenus medius muscle",
+     "nodes": [
+      "scalenus_medius_muscle__l",
+      "scalenus_medius_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "scalenus_posterior_muscle",
+     "name": "Scalenus posterior muscle",
+     "nodes": [
+      "scalenus_posterior_muscle__l",
+      "scalenus_posterior_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sternocleidomastoid_muscle",
+     "name": "Sternocleidomastoid muscle",
+     "nodes": [
+      "sternocleidomastoid_muscle__l",
+      "sternocleidomastoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "infrahyoid_muscles",
+   "name": "Infrahyoid muscles",
+   "path": [
+    "Cervical part of muscular system",
+    "Muscles of neck",
+    "Infrahyoid muscles"
+   ],
+   "parts": [
+    {
+     "id": "omohyoid_muscle",
+     "name": "Omohyoid muscle",
+     "nodes": [
+      "omohyoid_muscle__l",
+      "omohyoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sternohyoid_muscle",
+     "name": "Sternohyoid muscle",
+     "nodes": [
+      "sternohyoid_muscle__l",
+      "sternohyoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sternothyroid_muscle",
+     "name": "Sternothyroid muscle",
+     "nodes": [
+      "sternothyroid_muscle__l",
+      "sternothyroid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "thyrohyoid_muscle",
+     "name": "Thyrohyoid muscle",
+     "nodes": [
+      "thyrohyoid_muscle__l",
+      "thyrohyoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "laryngeal_muscles",
+   "name": "Laryngeal muscles",
+   "path": [
+    "Cervical part of muscular system",
+    "Muscles of neck",
+    "Laryngeal muscles"
+   ],
+   "parts": [
+    {
+     "id": "cricothyroid_muscle",
+     "name": "Cricothyroid muscle",
+     "nodes": [
+      "oblique_part_of_cricothyroid_muscle__l",
+      "oblique_part_of_cricothyroid_muscle__r",
+      "straight_part_of_cricothyroid_muscle__l",
+      "straight_part_of_cricothyroid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_crico_arytenoid_muscle",
+     "name": "Lateral crico-arytenoid muscle",
+     "nodes": [
+      "lateral_crico_arytenoid_muscle__l",
+      "lateral_crico_arytenoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "oblique_arytenoid_muscle",
+     "name": "Oblique arytenoid muscle",
+     "nodes": [
+      "ary_epiglottic_part_of_oblique_arytenoid_muscle__l",
+      "ary_epiglottic_part_of_oblique_arytenoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_crico_arytenoid_muscle",
+     "name": "Posterior crico-arytenoid muscle",
+     "nodes": [
+      "posterior_crico_arytenoid_muscle__l",
+      "posterior_crico_arytenoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "thyro_arytenoid_muscle",
+     "name": "Thyro-arytenoid muscle",
+     "nodes": [
+      "external_part_of_thyro_arytenoid_muscle__l",
+      "external_part_of_thyro_arytenoid_muscle__r",
+      "thyro_epiglottic_part_of_thyro_arytenoid_muscle__l",
+      "thyro_epiglottic_part_of_thyro_arytenoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "transverse_arytenoid_muscle",
+     "name": "Transverse arytenoid muscle",
+     "nodes": [
+      "transverse_arytenoid_muscle"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "pharyngeal_muscles",
+   "name": "Pharyngeal muscles",
+   "path": [
+    "Cervical part of muscular system",
+    "Muscles of neck",
+    "Pharyngeal muscles"
+   ],
+   "parts": [
+    {
+     "id": "inferior_pharyngeal_constrictor",
+     "name": "Inferior pharyngeal constrictor",
+     "nodes": [
+      "inferior_pharyngeal_constrictor__l",
+      "inferior_pharyngeal_constrictor__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "middle_pharyngeal_constrictor",
+     "name": "Middle pharyngeal constrictor",
+     "nodes": [
+      "middle_pharyngeal_constrictor__l",
+      "middle_pharyngeal_constrictor__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "stylopharyngeus_muscle",
+     "name": "Stylopharyngeus muscle",
+     "nodes": [
+      "stylopharyngeus_muscle__l",
+      "stylopharyngeus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_pharyngeal_constrictor",
+     "name": "Superior pharyngeal constrictor",
+     "nodes": [
+      "superior_pharyngeal_constrictor__l",
+      "superior_pharyngeal_constrictor__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "suprahyoid_muscles",
+   "name": "Suprahyoid muscles",
+   "path": [
+    "Cervical part of muscular system",
+    "Muscles of neck",
+    "Suprahyoid muscles"
+   ],
+   "parts": [
+    {
+     "id": "digastric_muscle",
+     "name": "Digastric muscle",
+     "nodes": [
+      "anterior_belly_of_digastric_muscle__l",
+      "anterior_belly_of_digastric_muscle__r",
+      "intermediate_tendon_of_digastric_muscle__l",
+      "intermediate_tendon_of_digastric_muscle__r",
+      "posterior_belly_of_digastric_muscle__l",
+      "posterior_belly_of_digastric_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "left",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "geniohyoid_muscle",
+     "name": "Geniohyoid muscle",
+     "nodes": [
+      "geniohyoid_muscle__l",
+      "geniohyoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "mylohyoid_muscle",
+     "name": "Mylohyoid muscle",
+     "nodes": [
+      "mylohyoid_muscle__l",
+      "mylohyoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "stylohyoid_muscle",
+     "name": "Stylohyoid muscle",
+     "nodes": [
+      "stylohyoid_muscle__l",
+      "stylohyoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diaphragm",
+   "name": "Diaphragm",
+   "path": [
+    "Thoracic part of muscular system"
+   ],
+   "parts": [
+    {
+     "id": "diaphragm",
+     "name": "Diaphragm",
+     "nodes": [
+      "diaphragm"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "muscles_of_thorax",
+   "name": "Muscles of thorax",
+   "path": [
+    "Thoracic part of muscular system",
+    "Muscles of thorax"
+   ],
+   "parts": [
+    {
+     "id": "external_intercostal_muscles",
+     "name": "External intercostal muscles",
+     "nodes": [
+      "external_intercostal_muscles__l",
+      "external_intercostal_muscles__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "innermost_intercostal_muscles",
+     "name": "Innermost intercostal muscles",
+     "nodes": [
+      "innermost_intercostal_muscles__l",
+      "innermost_intercostal_muscles__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "internal_intercostal_muscles",
+     "name": "Internal intercostal muscles",
+     "nodes": [
+      "internal_intercostal_muscles__l",
+      "internal_intercostal_muscles__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pectoralis_major_muscle",
+     "name": "Pectoralis major muscle",
+     "nodes": [
+      "abdominal_part_of_pectoralis_major_muscle__l",
+      "abdominal_part_of_pectoralis_major_muscle__r",
+      "clavicular_head_of_pectoralis_major_muscle__l",
+      "clavicular_head_of_pectoralis_major_muscle__r",
+      "sternocostal_head_of_pectoralis_major_muscle__l",
+      "sternocostal_head_of_pectoralis_major_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "left",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "pectoralis_minor_muscle",
+     "name": "Pectoralis minor muscle",
+     "nodes": [
+      "pectoralis_minor_muscle__l",
+      "pectoralis_minor_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "serratus_anterior_muscle",
+     "name": "Serratus anterior muscle",
+     "nodes": [
+      "serratus_anterior_muscle__l",
+      "serratus_anterior_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "subclavius_muscle",
+     "name": "Subclavius muscle",
+     "nodes": [
+      "subclavius_muscle__l",
+      "subclavius_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "transversus_thoracis_muscle",
+     "name": "Transversus thoracis muscle",
+     "nodes": [
+      "transversus_thoracis_muscle__l",
+      "transversus_thoracis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "levatores_costarum",
+   "name": "Levatores costarum",
+   "path": [
+    "Thoracic part of muscular system",
+    "Muscles of thorax",
+    "Levatores costarum"
+   ],
+   "parts": [
+    {
+     "id": "levatores_breves_costarum",
+     "name": "Levatores breves costarum",
+     "nodes": [
+      "levatores_breves_costarum__l",
+      "levatores_breves_costarum__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "levatores_longi_costarum",
+     "name": "Levatores longi costarum",
+     "nodes": [
+      "levatores_longi_costarum__l",
+      "levatores_longi_costarum__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "muscles_of_abdomen",
+   "name": "Muscles of abdomen",
+   "path": [
+    "Abdominal part of muscular system",
+    "Muscles of abdomen"
+   ],
+   "parts": [
+    {
+     "id": "external_abdominal_oblique_muscle",
+     "name": "External abdominal oblique muscle",
+     "nodes": [
+      "external_abdominal_oblique_muscle__l",
+      "external_abdominal_oblique_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inguinal_ligament",
+     "name": "Inguinal ligament",
+     "nodes": [
+      "inguinal_ligament__l",
+      "inguinal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "internal_abdominal_oblique_muscle",
+     "name": "Internal abdominal oblique muscle",
+     "nodes": [
+      "internal_abdominal_oblique_muscle__l",
+      "internal_abdominal_oblique_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "linea_alba",
+     "name": "Linea alba",
+     "nodes": [
+      "linea_alba"
+     ],
+     "sides": null
+    },
+    {
+     "id": "pyramidalis_muscle",
+     "name": "Pyramidalis muscle",
+     "nodes": [
+      "pyramidalis_muscle__l",
+      "pyramidalis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "quadratus_lumborum_muscle",
+     "name": "Quadratus lumborum muscle",
+     "nodes": [
+      "quadratus_lumborum_muscle__l",
+      "quadratus_lumborum_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "rectus_abdominis_muscle",
+     "name": "Rectus abdominis muscle",
+     "nodes": [
+      "rectus_abdominis_muscle__l",
+      "rectus_abdominis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "transversus_abdominis_muscle",
+     "name": "Transversus abdominis muscle",
+     "nodes": [
+      "transversus_abdominis_muscle__l",
+      "transversus_abdominis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "iliocostalis_muscles",
+   "name": "Iliocostalis muscles",
+   "path": [
+    "Dorsal part of muscular system",
+    "Epaxial muscles",
+    "Erector spinae",
+    "Iliocostalis muscles"
+   ],
+   "parts": [
+    {
+     "id": "iliocostalis_colli_muscle",
+     "name": "Iliocostalis colli muscle",
+     "nodes": [
+      "iliocostalis_colli_muscle",
+      "iliocostalis_colli_muscle__r"
+     ],
+     "sides": [
+      "right"
+     ]
+    },
+    {
+     "id": "iliocostalis_lumborum_muscle",
+     "name": "Iliocostalis lumborum muscle",
+     "nodes": [
+      "iliocostalis_lumborum_muscle__l",
+      "iliocostalis_lumborum_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "iliocostalis_thoracis_muscle",
+     "name": "Iliocostalis thoracis muscle",
+     "nodes": [
+      "iliocostalis_thoracis_muscle__l",
+      "iliocostalis_thoracis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "longissimus_muscles",
+   "name": "Longissimus muscles",
+   "path": [
+    "Dorsal part of muscular system",
+    "Epaxial muscles",
+    "Erector spinae",
+    "Longissimus muscles"
+   ],
+   "parts": [
+    {
+     "id": "longissimus_capitis_muscle",
+     "name": "Longissimus capitis muscle",
+     "nodes": [
+      "longissimus_capitis_muscle__l",
+      "longissimus_capitis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "longissimus_colli_muscle",
+     "name": "Longissimus colli muscle",
+     "nodes": [
+      "longissimus_colli_muscle__l",
+      "longissimus_colli_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "longissimus_thoracis_muscle",
+     "name": "Longissimus thoracis muscle",
+     "nodes": [
+      "longissimus_thoracis_muscle__l",
+      "longissimus_thoracis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spinalis_muscles",
+   "name": "Spinalis muscles",
+   "path": [
+    "Dorsal part of muscular system",
+    "Epaxial muscles",
+    "Erector spinae",
+    "Spinalis muscles"
+   ],
+   "parts": [
+    {
+     "id": "spinalis_capitis_muscle",
+     "name": "Spinalis capitis muscle",
+     "nodes": [
+      "spinalis_capitis_muscle__l",
+      "spinalis_capitis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "spinalis_colli_muscle",
+     "name": "Spinalis colli muscle",
+     "nodes": [
+      "spinalis_colli_muscle__l",
+      "spinalis_colli_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "spinalis_thoracis_muscle",
+     "name": "Spinalis thoracis muscle",
+     "nodes": [
+      "spinalis_thoracis_muscle__l",
+      "spinalis_thoracis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "interspinales_muscles",
+   "name": "Interspinales muscles",
+   "path": [
+    "Dorsal part of muscular system",
+    "Epaxial muscles",
+    "Interspinales muscles"
+   ],
+   "parts": [
+    {
+     "id": "interspinales_colli_muscles",
+     "name": "Interspinales colli muscles",
+     "nodes": [
+      "interspinales_colli_muscles__l",
+      "interspinales_colli_muscles__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "interspinales_lumborum_muscles",
+     "name": "Interspinales lumborum muscles",
+     "nodes": [
+      "interspinales_lumborum_muscles__l",
+      "interspinales_lumborum_muscles__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "interspinales_thoracis_muscles",
+     "name": "Interspinales thoracis muscles",
+     "nodes": [
+      "interspinales_thoracis_muscles__l",
+      "interspinales_thoracis_muscles__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "splenius_muscles",
+   "name": "Splenius muscles",
+   "path": [
+    "Dorsal part of muscular system",
+    "Epaxial muscles",
+    "Spinotransversales muscles",
+    "Splenius muscles"
+   ],
+   "parts": [
+    {
+     "id": "splenius_capitis_muscle",
+     "name": "Splenius capitis muscle",
+     "nodes": [
+      "splenius_capitis_muscle__l",
+      "splenius_capitis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "splenius_colli_muscle",
+     "name": "Splenius colli muscle",
+     "nodes": [
+      "splenius_colli_muscle__l",
+      "splenius_colli_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "suboccipital_muscles",
+   "name": "Suboccipital muscles",
+   "path": [
+    "Dorsal part of muscular system",
+    "Epaxial muscles",
+    "Suboccipital muscles"
+   ],
+   "parts": [
+    {
+     "id": "obliquus_inferior_capitis_muscle",
+     "name": "Obliquus inferior capitis muscle",
+     "nodes": [
+      "obliquus_inferior_capitis_muscle__l",
+      "obliquus_inferior_capitis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "obliquus_superior_capitis_muscle",
+     "name": "Obliquus superior capitis muscle",
+     "nodes": [
+      "obliquus_superior_capitis_muscle__l",
+      "obliquus_superior_capitis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "rectus_posterior_major_capitis_muscle",
+     "name": "Rectus posterior major capitis muscle",
+     "nodes": [
+      "rectus_posterior_major_capitis_muscle__l",
+      "rectus_posterior_major_capitis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "rectus_posterior_minor_capitis_muscle",
+     "name": "Rectus posterior minor capitis muscle",
+     "nodes": [
+      "rectus_posterior_minor_capitis_muscle__l",
+      "rectus_posterior_minor_capitis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "multifidus_muscles",
+   "name": "Multifidus muscles",
+   "path": [
+    "Dorsal part of muscular system",
+    "Epaxial muscles",
+    "Transversospinal muscles",
+    "Multifidus muscles"
+   ],
+   "parts": [
+    {
+     "id": "multifidus_colli_muscle",
+     "name": "Multifidus colli muscle",
+     "nodes": [
+      "multifidus_colli_muscle__l",
+      "multifidus_colli_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "multifidus_lumborum_muscle",
+     "name": "Multifidus lumborum muscle",
+     "nodes": [
+      "multifidus_lumborum_muscle__l",
+      "multifidus_lumborum_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "multifidus_thoracis_muscle",
+     "name": "Multifidus thoracis muscle",
+     "nodes": [
+      "multifidus_thoracis_muscle__l",
+      "multifidus_thoracis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rotatores",
+   "name": "Rotatores",
+   "path": [
+    "Dorsal part of muscular system",
+    "Epaxial muscles",
+    "Transversospinal muscles",
+    "Rotatores"
+   ],
+   "parts": [
+    {
+     "id": "rotatores",
+     "name": "Rotatores",
+     "nodes": [
+      "rotatores__l",
+      "rotatores__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "semispinalis_muscles",
+   "name": "Semispinalis muscles",
+   "path": [
+    "Dorsal part of muscular system",
+    "Epaxial muscles",
+    "Transversospinal muscles",
+    "Semispinalis muscles"
+   ],
+   "parts": [
+    {
+     "id": "semispinalis_colli_muscle",
+     "name": "Semispinalis colli muscle",
+     "nodes": [
+      "semispinalis_colli_muscle__l",
+      "semispinalis_colli_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "semispinalis_thoracis_muscle",
+     "name": "Semispinalis thoracis muscle",
+     "nodes": [
+      "semispinalis_thoracis_muscle__l",
+      "semispinalis_thoracis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hypaxial_muscles_of_back",
+   "name": "Hypaxial muscles of back",
+   "path": [
+    "Dorsal part of muscular system",
+    "Hypaxial muscles of back"
+   ],
+   "parts": [
+    {
+     "id": "lateral_intertransversarii_lumborum_muscles",
+     "name": "Lateral intertransversarii lumborum muscles",
+     "nodes": [
+      "dorsal_parts_of_lateral_intertransversarii_lumborum_muscles__l",
+      "dorsal_parts_of_lateral_intertransversarii_lumborum_muscles__r",
+      "ventral_parts_of_lateral_intertransversarii_lumborum_muscles__l",
+      "ventral_parts_of_lateral_intertransversarii_lumborum_muscles__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "latissimus_dorsi_muscle",
+     "name": "Latissimus dorsi muscle",
+     "nodes": [
+      "latissimus_dorsi_muscle__l",
+      "latissimus_dorsi_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "levator_scapulae",
+     "name": "Levator scapulae",
+     "nodes": [
+      "levator_scapulae__l",
+      "levator_scapulae__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "rhomboid_major_muscle",
+     "name": "Rhomboid major muscle",
+     "nodes": [
+      "rhomboid_major_muscle__l",
+      "rhomboid_major_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "rhomboid_minor_muscle",
+     "name": "Rhomboid minor muscle",
+     "nodes": [
+      "rhomboid_minor_muscle__l",
+      "rhomboid_minor_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "serratus_posterior_inferior_muscle",
+     "name": "Serratus posterior inferior muscle",
+     "nodes": [
+      "serratus_posterior_inferior_muscle__l",
+      "serratus_posterior_inferior_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "serratus_posterior_superior_muscle",
+     "name": "Serratus posterior superior muscle",
+     "nodes": [
+      "serratus_posterior_superior_muscle__l",
+      "serratus_posterior_superior_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "trapezius_muscle",
+     "name": "Trapezius muscle",
+     "nodes": [
+      "ascending_part_of_trapezius_muscle__l",
+      "ascending_part_of_trapezius_muscle__r",
+      "descending_part_of_trapezius_muscle__l",
+      "descending_part_of_trapezius_muscle__r",
+      "transverse_part_of_trapezius_muscle__l",
+      "transverse_part_of_trapezius_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "left",
+      "right",
+      "right",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pelvic_diaphragm",
+   "name": "Pelvic diaphragm",
+   "path": [
+    "Pelvic part of muscular system",
+    "Muscles of pelvis",
+    "Pelvic diaphragm"
+   ],
+   "parts": [
+    {
+     "id": "coccygeus_muscle",
+     "name": "Coccygeus muscle",
+     "nodes": [
+      "coccygeus_muscle__l",
+      "coccygeus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "levator_ani",
+     "name": "Levator ani",
+     "nodes": [
+      "iliococcygeus_muscle__l",
+      "iliococcygeus_muscle__r",
+      "pubo_analis_muscle__l",
+      "pubo_analis_muscle__r",
+      "pubococcygeus_muscle__l",
+      "pubococcygeus_muscle__r",
+      "tendinous_arch_of_levator_ani__l",
+      "tendinous_arch_of_levator_ani__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "right",
+      "right",
+      "right",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "perineal_muscles",
+   "name": "Perineal muscles",
+   "path": [
+    "Pelvic part of muscular system",
+    "Muscles of pelvis",
+    "Perineal muscles"
+   ],
+   "parts": [
+    {
+     "id": "external_anal_sphincter",
+     "name": "External anal sphincter",
+     "nodes": [
+      "external_anal_sphincter__l",
+      "external_anal_sphincter__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "anterior_compartment_of_arm",
+   "name": "Anterior compartment of arm",
+   "path": [
+    "Muscular system of upper limb",
+    "Muscles of upper limb",
+    "Anterior compartment of arm"
+   ],
+   "parts": [
+    {
+     "id": "biceps_brachii_muscle",
+     "name": "Biceps brachii muscle",
+     "nodes": [
+      "long_head_of_biceps_brachii__l",
+      "long_head_of_biceps_brachii__r",
+      "short_head_of_biceps_brachii__l",
+      "short_head_of_biceps_brachii__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "brachialis_muscle",
+     "name": "Brachialis muscle",
+     "nodes": [
+      "brachialis_muscle__l",
+      "brachialis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "coracobrachialis_muscle",
+     "name": "Coracobrachialis muscle",
+     "nodes": [
+      "coracobrachialis_muscle__l",
+      "coracobrachialis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deep_part_of_anterior_compartment_of_forearm",
+   "name": "Deep part of anterior compartment of forearm",
+   "path": [
+    "Muscular system of upper limb",
+    "Muscles of upper limb",
+    "Anterior compartment of forearm",
+    "Deep part of anterior compartment of forearm"
+   ],
+   "parts": [
+    {
+     "id": "flexor_digitorum_profundus",
+     "name": "Flexor digitorum profundus",
+     "nodes": [
+      "flexor_digitorum_profundus__l",
+      "flexor_digitorum_profundus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "flexor_pollicis_longus",
+     "name": "Flexor pollicis longus",
+     "nodes": [
+      "flexor_pollicis_longus__l",
+      "flexor_pollicis_longus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pronator_quadratus",
+     "name": "Pronator quadratus",
+     "nodes": [
+      "pronator_quadratus__l",
+      "pronator_quadratus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "superficial_part_of_anterior_compartment_of_forearm",
+   "name": "Superficial part of anterior compartment of forearm",
+   "path": [
+    "Muscular system of upper limb",
+    "Muscles of upper limb",
+    "Anterior compartment of forearm",
+    "Superficial part of anterior compartment of forearm"
+   ],
+   "parts": [
+    {
+     "id": "flexor_carpi_radialis",
+     "name": "Flexor carpi radialis",
+     "nodes": [
+      "flexor_carpi_radialis__l",
+      "flexor_carpi_radialis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "flexor_carpi_ulnaris",
+     "name": "Flexor carpi ulnaris",
+     "nodes": [
+      "humeral_head_of_flexor_carpi_ulnaris__l",
+      "humeral_head_of_flexor_carpi_ulnaris__r",
+      "ulnar_head_of_flexor_carpi_ulnaris__l",
+      "ulnar_head_of_flexor_carpi_ulnaris__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "flexor_digitorum_superficialis",
+     "name": "Flexor digitorum superficialis",
+     "nodes": [
+      "humero_ulnar_head_of_flexor_digitorum_superficialis__l",
+      "humero_ulnar_head_of_flexor_digitorum_superficialis__r",
+      "radial_head_of_flexor_digitorum_superficialis__l",
+      "radial_head_of_flexor_digitorum_superficialis__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "palmaris_longus_muscle",
+     "name": "Palmaris longus muscle",
+     "nodes": [
+      "palmaris_longus_muscle__l",
+      "palmaris_longus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pronator_teres",
+     "name": "Pronator teres",
+     "nodes": [
+      "deep_head_of_pronator_teres__l",
+      "deep_head_of_pronator_teres__r",
+      "superficial_head_of_pronator_teres__l",
+      "superficial_head_of_pronator_teres__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "muscles_of_hand",
+   "name": "Muscles of hand",
+   "path": [
+    "Muscular system of upper limb",
+    "Muscles of upper limb",
+    "Muscles of hand"
+   ],
+   "parts": [
+    {
+     "id": "abductor_digiti_minimi_of_hand",
+     "name": "Abductor digiti minimi of hand",
+     "nodes": [
+      "abductor_digiti_minimi_of_hand__l",
+      "abductor_digiti_minimi_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "abductor_pollicis_brevis",
+     "name": "Abductor pollicis brevis",
+     "nodes": [
+      "abductor_pollicis_brevis__l",
+      "abductor_pollicis_brevis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "adductor_pollicis",
+     "name": "Adductor pollicis",
+     "nodes": [
+      "oblique_head_of_adductor_pollicis__l",
+      "oblique_head_of_adductor_pollicis__r",
+      "transverse_head_of_adductor_pollicis__l",
+      "transverse_head_of_adductor_pollicis__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_interossei_muscles_of_hand",
+     "name": "Dorsal interossei muscles of hand",
+     "nodes": [
+      "dorsal_interossei_muscles_of_hand__l",
+      "dorsal_interossei_muscles_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "flexor_digiti_minimi_of_hand",
+     "name": "Flexor digiti minimi of hand",
+     "nodes": [
+      "flexor_digiti_minimi_of_hand__l",
+      "flexor_digiti_minimi_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "flexor_pollicis_brevis",
+     "name": "Flexor pollicis brevis",
+     "nodes": [
+      "deep_head_of_flexor_pollicis_brevis__l",
+      "deep_head_of_flexor_pollicis_brevis__r",
+      "superficial_head_of_flexor_pollicis_brevis__l",
+      "superficial_head_of_flexor_pollicis_brevis__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "lumbrical_muscles_of_hand",
+     "name": "Lumbrical muscles of hand",
+     "nodes": [
+      "lumbrical_muscles_of_hand__l",
+      "lumbrical_muscles_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "opponens_digiti_minimi_muscle_of_hand",
+     "name": "Opponens digiti minimi muscle of hand",
+     "nodes": [
+      "opponens_digiti_minimi_muscle_of_hand__l",
+      "opponens_digiti_minimi_muscle_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "opponens_pollicis_muscle",
+     "name": "Opponens pollicis muscle",
+     "nodes": [
+      "opponens_pollicis_muscle__l",
+      "opponens_pollicis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "palmar_interossei_muscles",
+     "name": "Palmar interossei muscles",
+     "nodes": [
+      "palmar_interossei_muscles__l",
+      "palmar_interossei_muscles__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "posterior_compartment_of_arm",
+   "name": "Posterior compartment of arm",
+   "path": [
+    "Muscular system of upper limb",
+    "Muscles of upper limb",
+    "Posterior compartment of arm"
+   ],
+   "parts": [
+    {
+     "id": "triceps_brachii_muscle",
+     "name": "Triceps brachii muscle",
+     "nodes": [
+      "lateral_head_of_triceps_brachii__l",
+      "lateral_head_of_triceps_brachii__r",
+      "long_head_of_triceps_brachii__l",
+      "long_head_of_triceps_brachii__r",
+      "medial_head_of_triceps_brachii__l",
+      "medial_head_of_triceps_brachii__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "left",
+      "right",
+      "right",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deep_part_of_posterior_compartment_of_forearm",
+   "name": "Deep part of posterior compartment of forearm",
+   "path": [
+    "Muscular system of upper limb",
+    "Muscles of upper limb",
+    "Posterior compartment of forearm",
+    "Deep part of posterior compartment of forearm"
+   ],
+   "parts": [
+    {
+     "id": "abductor_pollicis_longus",
+     "name": "Abductor pollicis longus",
+     "nodes": [
+      "abductor_pollicis_longus__l",
+      "abductor_pollicis_longus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "extensor_indicis",
+     "name": "Extensor indicis",
+     "nodes": [
+      "extensor_indicis__l",
+      "extensor_indicis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "extensor_pollicis_brevis",
+     "name": "Extensor pollicis brevis",
+     "nodes": [
+      "extensor_pollicis_brevis__l",
+      "extensor_pollicis_brevis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "extensor_pollicis_longus",
+     "name": "Extensor pollicis longus",
+     "nodes": [
+      "extensor_pollicis_longus__l",
+      "extensor_pollicis_longus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "supinator",
+     "name": "Supinator",
+     "nodes": [
+      "supinator__l",
+      "supinator__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "superficial_part_of_posterior_compartment_of_forearm",
+   "name": "Superficial part of posterior compartment of forearm",
+   "path": [
+    "Muscular system of upper limb",
+    "Muscles of upper limb",
+    "Posterior compartment of forearm",
+    "Superficial part of posterior compartment of forearm"
+   ],
+   "parts": [
+    {
+     "id": "anconeus_muscle",
+     "name": "Anconeus muscle",
+     "nodes": [
+      "anconeus_muscle__l",
+      "anconeus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "brachioradialis_muscle",
+     "name": "Brachioradialis muscle",
+     "nodes": [
+      "brachioradialis_muscle__l",
+      "brachioradialis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "extensor_carpi_radialis_brevis",
+     "name": "Extensor carpi radialis brevis",
+     "nodes": [
+      "extensor_carpi_radialis_brevis__l",
+      "extensor_carpi_radialis_brevis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "extensor_carpi_radialis_longus",
+     "name": "Extensor carpi radialis longus",
+     "nodes": [
+      "extensor_carpi_radialis_longus__l",
+      "extensor_carpi_radialis_longus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "extensor_carpi_ulnaris",
+     "name": "Extensor carpi ulnaris",
+     "nodes": [
+      "humeral_head_of_extensor_carpi_ulnaris__l",
+      "humeral_head_of_extensor_carpi_ulnaris__r",
+      "ulnar_head_of_extensor_carpi_ulnaris__l",
+      "ulnar_head_of_extensor_carpi_ulnaris__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "extensor_digiti_minimi",
+     "name": "Extensor digiti minimi",
+     "nodes": [
+      "extensor_digiti_minimi__l",
+      "extensor_digiti_minimi__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "extensor_digitorum",
+     "name": "Extensor digitorum",
+     "nodes": [
+      "extensor_digitorum__l",
+      "extensor_digitorum__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scapulohumeral_muscles",
+   "name": "Scapulohumeral muscles",
+   "path": [
+    "Muscular system of upper limb",
+    "Muscles of upper limb",
+    "Scapulohumeral muscles"
+   ],
+   "parts": [
+    {
+     "id": "deltoid_muscle",
+     "name": "Deltoid muscle",
+     "nodes": [
+      "acromial_part_of_deltoid_muscle__l",
+      "acromial_part_of_deltoid_muscle__r",
+      "clavicular_part_of_deltoid_muscle__l",
+      "clavicular_part_of_deltoid_muscle__r",
+      "scapular_spinal_part_of_deltoid_muscle__l",
+      "scapular_spinal_part_of_deltoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "left",
+      "right",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "teres_major_muscle",
+     "name": "Teres major muscle",
+     "nodes": [
+      "teres_major_muscle__l",
+      "teres_major_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rotator_cuff_muscles",
+   "name": "Rotator cuff muscles",
+   "path": [
+    "Muscular system of upper limb",
+    "Muscles of upper limb",
+    "Scapulohumeral muscles",
+    "Rotator cuff muscles"
+   ],
+   "parts": [
+    {
+     "id": "infraspinatus_muscle",
+     "name": "Infraspinatus muscle",
+     "nodes": [
+      "infraspinatus_muscle__l",
+      "infraspinatus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "subscapularis_muscle",
+     "name": "Subscapularis muscle",
+     "nodes": [
+      "subscapularis_muscle__l",
+      "subscapularis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "supraspinatus_muscle",
+     "name": "Supraspinatus muscle",
+     "nodes": [
+      "supraspinatus_muscle__l",
+      "supraspinatus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "teres_minor_muscle",
+     "name": "Teres minor muscle",
+     "nodes": [
+      "teres_minor_muscle__l",
+      "teres_minor_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "anterior_compartment_of_leg",
+   "name": "Anterior compartment of leg",
+   "path": [
+    "Muscular system of lower limb",
+    "Muscles of lower limb",
+    "Anterior compartment of leg"
+   ],
+   "parts": [
+    {
+     "id": "extensor_digitorum_longus",
+     "name": "Extensor digitorum longus",
+     "nodes": [
+      "extensor_digitorum_longus__l",
+      "extensor_digitorum_longus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "extensor_hallucis_longus",
+     "name": "Extensor hallucis longus",
+     "nodes": [
+      "extensor_hallucis_longus__l",
+      "extensor_hallucis_longus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "fibularis_tertius_muscle",
+     "name": "Fibularis tertius muscle",
+     "nodes": [
+      "fibularis_tertius_muscle__l",
+      "fibularis_tertius_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "tendon_of_extensor_digitorum_longus",
+     "name": "Tendon of extensor digitorum longus",
+     "nodes": [
+      "tendon_of_extensor_digitorum_longus__l",
+      "tendon_of_extensor_digitorum_longus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "tibialis_anterior_muscle",
+     "name": "Tibialis anterior muscle",
+     "nodes": [
+      "tibialis_anterior_muscle__l",
+      "tibialis_anterior_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "anterior_compartment_of_thigh",
+   "name": "Anterior compartment of thigh",
+   "path": [
+    "Muscular system of lower limb",
+    "Muscles of lower limb",
+    "Anterior compartment of thigh"
+   ],
+   "parts": [
+    {
+     "id": "lateral_patellar_retinaculum",
+     "name": "Lateral patellar retinaculum",
+     "nodes": [
+      "lateral_patellar_retinaculum__l",
+      "lateral_patellar_retinaculum__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_patellar_retinaculum",
+     "name": "Medial patellar retinaculum",
+     "nodes": [
+      "medial_patellar_retinaculum__l",
+      "medial_patellar_retinaculum__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "rectus_femoris_muscle",
+     "name": "Rectus femoris muscle",
+     "nodes": [
+      "rectus_femoris_muscle__l",
+      "rectus_femoris_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sartorius_muscle",
+     "name": "Sartorius muscle",
+     "nodes": [
+      "sartorius_muscle__l",
+      "sartorius_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "vastus_intermedius_muscle",
+     "name": "Vastus intermedius muscle",
+     "nodes": [
+      "vastus_intermedius_muscle__l",
+      "vastus_intermedius_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "vastus_lateralis_muscle",
+     "name": "Vastus lateralis muscle",
+     "nodes": [
+      "vastus_lateralis_muscle__l",
+      "vastus_lateralis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "vastus_medialis_muscle",
+     "name": "Vastus medialis muscle",
+     "nodes": [
+      "vastus_medialis_muscle__l",
+      "vastus_medialis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deep_gluteal_muscles",
+   "name": "Deep gluteal muscles",
+   "path": [
+    "Muscular system of lower limb",
+    "Muscles of lower limb",
+    "Deep gluteal muscles"
+   ],
+   "parts": [
+    {
+     "id": "inferior_gemellus_muscle",
+     "name": "Inferior gemellus muscle",
+     "nodes": [
+      "inferior_gemellus_muscle__l",
+      "inferior_gemellus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "obturator_internus",
+     "name": "Obturator internus",
+     "nodes": [
+      "obturator_internus__l",
+      "obturator_internus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "piriformis_muscle",
+     "name": "Piriformis muscle",
+     "nodes": [
+      "piriformis_muscle__l",
+      "piriformis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "quadratus_femoris_muscle",
+     "name": "Quadratus femoris muscle",
+     "nodes": [
+      "quadratus_femoris_muscle__l",
+      "quadratus_femoris_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_gemellus_muscle",
+     "name": "Superior gemellus muscle",
+     "nodes": [
+      "superior_gemellus_muscle__l",
+      "superior_gemellus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "iliopsoas_muscle",
+   "name": "Iliopsoas muscle",
+   "path": [
+    "Muscular system of lower limb",
+    "Muscles of lower limb",
+    "Iliopsoas muscle"
+   ],
+   "parts": [
+    {
+     "id": "iliacus_muscle",
+     "name": "Iliacus muscle",
+     "nodes": [
+      "iliacus_muscle__l",
+      "iliacus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "psoas_major",
+     "name": "Psoas major",
+     "nodes": [
+      "psoas_major__l",
+      "psoas_major__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lateral_compartment_of_leg",
+   "name": "Lateral compartment of leg",
+   "path": [
+    "Muscular system of lower limb",
+    "Muscles of lower limb",
+    "Lateral compartment of leg"
+   ],
+   "parts": [
+    {
+     "id": "fibularis_brevis_muscle",
+     "name": "Fibularis brevis muscle",
+     "nodes": [
+      "fibularis_brevis_muscle__l",
+      "fibularis_brevis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "fibularis_longus_muscle",
+     "name": "Fibularis longus muscle",
+     "nodes": [
+      "fibularis_longus_muscle__l",
+      "fibularis_longus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "medial_compartment_of_thigh",
+   "name": "Medial compartment of thigh",
+   "path": [
+    "Muscular system of lower limb",
+    "Muscles of lower limb",
+    "Medial compartment of thigh"
+   ],
+   "parts": [
+    {
+     "id": "adductor_minimus",
+     "name": "(Adductor minimus)",
+     "nodes": [
+      "adductor_minimus__l",
+      "adductor_minimus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "adductor_brevis",
+     "name": "Adductor brevis",
+     "nodes": [
+      "adductor_brevis__l",
+      "adductor_brevis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "adductor_longus",
+     "name": "Adductor longus",
+     "nodes": [
+      "adductor_longus__l",
+      "adductor_longus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "adductor_magnus",
+     "name": "Adductor magnus",
+     "nodes": [
+      "adductor_magnus__l",
+      "adductor_magnus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "gracilis_muscle",
+     "name": "Gracilis muscle",
+     "nodes": [
+      "gracilis_muscle__l",
+      "gracilis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "obturator_externus",
+     "name": "Obturator externus",
+     "nodes": [
+      "obturator_externus__l",
+      "obturator_externus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pectineus_muscle",
+     "name": "Pectineus muscle",
+     "nodes": [
+      "pectineus_muscle__l",
+      "pectineus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "muscles_of_foot",
+   "name": "Muscles of foot",
+   "path": [
+    "Muscular system of lower limb",
+    "Muscles of lower limb",
+    "Muscles of foot"
+   ],
+   "parts": [
+    {
+     "id": "opponens_digiti_minimi_muscle_of_foot",
+     "name": "(Opponens digiti minimi muscle of foot)",
+     "nodes": [
+      "opponens_digiti_minimi_muscle_of_foot__l",
+      "opponens_digiti_minimi_muscle_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "abductor_digiti_minimi_of_foot",
+     "name": "Abductor digiti minimi of foot",
+     "nodes": [
+      "abductor_digiti_minimi_of_foot__l",
+      "abductor_digiti_minimi_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "abductor_hallucis",
+     "name": "Abductor hallucis",
+     "nodes": [
+      "abductor_hallucis__l",
+      "abductor_hallucis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "adductor_hallucis",
+     "name": "Adductor hallucis",
+     "nodes": [
+      "oblique_head_of_adductor_hallucis__l",
+      "oblique_head_of_adductor_hallucis__r",
+      "transverse_head_of_adductor_hallucis__l",
+      "transverse_head_of_adductor_hallucis__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_interossei_muscles_of_foot",
+     "name": "Dorsal interossei muscles of foot",
+     "nodes": [
+      "dorsal_interossei_muscles_of_foot__l",
+      "dorsal_interossei_muscles_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "extensor_digitorum_brevis",
+     "name": "Extensor digitorum brevis",
+     "nodes": [
+      "extensor_digitorum_brevis__l",
+      "extensor_digitorum_brevis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "extensor_hallucis_brevis",
+     "name": "Extensor hallucis brevis",
+     "nodes": [
+      "extensor_hallucis_brevis__l",
+      "extensor_hallucis_brevis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "flexor_digiti_minimi_of_foot",
+     "name": "Flexor digiti minimi of foot",
+     "nodes": [
+      "flexor_digiti_minimi_of_foot__l",
+      "flexor_digiti_minimi_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "flexor_digitorum_brevis",
+     "name": "Flexor digitorum brevis",
+     "nodes": [
+      "flexor_digitorum_brevis__l",
+      "flexor_digitorum_brevis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "flexor_hallucis_brevis",
+     "name": "Flexor hallucis brevis",
+     "nodes": [
+      "lateral_head_of_flexor_hallucis_brevis__l",
+      "lateral_head_of_flexor_hallucis_brevis__r",
+      "medial_head_of_flexor_hallucis_brevis__l",
+      "medial_head_of_flexor_hallucis_brevis__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "lumbrical_muscles_of_foot",
+     "name": "Lumbrical muscles of foot",
+     "nodes": [
+      "lumbrical_muscles_of_foot__l",
+      "lumbrical_muscles_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "plantar_interossei_muscles",
+     "name": "Plantar interossei muscles",
+     "nodes": [
+      "plantar_interossei_muscles__l",
+      "plantar_interossei_muscles__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "quadratus_plantae_muscle",
+     "name": "Quadratus plantae muscle",
+     "nodes": [
+      "quadratus_plantae_muscle__l",
+      "quadratus_plantae_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deep_part_of_posterior_compartment_of_leg",
+   "name": "Deep part of posterior compartment of leg",
+   "path": [
+    "Muscular system of lower limb",
+    "Muscles of lower limb",
+    "Posterior compartment of leg",
+    "Deep part of posterior compartment of leg"
+   ],
+   "parts": [
+    {
+     "id": "flexor_digitorum_longus",
+     "name": "Flexor digitorum longus",
+     "nodes": [
+      "flexor_digitorum_longus__l",
+      "flexor_digitorum_longus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "flexor_hallucis_longus",
+     "name": "Flexor hallucis longus",
+     "nodes": [
+      "flexor_hallucis_longus__l",
+      "flexor_hallucis_longus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "popliteus_muscle",
+     "name": "Popliteus muscle",
+     "nodes": [
+      "popliteus_muscle__l",
+      "popliteus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "tibialis_posterior_muscle",
+     "name": "Tibialis posterior muscle",
+     "nodes": [
+      "tibialis_posterior_muscle__l",
+      "tibialis_posterior_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "superficial_part_of_posterior_compartment_of_leg",
+   "name": "Superficial part of posterior compartment of leg",
+   "path": [
+    "Muscular system of lower limb",
+    "Muscles of lower limb",
+    "Posterior compartment of leg",
+    "Superficial part of posterior compartment of leg"
+   ],
+   "parts": [
+    {
+     "id": "calcaneal_tendon",
+     "name": "Calcaneal tendon",
+     "nodes": [
+      "calcaneal_tendon__l",
+      "calcaneal_tendon__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "gastrocnemius",
+     "name": "Gastrocnemius",
+     "nodes": [
+      "lateral_head_of_gastrocnemius__l",
+      "lateral_head_of_gastrocnemius__r",
+      "medial_head_of_gastrocnemius__l",
+      "medial_head_of_gastrocnemius__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "plantaris_muscle",
+     "name": "Plantaris muscle",
+     "nodes": [
+      "plantaris_muscle__l",
+      "plantaris_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "soleus_muscle",
+     "name": "Soleus muscle",
+     "nodes": [
+      "soleus_muscle__l",
+      "soleus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "posterior_compartment_of_thigh",
+   "name": "Posterior compartment of thigh",
+   "path": [
+    "Muscular system of lower limb",
+    "Muscles of lower limb",
+    "Posterior compartment of thigh"
+   ],
+   "parts": [
+    {
+     "id": "biceps_femoris",
+     "name": "Biceps femoris",
+     "nodes": [
+      "long_head_of_biceps_femoris__l",
+      "long_head_of_biceps_femoris__r",
+      "short_head_of_biceps_femoris__l",
+      "short_head_of_biceps_femoris__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "semimembranosus_muscle",
+     "name": "Semimembranosus muscle",
+     "nodes": [
+      "semimembranosus_muscle__l",
+      "semimembranosus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "semitendinosus_muscle",
+     "name": "Semitendinosus muscle",
+     "nodes": [
+      "semitendinosus_muscle__l",
+      "semitendinosus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "superficial_gluteal_muscles",
+   "name": "Superficial gluteal muscles",
+   "path": [
+    "Muscular system of lower limb",
+    "Muscles of lower limb",
+    "Superficial gluteal muscles"
+   ],
+   "parts": [
+    {
+     "id": "gluteus_maximus_muscle",
+     "name": "Gluteus maximus muscle",
+     "nodes": [
+      "gluteus_maximus_muscle__l",
+      "gluteus_maximus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "gluteus_medius_muscle",
+     "name": "Gluteus medius muscle",
+     "nodes": [
+      "gluteus_medius_muscle__l",
+      "gluteus_medius_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "gluteus_minimus_muscle",
+     "name": "Gluteus minimus muscle",
+     "nodes": [
+      "gluteus_minimus_muscle__l",
+      "gluteus_minimus_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "iliotibial_tract",
+     "name": "Iliotibial tract",
+     "nodes": [
+      "iliotibial_tract__l",
+      "iliotibial_tract__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "tensor_fasciae_latae",
+     "name": "Tensor fasciae latae",
+     "nodes": [
+      "tensor_fasciae_latae__l",
+      "tensor_fasciae_latae__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  }
+ ]
+}

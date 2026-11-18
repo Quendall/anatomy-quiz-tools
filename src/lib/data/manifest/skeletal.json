@@ -1,0 +1,2032 @@
+{
+ "id": "skeletal",
+ "name": "Skeletal system",
+ "color": "#E8E1D1",
+ "model": "models/skeletal.glb",
+ "groups": [
+  {
+   "id": "bones_of_cranium",
+   "name": "Bones of cranium",
+   "path": [
+    "Cranium",
+    "Bones of cranium"
+   ],
+   "parts": [
+    {
+     "id": "anterior_cells_of_ethmoid_bone",
+     "name": "Anterior cells of ethmoid bone",
+     "nodes": [
+      "anterior_cells_of_ethmoid_bone__l",
+      "anterior_cells_of_ethmoid_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ethmoid_bone",
+     "name": "Ethmoid bone",
+     "nodes": [
+      "ethmoid_bone"
+     ],
+     "sides": null
+    },
+    {
+     "id": "frontal_bone",
+     "name": "Frontal bone",
+     "nodes": [
+      "frontal_bone"
+     ],
+     "sides": null
+    },
+    {
+     "id": "inferior_nasal_concha_bone",
+     "name": "Inferior nasal concha bone",
+     "nodes": [
+      "inferior_nasal_concha_bone__l",
+      "inferior_nasal_concha_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lacrimal_bone",
+     "name": "Lacrimal bone",
+     "nodes": [
+      "lacrimal_bone__l",
+      "lacrimal_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "maxilla",
+     "name": "Maxilla",
+     "nodes": [
+      "maxilla__l",
+      "maxilla__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "middle_cells_of_ethmoid_bone",
+     "name": "Middle cells of ethmoid bone",
+     "nodes": [
+      "middle_cells_of_ethmoid_bone__l",
+      "middle_cells_of_ethmoid_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nasal_bone",
+     "name": "Nasal bone",
+     "nodes": [
+      "nasal_bone__l",
+      "nasal_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "occipital_bone",
+     "name": "Occipital bone",
+     "nodes": [
+      "occipital_bone"
+     ],
+     "sides": null
+    },
+    {
+     "id": "palatine_bone",
+     "name": "Palatine bone",
+     "nodes": [
+      "palatine_bone__l",
+      "palatine_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "parietal_bone",
+     "name": "Parietal bone",
+     "nodes": [
+      "parietal_bone__l",
+      "parietal_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_cells_of_ethmoid_bone",
+     "name": "Posterior cells of ethmoid bone",
+     "nodes": [
+      "posterior_cells_of_ethmoid_bone__l",
+      "posterior_cells_of_ethmoid_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sinus_of_frontal_bone",
+     "name": "Sinus of frontal bone",
+     "nodes": [
+      "sinus_of_frontal_bone"
+     ],
+     "sides": null
+    },
+    {
+     "id": "sinus_of_sphenoid_bone",
+     "name": "Sinus of sphenoid bone",
+     "nodes": [
+      "sinus_of_sphenoid_bone"
+     ],
+     "sides": null
+    },
+    {
+     "id": "sphenoid_bone",
+     "name": "Sphenoid bone",
+     "nodes": [
+      "sphenoid_bone"
+     ],
+     "sides": null
+    },
+    {
+     "id": "temporal_bone",
+     "name": "Temporal bone",
+     "nodes": [
+      "temporal_bone__l",
+      "temporal_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "vomer",
+     "name": "Vomer",
+     "nodes": [
+      "vomer"
+     ],
+     "sides": null
+    },
+    {
+     "id": "zygomatic_bone",
+     "name": "Zygomatic bone",
+     "nodes": [
+      "zygomatic_bone__l",
+      "zygomatic_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "extracranial_bones_of_head",
+   "name": "Extracranial bones of head",
+   "path": [
+    "Extracranial bones of head"
+   ],
+   "parts": [
+    {
+     "id": "hyoid_bone",
+     "name": "Hyoid bone",
+     "nodes": [
+      "hyoid_bone"
+     ],
+     "sides": null
+    },
+    {
+     "id": "mandible",
+     "name": "Mandible",
+     "nodes": [
+      "mandible"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "auditory_ossicles",
+   "name": "Auditory ossicles",
+   "path": [
+    "Auditory ossicles"
+   ],
+   "parts": [
+    {
+     "id": "incus",
+     "name": "Incus",
+     "nodes": [
+      "incus__l",
+      "incus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "malleus",
+     "name": "Malleus",
+     "nodes": [
+      "malleus__l",
+      "malleus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "stapes",
+     "name": "Stapes",
+     "nodes": [
+      "stapes__l",
+      "stapes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "anterior_teeth",
+   "name": "Anterior teeth",
+   "path": [
+    "Teeth",
+    "Anterior teeth"
+   ],
+   "parts": [
+    {
+     "id": "lower_canine",
+     "name": "Lower canine",
+     "nodes": [
+      "lower_canine__l",
+      "lower_canine__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lower_lateral_incisor",
+     "name": "Lower lateral incisor",
+     "nodes": [
+      "lower_lateral_incisor__l",
+      "lower_lateral_incisor__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lower_medial_incisor",
+     "name": "Lower medial incisor",
+     "nodes": [
+      "lower_medial_incisor__l",
+      "lower_medial_incisor__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "upper_canine",
+     "name": "Upper canine",
+     "nodes": [
+      "upper_canine__l",
+      "upper_canine__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "upper_lateral_incisor",
+     "name": "Upper lateral incisor",
+     "nodes": [
+      "upper_lateral_incisor__l",
+      "upper_lateral_incisor__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "upper_medial_incisor",
+     "name": "Upper medial incisor",
+     "nodes": [
+      "upper_medial_incisor__l",
+      "upper_medial_incisor__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "posterior_teeth",
+   "name": "Posterior teeth",
+   "path": [
+    "Teeth",
+    "Posterior teeth"
+   ],
+   "parts": [
+    {
+     "id": "lower_first_molar_tooth",
+     "name": "Lower first molar tooth",
+     "nodes": [
+      "lower_first_molar_tooth__l",
+      "lower_first_molar_tooth__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lower_first_premolar",
+     "name": "Lower first premolar",
+     "nodes": [
+      "lower_first_premolar__l",
+      "lower_first_premolar__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lower_second_molar_tooth",
+     "name": "Lower second molar tooth",
+     "nodes": [
+      "lower_second_molar_tooth__l",
+      "lower_second_molar_tooth__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lower_second_premolar",
+     "name": "Lower second premolar",
+     "nodes": [
+      "lower_second_premolar__l",
+      "lower_second_premolar__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "upper_first_molar_tooth",
+     "name": "Upper first molar tooth",
+     "nodes": [
+      "upper_first_molar_tooth__l",
+      "upper_first_molar_tooth__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "upper_first_premolar",
+     "name": "Upper first premolar",
+     "nodes": [
+      "upper_first_premolar__l",
+      "upper_first_premolar__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "upper_second_molar_tooth",
+     "name": "Upper second molar tooth",
+     "nodes": [
+      "upper_second_molar_tooth__l",
+      "upper_second_molar_tooth__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "upper_second_premolar",
+     "name": "Upper second premolar",
+     "nodes": [
+      "upper_second_premolar__l",
+      "upper_second_premolar__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nasal_cartilages",
+   "name": "Nasal cartilages",
+   "path": [
+    "Nasal cartilages"
+   ],
+   "parts": [
+    {
+     "id": "lateral_process_of_nasal_septal_cartilage",
+     "name": "Lateral process of nasal septal cartilage",
+     "nodes": [
+      "lateral_process_of_nasal_septal_cartilage__l",
+      "lateral_process_of_nasal_septal_cartilage__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "major_alar_cartilage",
+     "name": "Major alar cartilage",
+     "nodes": [
+      "major_alar_cartilage__l",
+      "major_alar_cartilage__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nasal_septal_cartilage",
+     "name": "Nasal septal cartilage",
+     "nodes": [
+      "nasal_septal_cartilage"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "laryngeal_cartilages",
+   "name": "Laryngeal cartilages",
+   "path": [
+    "Laryngeal cartilages"
+   ],
+   "parts": [
+    {
+     "id": "arytenoid_cartilage",
+     "name": "Arytenoid cartilage",
+     "nodes": [
+      "arytenoid_cartilage__l",
+      "arytenoid_cartilage__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "corniculate_cartilage",
+     "name": "Corniculate cartilage",
+     "nodes": [
+      "corniculate_cartilage__l",
+      "corniculate_cartilage__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "cricoid_cartilage",
+     "name": "Cricoid cartilage",
+     "nodes": [
+      "cricoid_cartilage"
+     ],
+     "sides": null
+    },
+    {
+     "id": "thyroid_cartilage",
+     "name": "Thyroid cartilage",
+     "nodes": [
+      "thyroid_cartilage"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "cervical_vertebrae",
+   "name": "Cervical vertebrae",
+   "path": [
+    "Vertebral column",
+    "Cervical vertebrae"
+   ],
+   "parts": [
+    {
+     "id": "atlas_c1",
+     "name": "Atlas (C1)",
+     "nodes": [
+      "atlas_c1"
+     ],
+     "sides": null
+    },
+    {
+     "id": "axis_c2",
+     "name": "Axis (C2)",
+     "nodes": [
+      "axis_c2"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_c3",
+     "name": "Vertebra C3",
+     "nodes": [
+      "vertebra_c3"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_c4",
+     "name": "Vertebra C4",
+     "nodes": [
+      "vertebra_c4"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_c5",
+     "name": "Vertebra C5",
+     "nodes": [
+      "vertebra_c5"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_c6",
+     "name": "Vertebra C6",
+     "nodes": [
+      "vertebra_c6"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_c7",
+     "name": "Vertebra C7",
+     "nodes": [
+      "vertebra_c7"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "thoracic_vertebrae",
+   "name": "Thoracic vertebrae",
+   "path": [
+    "Vertebral column",
+    "Thoracic vertebrae"
+   ],
+   "parts": [
+    {
+     "id": "vertebra_t1",
+     "name": "Vertebra T1",
+     "nodes": [
+      "vertebra_t1"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_t2",
+     "name": "Vertebra T2",
+     "nodes": [
+      "vertebra_t2"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_t3",
+     "name": "Vertebra T3",
+     "nodes": [
+      "vertebra_t3"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_t4",
+     "name": "Vertebra T4",
+     "nodes": [
+      "vertebra_t4"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_t5",
+     "name": "Vertebra T5",
+     "nodes": [
+      "vertebra_t5"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_t6",
+     "name": "Vertebra T6",
+     "nodes": [
+      "vertebra_t6"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_t7",
+     "name": "Vertebra T7",
+     "nodes": [
+      "vertebra_t7"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_t8",
+     "name": "Vertebra T8",
+     "nodes": [
+      "vertebra_t8"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_t9",
+     "name": "Vertebra T9",
+     "nodes": [
+      "vertebra_t9"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_t10",
+     "name": "Vertebra T10",
+     "nodes": [
+      "vertebra_t10"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_t11",
+     "name": "Vertebra T11",
+     "nodes": [
+      "vertebra_t11"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_t12",
+     "name": "Vertebra T12",
+     "nodes": [
+      "vertebra_t12"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "lumbar_vertebrae",
+   "name": "Lumbar vertebrae",
+   "path": [
+    "Vertebral column",
+    "Lumbar vertebrae"
+   ],
+   "parts": [
+    {
+     "id": "vertebra_l1",
+     "name": "Vertebra L1",
+     "nodes": [
+      "vertebra_l1"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_l2",
+     "name": "Vertebra L2",
+     "nodes": [
+      "vertebra_l2"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_l3",
+     "name": "Vertebra L3",
+     "nodes": [
+      "vertebra_l3"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_l4",
+     "name": "Vertebra L4",
+     "nodes": [
+      "vertebra_l4"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vertebra_l5",
+     "name": "Vertebra L5",
+     "nodes": [
+      "vertebra_l5"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "sacrum_and_coccyx",
+   "name": "Sacrum and coccyx",
+   "path": [
+    "Vertebral column"
+   ],
+   "parts": [
+    {
+     "id": "coccyx",
+     "name": "Coccyx",
+     "nodes": [
+      "coccyx"
+     ],
+     "sides": null
+    },
+    {
+     "id": "sacrum",
+     "name": "Sacrum",
+     "nodes": [
+      "sacrum"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "true_ribs",
+   "name": "True ribs",
+   "path": [
+    "Thoracic skeleton",
+    "Bones of thorax",
+    "Ribs",
+    "True ribs"
+   ],
+   "parts": [
+    {
+     "id": "first_rib",
+     "name": "First rib",
+     "nodes": [
+      "first_rib__l",
+      "first_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "second_rib",
+     "name": "Second rib",
+     "nodes": [
+      "second_rib__l",
+      "second_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "third_rib",
+     "name": "Third rib",
+     "nodes": [
+      "third_rib__l",
+      "third_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "fourth_rib",
+     "name": "Fourth rib",
+     "nodes": [
+      "fourth_rib__l",
+      "fourth_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "fifth_rib",
+     "name": "Fifth rib",
+     "nodes": [
+      "fifth_rib__l",
+      "fifth_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sixth_rib",
+     "name": "Sixth rib",
+     "nodes": [
+      "sixth_rib__l",
+      "sixth_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "seventh_rib",
+     "name": "Seventh rib",
+     "nodes": [
+      "seventh_rib__l",
+      "seventh_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "false_ribs",
+   "name": "False ribs",
+   "path": [
+    "Thoracic skeleton",
+    "Bones of thorax",
+    "Ribs",
+    "False ribs"
+   ],
+   "parts": [
+    {
+     "id": "eighth_rib",
+     "name": "Eighth rib",
+     "nodes": [
+      "eighth_rib__l",
+      "eighth_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ninth_rib",
+     "name": "Ninth rib",
+     "nodes": [
+      "ninth_rib__l",
+      "ninth_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "tenth_rib",
+     "name": "Tenth rib",
+     "nodes": [
+      "tenth_rib__l",
+      "tenth_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "floating_ribs",
+   "name": "Floating ribs",
+   "path": [
+    "Thoracic skeleton",
+    "Bones of thorax",
+    "Ribs",
+    "False ribs",
+    "Floating ribs"
+   ],
+   "parts": [
+    {
+     "id": "eleventh_rib",
+     "name": "Eleventh rib",
+     "nodes": [
+      "eleventh_rib__l",
+      "eleventh_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "twelfth_rib",
+     "name": "Twelfth rib",
+     "nodes": [
+      "twelfth_rib__l",
+      "twelfth_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sternum",
+   "name": "Sternum",
+   "path": [
+    "Thoracic skeleton",
+    "Bones of thorax",
+    "Sternum"
+   ],
+   "parts": [
+    {
+     "id": "body_of_sternum",
+     "name": "Body of sternum",
+     "nodes": [
+      "body_of_sternum"
+     ],
+     "sides": null
+    },
+    {
+     "id": "manubrium_of_sternum",
+     "name": "Manubrium of sternum",
+     "nodes": [
+      "manubrium_of_sternum"
+     ],
+     "sides": null
+    },
+    {
+     "id": "xiphoid_process",
+     "name": "Xiphoid process",
+     "nodes": [
+      "xiphoid_process"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "costal_cartilages",
+   "name": "Costal cartilages",
+   "path": [
+    "Thoracic skeleton",
+    "Costal cartilages"
+   ],
+   "parts": [
+    {
+     "id": "costal_cartilage_of_first_rib",
+     "name": "Costal cartilage of first rib",
+     "nodes": [
+      "costal_cartilage_of_first_rib__l",
+      "costal_cartilage_of_first_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "costal_cartilage_of_second_rib",
+     "name": "Costal cartilage of second rib",
+     "nodes": [
+      "costal_cartilage_of_second_rib__l",
+      "costal_cartilage_of_second_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "costal_cartilage_of_third_rib",
+     "name": "Costal cartilage of third rib",
+     "nodes": [
+      "costal_cartilage_of_third_rib__l",
+      "costal_cartilage_of_third_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "costal_cartilage_of_fourth_rib",
+     "name": "Costal cartilage of fourth rib",
+     "nodes": [
+      "costal_cartilage_of_fourth_rib__l",
+      "costal_cartilage_of_fourth_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "costal_cartilage_of_fifth_rib",
+     "name": "Costal cartilage of fifth rib",
+     "nodes": [
+      "costal_cartilage_of_fifth_rib__l",
+      "costal_cartilage_of_fifth_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "costal_cartilage_of_sixth_rib",
+     "name": "Costal cartilage of sixth rib",
+     "nodes": [
+      "costal_cartilage_of_sixth_rib__l",
+      "costal_cartilage_of_sixth_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "costal_cartilage_of_seventh_rib",
+     "name": "Costal cartilage of seventh rib",
+     "nodes": [
+      "costal_cartilage_of_seventh_rib__l",
+      "costal_cartilage_of_seventh_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "costal_cartilage_of_eighth_rib",
+     "name": "Costal cartilage of eighth rib",
+     "nodes": [
+      "costal_cartilage_of_eighth_rib__l",
+      "costal_cartilage_of_eighth_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "costal_cartilage_of_ninth_rib",
+     "name": "Costal cartilage of ninth rib",
+     "nodes": [
+      "costal_cartilage_of_ninth_rib__l",
+      "costal_cartilage_of_ninth_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "costal_cartilage_of_tenth_rib",
+     "name": "Costal cartilage of tenth rib",
+     "nodes": [
+      "costal_cartilage_of_tenth_rib__l",
+      "costal_cartilage_of_tenth_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bones_of_pectoral_girdle",
+   "name": "Bones of pectoral girdle",
+   "path": [
+    "Bones of upper limb",
+    "Bones of pectoral girdle"
+   ],
+   "parts": [
+    {
+     "id": "clavicle",
+     "name": "Clavicle",
+     "nodes": [
+      "clavicle__l",
+      "clavicle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "scapula",
+     "name": "Scapula",
+     "nodes": [
+      "scapula__l",
+      "scapula__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bones_of_arm_and_forearm",
+   "name": "Bones of arm and forearm",
+   "path": [
+    "Bones of upper limb",
+    "Bones of free part of upper limb"
+   ],
+   "parts": [
+    {
+     "id": "humerus",
+     "name": "Humerus",
+     "nodes": [
+      "humerus__l",
+      "humerus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "radius",
+     "name": "Radius",
+     "nodes": [
+      "radius__l",
+      "radius__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ulna",
+     "name": "Ulna",
+     "nodes": [
+      "ulna__l",
+      "ulna__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "carpal_bones",
+   "name": "Carpal bones",
+   "path": [
+    "Bones of upper limb",
+    "Bones of free part of upper limb"
+   ],
+   "parts": [
+    {
+     "id": "capitate_bone",
+     "name": "Capitate bone",
+     "nodes": [
+      "capitate_bone__l",
+      "capitate_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "hamate_bone",
+     "name": "Hamate bone",
+     "nodes": [
+      "hamate_bone__l",
+      "hamate_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lunate_bone",
+     "name": "Lunate bone",
+     "nodes": [
+      "lunate_bone__l",
+      "lunate_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pisiform_bone",
+     "name": "Pisiform bone",
+     "nodes": [
+      "pisiform_bone__l",
+      "pisiform_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "scaphoid_bone",
+     "name": "Scaphoid bone",
+     "nodes": [
+      "scaphoid_bone__l",
+      "scaphoid_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "trapezium_bone",
+     "name": "Trapezium bone",
+     "nodes": [
+      "trapezium_bone__l",
+      "trapezium_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "trapezoid_bone",
+     "name": "Trapezoid bone",
+     "nodes": [
+      "trapezoid_bone__l",
+      "trapezoid_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "triquetrum_bone",
+     "name": "Triquetrum bone",
+     "nodes": [
+      "triquetrum_bone__l",
+      "triquetrum_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "metacarpal_bones",
+   "name": "Metacarpal bones",
+   "path": [
+    "Bones of upper limb",
+    "Bones of free part of upper limb"
+   ],
+   "parts": [
+    {
+     "id": "first_metacarpal_bone",
+     "name": "First metacarpal bone",
+     "nodes": [
+      "first_metacarpal_bone__l",
+      "first_metacarpal_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "second_metacarpal_bone",
+     "name": "Second metacarpal bone",
+     "nodes": [
+      "second_metacarpal_bone__l",
+      "second_metacarpal_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "third_metacarpal_bone",
+     "name": "Third metacarpal bone",
+     "nodes": [
+      "third_metacarpal_bone__l",
+      "third_metacarpal_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "fourth_metacarpal_bone",
+     "name": "Fourth metacarpal bone",
+     "nodes": [
+      "fourth_metacarpal_bone__l",
+      "fourth_metacarpal_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "fifth_metacarpal_bone",
+     "name": "Fifth metacarpal bone",
+     "nodes": [
+      "fifth_metacarpal_bone__l",
+      "fifth_metacarpal_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "phalanges_of_hand",
+   "name": "Phalanges of hand",
+   "path": [
+    "Bones of upper limb",
+    "Bones of free part of upper limb"
+   ],
+   "parts": [
+    {
+     "id": "distal_phalanx_of_first_finger_of_hand",
+     "name": "Distal phalanx of first finger of hand",
+     "nodes": [
+      "distal_phalanx_of_first_finger_of_hand__l",
+      "distal_phalanx_of_first_finger_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "distal_phalanx_of_second_finger_of_hand",
+     "name": "Distal phalanx of second finger of hand",
+     "nodes": [
+      "distal_phalanx_of_second_finger_of_hand__l",
+      "distal_phalanx_of_second_finger_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "distal_phalanx_of_third_finger_of_hand",
+     "name": "Distal phalanx of third finger of hand",
+     "nodes": [
+      "distal_phalanx_of_third_finger_of_hand__l",
+      "distal_phalanx_of_third_finger_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "distal_phalanx_of_fourth_finger_of_hand",
+     "name": "Distal phalanx of fourth finger of hand",
+     "nodes": [
+      "distal_phalanx_of_fourth_finger_of_hand__l",
+      "distal_phalanx_of_fourth_finger_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "distal_phalanx_of_fifth_finger_of_hand",
+     "name": "Distal phalanx of fifth finger of hand",
+     "nodes": [
+      "distal_phalanx_of_fifth_finger_of_hand__l",
+      "distal_phalanx_of_fifth_finger_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "middle_phalanx_of_second_finger_of_hand",
+     "name": "Middle phalanx of second finger of hand",
+     "nodes": [
+      "middle_phalanx_of_second_finger_of_hand__l",
+      "middle_phalanx_of_second_finger_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "middle_phalanx_of_third_finger_of_hand",
+     "name": "Middle phalanx of third finger of hand",
+     "nodes": [
+      "middle_phalanx_of_third_finger_of_hand__l",
+      "middle_phalanx_of_third_finger_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "middle_phalanx_of_fourth_finger_of_hand",
+     "name": "Middle phalanx of fourth finger of hand",
+     "nodes": [
+      "middle_phalanx_of_fourth_finger_of_hand__l",
+      "middle_phalanx_of_fourth_finger_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "middle_phalanx_of_fifth_finger_of_hand",
+     "name": "Middle phalanx of fifth finger of hand",
+     "nodes": [
+      "middle_phalanx_of_fifth_finger_of_hand__l",
+      "middle_phalanx_of_fifth_finger_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proximal_phalanx_of_first_finger_of_hand",
+     "name": "Proximal phalanx of first finger of hand",
+     "nodes": [
+      "proximal_phalanx_of_first_finger_of_hand__l",
+      "proximal_phalanx_of_first_finger_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proximal_phalanx_of_second_finger_of_hand",
+     "name": "Proximal phalanx of second finger of hand",
+     "nodes": [
+      "proximal_phalanx_of_second_finger_of_hand__l",
+      "proximal_phalanx_of_second_finger_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proximal_phalanx_of_third_finger_of_hand",
+     "name": "Proximal phalanx of third finger of hand",
+     "nodes": [
+      "proximal_phalanx_of_third_finger_of_hand__l",
+      "proximal_phalanx_of_third_finger_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proximal_phalanx_of_fourth_finger_of_hand",
+     "name": "Proximal phalanx of fourth finger of hand",
+     "nodes": [
+      "proximal_phalanx_of_fourth_finger_of_hand__l",
+      "proximal_phalanx_of_fourth_finger_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proximal_phalanx_of_fifth_finger_of_hand",
+     "name": "Proximal phalanx of fifth finger of hand",
+     "nodes": [
+      "proximal_phalanx_of_fifth_finger_of_hand__l",
+      "proximal_phalanx_of_fifth_finger_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bones_of_pelvic_girdle",
+   "name": "Bones of pelvic girdle",
+   "path": [
+    "Bones of lower limb",
+    "Bones of pelvic girdle"
+   ],
+   "parts": [
+    {
+     "id": "hip_bone",
+     "name": "Hip bone",
+     "nodes": [
+      "hip_bone__l",
+      "hip_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bones_of_thigh_and_leg",
+   "name": "Bones of thigh and leg",
+   "path": [
+    "Bones of lower limb",
+    "Bones of free part of lower limb"
+   ],
+   "parts": [
+    {
+     "id": "femur",
+     "name": "Femur",
+     "nodes": [
+      "femur__l",
+      "femur__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "fibula",
+     "name": "Fibula",
+     "nodes": [
+      "fibula__l",
+      "fibula__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "patella",
+     "name": "Patella",
+     "nodes": [
+      "patella__l",
+      "patella__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "tibia",
+     "name": "Tibia",
+     "nodes": [
+      "tibia__l",
+      "tibia__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tarsal_bones",
+   "name": "Tarsal bones",
+   "path": [
+    "Bones of lower limb",
+    "Bones of free part of lower limb",
+    "Bones of foot",
+    "Tarsal bones"
+   ],
+   "parts": [
+    {
+     "id": "calcaneus",
+     "name": "Calcaneus",
+     "nodes": [
+      "calcaneus__l",
+      "calcaneus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "cuboid_bone",
+     "name": "Cuboid bone",
+     "nodes": [
+      "cuboid_bone__l",
+      "cuboid_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "intermediate_cuneiform_bone",
+     "name": "Intermediate cuneiform bone",
+     "nodes": [
+      "intermediate_cuneiform_bone__l",
+      "intermediate_cuneiform_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_cuneiform_bone",
+     "name": "Lateral cuneiform bone",
+     "nodes": [
+      "lateral_cuneiform_bone__l",
+      "lateral_cuneiform_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_cuneiform_bone",
+     "name": "Medial cuneiform bone",
+     "nodes": [
+      "medial_cuneiform_bone__l",
+      "medial_cuneiform_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "navicular_bone",
+     "name": "Navicular bone",
+     "nodes": [
+      "navicular_bone__l",
+      "navicular_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "talus",
+     "name": "Talus",
+     "nodes": [
+      "talus__l",
+      "talus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "metatarsal_bones",
+   "name": "Metatarsal bones",
+   "path": [
+    "Bones of lower limb",
+    "Bones of free part of lower limb",
+    "Bones of foot",
+    "Metatarsal bones"
+   ],
+   "parts": [
+    {
+     "id": "first_metatarsal_bone",
+     "name": "First metatarsal bone",
+     "nodes": [
+      "first_metatarsal_bone__l",
+      "first_metatarsal_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "second_metatarsal_bone",
+     "name": "Second metatarsal bone",
+     "nodes": [
+      "second_metatarsal_bone__l",
+      "second_metatarsal_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "third_metatarsal_bone",
+     "name": "Third metatarsal bone",
+     "nodes": [
+      "third_metatarsal_bone__l",
+      "third_metatarsal_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "fourth_metatarsal_bone",
+     "name": "Fourth metatarsal bone",
+     "nodes": [
+      "fourth_metatarsal_bone__l",
+      "fourth_metatarsal_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "fifth_metatarsal_bone",
+     "name": "Fifth metatarsal bone",
+     "nodes": [
+      "fifth_metatarsal_bone__l",
+      "fifth_metatarsal_bone__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "phalanges_of_foot",
+   "name": "Phalanges of foot",
+   "path": [
+    "Bones of lower limb",
+    "Bones of free part of lower limb",
+    "Bones of foot",
+    "Phalanges of foot"
+   ],
+   "parts": [
+    {
+     "id": "distal_phalanx_of_first_finger_of_foot",
+     "name": "Distal phalanx of first finger of foot",
+     "nodes": [
+      "distal_phalanx_of_first_finger_of_foot__l",
+      "distal_phalanx_of_first_finger_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "distal_phalanx_of_second_finger_of_foot",
+     "name": "Distal phalanx of second finger of foot",
+     "nodes": [
+      "distal_phalanx_of_second_finger_of_foot__l",
+      "distal_phalanx_of_second_finger_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "distal_phalanx_of_third_finger_of_foot",
+     "name": "Distal phalanx of third finger of foot",
+     "nodes": [
+      "distal_phalanx_of_third_finger_of_foot__l",
+      "distal_phalanx_of_third_finger_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "distal_phalanx_of_fourth_finger_of_foot",
+     "name": "Distal phalanx of fourth finger of foot",
+     "nodes": [
+      "distal_phalanx_of_fourth_finger_of_foot__l",
+      "distal_phalanx_of_fourth_finger_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "distal_phalanx_of_fifth_finger_of_foot",
+     "name": "Distal phalanx of fifth finger of foot",
+     "nodes": [
+      "distal_phalanx_of_fifth_finger_of_foot__l",
+      "distal_phalanx_of_fifth_finger_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "middle_phalanx_of_second_finger_of_foot",
+     "name": "Middle phalanx of second finger of foot",
+     "nodes": [
+      "middle_phalanx_of_second_finger_of_foot__l",
+      "middle_phalanx_of_second_finger_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "middle_phalanx_of_third_finger_of_foot",
+     "name": "Middle phalanx of third finger of foot",
+     "nodes": [
+      "middle_phalanx_of_third_finger_of_foot__l",
+      "middle_phalanx_of_third_finger_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "middle_phalanx_of_fourth_finger_of_foot",
+     "name": "Middle phalanx of fourth finger of foot",
+     "nodes": [
+      "middle_phalanx_of_fourth_finger_of_foot__l",
+      "middle_phalanx_of_fourth_finger_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "middle_phalanx_of_fifth_finger_of_foot",
+     "name": "Middle phalanx of fifth finger of foot",
+     "nodes": [
+      "middle_phalanx_of_fifth_finger_of_foot__l",
+      "middle_phalanx_of_fifth_finger_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proximal_phalanx_of_first_finger_of_foot",
+     "name": "Proximal phalanx of first finger of foot",
+     "nodes": [
+      "proximal_phalanx_of_first_finger_of_foot__l",
+      "proximal_phalanx_of_first_finger_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proximal_phalanx_of_second_finger_of_foot",
+     "name": "Proximal phalanx of second finger of foot",
+     "nodes": [
+      "proximal_phalanx_of_second_finger_of_foot__l",
+      "proximal_phalanx_of_second_finger_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proximal_phalanx_of_third_finger_of_foot",
+     "name": "Proximal phalanx of third finger of foot",
+     "nodes": [
+      "proximal_phalanx_of_third_finger_of_foot__l",
+      "proximal_phalanx_of_third_finger_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proximal_phalanx_of_fourth_finger_of_foot",
+     "name": "Proximal phalanx of fourth finger of foot",
+     "nodes": [
+      "proximal_phalanx_of_fourth_finger_of_foot__l",
+      "proximal_phalanx_of_fourth_finger_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proximal_phalanx_of_fifth_finger_of_foot",
+     "name": "Proximal phalanx of fifth finger of foot",
+     "nodes": [
+      "proximal_phalanx_of_fifth_finger_of_foot__l",
+      "proximal_phalanx_of_fifth_finger_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sesamoid_bones_of_foot",
+   "name": "Sesamoid bones of foot",
+   "path": [
+    "Bones of lower limb",
+    "Bones of free part of lower limb",
+    "Bones of foot"
+   ],
+   "parts": [
+    {
+     "id": "sesamoid_bones_of_foot",
+     "name": "Sesamoid bones of foot",
+     "nodes": [
+      "sesamoid_bones_of_foot__l",
+      "sesamoid_bones_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  }
+ ]
+}

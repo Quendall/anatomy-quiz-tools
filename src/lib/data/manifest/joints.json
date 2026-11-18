@@ -1,0 +1,2888 @@
+{
+ "id": "joints",
+ "name": "Joints & ligaments",
+ "color": "#A3B8CC",
+ "model": "models/joints.glb",
+ "groups": [
+  {
+   "id": "cranial_syndesmoses",
+   "name": "Cranial syndesmoses",
+   "path": [
+    "Joints of skull",
+    "Cranial fibrous joints",
+    "Cranial syndesmoses"
+   ],
+   "parts": [
+    {
+     "id": "pterygospinous_ligament",
+     "name": "Pterygospinous ligament",
+     "nodes": [
+      "pterygospinous_ligament__l",
+      "pterygospinous_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sphenomandibular_ligament",
+     "name": "Sphenomandibular ligament",
+     "nodes": [
+      "sphenomandibular_ligament__l",
+      "sphenomandibular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "stylohyoid_ligament",
+     "name": "Stylohyoid ligament",
+     "nodes": [
+      "stylohyoid_ligament__l",
+      "stylohyoid_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "stylomandibular_ligament",
+     "name": "Stylomandibular ligament",
+     "nodes": [
+      "stylomandibular_ligament__l",
+      "stylomandibular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "temporomandibular_joint",
+   "name": "Temporomandibular joint",
+   "path": [
+    "Joints of skull",
+    "Temporomandibular joint"
+   ],
+   "parts": [
+    {
+     "id": "articular_capsule_of_temporomandibular_joint",
+     "name": "Articular capsule of temporomandibular joint",
+     "nodes": [
+      "articular_capsule_of_temporomandibular_joint__l",
+      "articular_capsule_of_temporomandibular_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "articular_disc_of_temporomandibular_joint",
+     "name": "Articular disc of temporomandibular joint",
+     "nodes": [
+      "articular_disc_of_temporomandibular_joint__l",
+      "articular_disc_of_temporomandibular_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_temporomandibular_ligament",
+     "name": "Lateral temporomandibular ligament",
+     "nodes": [
+      "lateral_temporomandibular_ligament__l",
+      "lateral_temporomandibular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fibrous_joints_of_larynx",
+   "name": "Fibrous joints of larynx",
+   "path": [
+    "Laryngeal joints",
+    "Fibrous joints of larynx"
+   ],
+   "parts": [
+    {
+     "id": "median_cricothyroid_ligament",
+     "name": "Median cricothyroid ligament",
+     "nodes": [
+      "median_cricothyroid_ligament"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "fibro_elastic_membrane_of_larynx",
+   "name": "Fibro-elastic membrane of larynx",
+   "path": [
+    "Laryngeal joints",
+    "Fibrous joints of larynx",
+    "Fibro-elastic membrane of larynx"
+   ],
+   "parts": [
+    {
+     "id": "quadrangular_membrane",
+     "name": "Quadrangular membrane",
+     "nodes": [
+      "quadrangular_membrane__l",
+      "quadrangular_membrane__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "thyrohyoid_membrane",
+   "name": "Thyrohyoid membrane",
+   "path": [
+    "Laryngeal joints",
+    "Fibrous joints of larynx",
+    "Thyrohyoid membrane"
+   ],
+   "parts": [
+    {
+     "id": "lateral_thyrohyoid_ligament",
+     "name": "Lateral thyrohyoid ligament",
+     "nodes": [
+      "lateral_thyrohyoid_ligament__l",
+      "lateral_thyrohyoid_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "median_thyrohyoid_ligament",
+     "name": "Median thyrohyoid ligament",
+     "nodes": [
+      "median_thyrohyoid_ligament"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "crico_arytenoid_joint",
+   "name": "Crico-arytenoid joint",
+   "path": [
+    "Laryngeal joints",
+    "Synovial joints of larynx",
+    "Crico-arytenoid joint"
+   ],
+   "parts": [
+    {
+     "id": "cricopharyngeal_ligament",
+     "name": "Cricopharyngeal ligament",
+     "nodes": [
+      "cricopharyngeal_ligament__l",
+      "cricopharyngeal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "intervertebral_symphysis",
+   "name": "Intervertebral symphysis",
+   "path": [
+    "Joints of vertebral column",
+    "Cartilaginous joints of vertebral column",
+    "Intervertebral symphysis"
+   ],
+   "parts": [
+    {
+     "id": "intervertebral_disc_c2_c3",
+     "name": "Intervertebral disc C2-C3",
+     "nodes": [
+      "intervertebral_disc_c2_c3",
+      "nucleus_pulposus_c2_c3"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_c3_c4",
+     "name": "Intervertebral disc C3-C4",
+     "nodes": [
+      "intervertebral_disc_c3_c4",
+      "nucleus_pulposus_c3_c4"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_c4_c5",
+     "name": "Intervertebral disc C4-C5",
+     "nodes": [
+      "intervertebral_disc_c4_c5",
+      "nucleus_pulposus_c4_c5"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_c5_c6",
+     "name": "Intervertebral disc C5-C6",
+     "nodes": [
+      "intervertebral_disc_c5_c6",
+      "nucleus_pulposus_c5_c6"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_c6_c7",
+     "name": "Intervertebral disc C6-C7",
+     "nodes": [
+      "intervertebral_disc_c6_c7",
+      "nucleus_pulposus_c6_c7"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_c7_t1",
+     "name": "Intervertebral disc C7-T1",
+     "nodes": [
+      "intervertebral_disc_c7_t1",
+      "nucleus_pulposus_c7_t1"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_t1_t2",
+     "name": "Intervertebral disc T1-T2",
+     "nodes": [
+      "intervertebral_disc_t1_t2",
+      "nucleus_pulposus_t1_t2"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_t2_t3",
+     "name": "Intervertebral disc T2-T3",
+     "nodes": [
+      "intervertebral_disc_t2_t3",
+      "nucleus_pulposus_t2_t3"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_t3_t4",
+     "name": "Intervertebral disc T3-T4",
+     "nodes": [
+      "intervertebral_disc_t3_t4",
+      "nucleus_pulposus_t3_t4"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_t4_t5",
+     "name": "Intervertebral disc T4-T5",
+     "nodes": [
+      "intervertebral_disc_t4_t5",
+      "nucleus_pulposus_t4_t5"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_t5_t6",
+     "name": "Intervertebral disc T5-T6",
+     "nodes": [
+      "intervertebral_disc_t5_t6",
+      "nucleus_pulposus_t5_t6"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_t6_t7",
+     "name": "Intervertebral disc T6-T7",
+     "nodes": [
+      "intervertebral_disc_t6_t7",
+      "nucleus_pulposus_t6_t7"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_t7_t8",
+     "name": "Intervertebral disc T7-T8",
+     "nodes": [
+      "intervertebral_disc_t7_t8",
+      "nucleus_pulposus_t7_t8"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_t8_t9",
+     "name": "Intervertebral disc T8-T9",
+     "nodes": [
+      "intervertebral_disc_t8_t9",
+      "nucleus_pulposus_t8_t9"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_t9_t10",
+     "name": "Intervertebral disc T9-T10",
+     "nodes": [
+      "intervertebral_disc_t9_t10",
+      "nucleus_pulposus_t9_t10"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_t10_t11",
+     "name": "Intervertebral disc T10-T11",
+     "nodes": [
+      "intervertebral_disc_t10_t11",
+      "nucleus_pulposus_t10_t11"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_t11_t12",
+     "name": "Intervertebral disc T11-T12",
+     "nodes": [
+      "intervertebral_disc_t11_t12",
+      "nucleus_pulposus_t11_t12"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_t12_l1",
+     "name": "Intervertebral disc T12-L1",
+     "nodes": [
+      "intervertebral_disc_t12_l1",
+      "nucleus_pulposus_t12_l1"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_l1_l2",
+     "name": "Intervertebral disc L1-L2",
+     "nodes": [
+      "intervertebral_disc_l1_l2",
+      "nucleus_pulposus_l1_l2"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_l2_l3",
+     "name": "Intervertebral disc L2-L3",
+     "nodes": [
+      "intervertebral_disc_l2_l3",
+      "nucleus_pulposus_l2_l3"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_l3_l4",
+     "name": "Intervertebral disc L3-L4",
+     "nodes": [
+      "intervertebral_disc_l3_l4",
+      "nucleus_pulposus_l3_l4"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_l4_l5",
+     "name": "Intervertebral disc L4-L5",
+     "nodes": [
+      "intervertebral_disc_l4_l5",
+      "nucleus_pulposus_l4_l5"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intervertebral_disc_l5_s1",
+     "name": "Intervertebral disc L5-S1",
+     "nodes": [
+      "intervertebral_disc_l5_s1",
+      "nucleus_pulposus_l5_s1"
+     ],
+     "sides": null
+    },
+    {
+     "id": "sacrococcygeal_symphysis",
+     "name": "Sacrococcygeal symphysis",
+     "nodes": [
+      "sacrococcygeal_symphysis"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "fibrous_joints_of_vertebral_column",
+   "name": "Fibrous joints of vertebral column",
+   "path": [
+    "Joints of vertebral column",
+    "Fibrous joints of vertebral column"
+   ],
+   "parts": [
+    {
+     "id": "anterior_longitudinal_ligament",
+     "name": "Anterior longitudinal ligament",
+     "nodes": [
+      "anterior_longitudinal_ligament"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intercornual_ligament",
+     "name": "Intercornual ligament",
+     "nodes": [
+      "intercornual_ligament__l",
+      "intercornual_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "interspinous_ligaments",
+     "name": "Interspinous ligaments",
+     "nodes": [
+      "interspinous_ligaments"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intertransverse_ligaments",
+     "name": "Intertransverse ligaments",
+     "nodes": [
+      "intertransverse_ligaments__l",
+      "intertransverse_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ligamenta_flava",
+     "name": "Ligamenta flava",
+     "nodes": [
+      "ligamenta_flava"
+     ],
+     "sides": null
+    },
+    {
+     "id": "nuchal_ligament",
+     "name": "Nuchal ligament",
+     "nodes": [
+      "nuchal_ligament"
+     ],
+     "sides": null
+    },
+    {
+     "id": "posterior_longitudinal_ligament",
+     "name": "Posterior longitudinal ligament",
+     "nodes": [
+      "posterior_longitudinal_ligament"
+     ],
+     "sides": null
+    },
+    {
+     "id": "supraspinous_ligament",
+     "name": "Supraspinous ligament",
+     "nodes": [
+      "supraspinous_ligament"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "fibrous_joints_of_thorax",
+   "name": "Fibrous joints of thorax",
+   "path": [
+    "Thoracic joints",
+    "Fibrous joints of thorax"
+   ],
+   "parts": [
+    {
+     "id": "external_intercostal_membrane",
+     "name": "External intercostal membrane",
+     "nodes": [
+      "external_intercostal_membrane__l",
+      "external_intercostal_membrane__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "internal_intercostal_membrane",
+     "name": "Internal intercostal membrane",
+     "nodes": [
+      "internal_intercostal_membrane__l",
+      "internal_intercostal_membrane__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "costotransverse_joint",
+   "name": "Costotransverse joint",
+   "path": [
+    "Thoracic joints",
+    "Synovial joints of thorax",
+    "Costovertebral joints",
+    "Costotransverse joint"
+   ],
+   "parts": [
+    {
+     "id": "costotransverse_ligament",
+     "name": "Costotransverse ligament",
+     "nodes": [
+      "costotransverse_ligament__l",
+      "costotransverse_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "joint_of_head_of_rib",
+   "name": "Joint of head of rib",
+   "path": [
+    "Thoracic joints",
+    "Synovial joints of thorax",
+    "Costovertebral joints",
+    "Joint of head of rib"
+   ],
+   "parts": [
+    {
+     "id": "intra_articular_ligament_of_head_of_rib",
+     "name": "Intra-articular ligament of head of rib",
+     "nodes": [
+      "intra_articular_ligament_of_head_of_rib",
+      "intra_articular_ligament_of_head_of_rib__r"
+     ],
+     "sides": [
+      "right"
+     ]
+    },
+    {
+     "id": "radiate_ligament_of_head_of_rib",
+     "name": "Radiate ligament of head of rib",
+     "nodes": [
+      "radiate_ligament_of_head_of_rib__l",
+      "radiate_ligament_of_head_of_rib__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "radio_ulnar_syndesmoses",
+   "name": "Radio-ulnar syndesmoses",
+   "path": [
+    "Joints of upper limb",
+    "Joints of free upper limb",
+    "Fibrous joints of free upper limb",
+    "Radio-ulnar syndesmoses"
+   ],
+   "parts": [
+    {
+     "id": "interosseous_membrane_of_forearm",
+     "name": "Interosseous membrane of forearm",
+     "nodes": [
+      "interosseous_membrane_of_forearm__l",
+      "interosseous_membrane_of_forearm__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "oblique_cord",
+     "name": "Oblique cord",
+     "nodes": [
+      "oblique_cord__l",
+      "oblique_cord__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "distal_radio_ulnar_joint",
+   "name": "Distal radio-ulnar joint",
+   "path": [
+    "Joints of upper limb",
+    "Joints of free upper limb",
+    "Synovial joints of free upper limb",
+    "Distal radio-ulnar joint"
+   ],
+   "parts": [
+    {
+     "id": "articular_disc_of_distal_radio_ulnar_joint",
+     "name": "Articular disc of distal radio-ulnar joint",
+     "nodes": [
+      "articular_disc_of_distal_radio_ulnar_joint__l",
+      "articular_disc_of_distal_radio_ulnar_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_radio_ulnar_ligament",
+     "name": "Dorsal radio-ulnar ligament",
+     "nodes": [
+      "dorsal_radio_ulnar_ligament__l",
+      "dorsal_radio_ulnar_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "palmar_radio_ulnar_ligament",
+     "name": "Palmar radio-ulnar ligament",
+     "nodes": [
+      "palmar_radio_ulnar_ligament__l",
+      "palmar_radio_ulnar_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "elbow_joint",
+   "name": "Elbow joint",
+   "path": [
+    "Joints of upper limb",
+    "Joints of free upper limb",
+    "Synovial joints of free upper limb",
+    "Elbow joint"
+   ],
+   "parts": [
+    {
+     "id": "annular_ligament_of_radius",
+     "name": "Annular ligament of radius",
+     "nodes": [
+      "annular_ligament_of_radius__l",
+      "annular_ligament_of_radius__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "articular_capsule_of_elbow_joint",
+     "name": "Articular capsule of elbow joint",
+     "nodes": [
+      "articular_capsule_of_elbow_joint__l",
+      "articular_capsule_of_elbow_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "quadrate_ligament",
+     "name": "Quadrate ligament",
+     "nodes": [
+      "quadrate_ligament__l",
+      "quadrate_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "radial_collateral_ligament",
+     "name": "Radial collateral ligament",
+     "nodes": [
+      "radial_collateral_ligament__l",
+      "radial_collateral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ulnar_collateral_ligament",
+     "name": "Ulnar collateral ligament",
+     "nodes": [
+      "ulnar_collateral_ligament__l",
+      "ulnar_collateral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "glenohumeral_joint",
+   "name": "Glenohumeral joint",
+   "path": [
+    "Joints of upper limb",
+    "Joints of free upper limb",
+    "Synovial joints of free upper limb",
+    "Glenohumeral joint"
+   ],
+   "parts": [
+    {
+     "id": "articular_capsule_of_glenohumeral_joint",
+     "name": "Articular capsule of glenohumeral joint",
+     "nodes": [
+      "articular_capsule_of_glenohumeral_joint__l",
+      "articular_capsule_of_glenohumeral_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "coracohumeral_ligament",
+     "name": "Coracohumeral ligament",
+     "nodes": [
+      "coracohumeral_ligament__l",
+      "coracohumeral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "glenoid_labrum",
+     "name": "Glenoid labrum",
+     "nodes": [
+      "glenoid_labrum__l",
+      "glenoid_labrum__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_glenohumeral_ligament",
+     "name": "Inferior glenohumeral ligament",
+     "nodes": [
+      "inferior_glenohumeral_ligament__l",
+      "inferior_glenohumeral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "middle_glenohumeral_ligament",
+     "name": "Middle glenohumeral ligament",
+     "nodes": [
+      "middle_glenohumeral_ligament__l",
+      "middle_glenohumeral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_glenohumeral_ligament",
+     "name": "Superior glenohumeral ligament",
+     "nodes": [
+      "superior_glenohumeral_ligament__l",
+      "superior_glenohumeral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "transverse_humeral_ligament",
+     "name": "Transverse humeral ligament",
+     "nodes": [
+      "transverse_humeral_ligament__l",
+      "transverse_humeral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "carpometacarpal_joints",
+   "name": "Carpometacarpal joints",
+   "path": [
+    "Joints of upper limb",
+    "Joints of free upper limb",
+    "Synovial joints of free upper limb",
+    "Joints of hand",
+    "Carpometacarpal joints"
+   ],
+   "parts": [
+    {
+     "id": "dorsal_carpometacarpal_ligaments",
+     "name": "Dorsal carpometacarpal ligaments",
+     "nodes": [
+      "dorsal_carpometacarpal_ligaments__l",
+      "dorsal_carpometacarpal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "palmar_carpometacarpal_ligaments",
+     "name": "Palmar carpometacarpal ligaments",
+     "nodes": [
+      "palmar_carpometacarpal_ligaments__l",
+      "palmar_carpometacarpal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "intercarpal_joints",
+   "name": "Intercarpal joints",
+   "path": [
+    "Joints of upper limb",
+    "Joints of free upper limb",
+    "Synovial joints of free upper limb",
+    "Joints of hand",
+    "Intercarpal joints"
+   ],
+   "parts": [
+    {
+     "id": "capitohamate_interosseous_ligament",
+     "name": "Capitohamate interosseous ligament",
+     "nodes": [
+      "capitohamate_interosseous_ligament__l",
+      "capitohamate_interosseous_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_intercarpal_ligaments",
+     "name": "Dorsal intercarpal ligaments",
+     "nodes": [
+      "dorsal_intercarpal_ligaments__l",
+      "dorsal_intercarpal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_scaphotriquetral_ligament",
+     "name": "Dorsal scaphotriquetral ligament",
+     "nodes": [
+      "dorsal_scaphotriquetral_ligament__l",
+      "dorsal_scaphotriquetral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_ulnocarpal_ligament",
+     "name": "Dorsal ulnocarpal ligament",
+     "nodes": [
+      "dorsal_ulnocarpal_ligament__l",
+      "dorsal_ulnocarpal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lunotriquetral_interosseous_ligament",
+     "name": "Lunotriquetral interosseous ligament",
+     "nodes": [
+      "lunotriquetral_interosseous_ligament__l",
+      "lunotriquetral_interosseous_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "palmar_capitohamate_ligament",
+     "name": "Palmar capitohamate ligament",
+     "nodes": [
+      "palmar_capitohamate_ligament__l",
+      "palmar_capitohamate_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "palmar_lunotriquetral_ligament",
+     "name": "Palmar lunotriquetral ligament",
+     "nodes": [
+      "palmar_lunotriquetral_ligament__l",
+      "palmar_lunotriquetral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "palmar_scaphotriquetral_ligament",
+     "name": "Palmar scaphotriquetral ligament",
+     "nodes": [
+      "palmar_scaphotriquetral_ligament__l",
+      "palmar_scaphotriquetral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "palmar_trapezoideocapitate_ligament",
+     "name": "Palmar trapezoideocapitate ligament",
+     "nodes": [
+      "palmar_trapezoideocapitate_ligament__l",
+      "palmar_trapezoideocapitate_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pisohamate_ligament",
+     "name": "Pisohamate ligament",
+     "nodes": [
+      "pisohamate_ligament__l",
+      "pisohamate_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pisometacarpal_ligament",
+     "name": "Pisometacarpal ligament",
+     "nodes": [
+      "pisometacarpal_ligament__l",
+      "pisometacarpal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pisotriquetral_ligament",
+     "name": "Pisotriquetral ligament",
+     "nodes": [
+      "pisotriquetral_ligament__l",
+      "pisotriquetral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "radiate_carpal_ligament",
+     "name": "Radiate carpal ligament",
+     "nodes": [
+      "radiate_carpal_ligament__l",
+      "radiate_carpal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "scaphocapitate_ligament",
+     "name": "Scaphocapitate ligament",
+     "nodes": [
+      "scaphocapitate_ligament__l",
+      "scaphocapitate_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "scapholunate_interosseous_ligament",
+     "name": "Scapholunate interosseous ligament",
+     "nodes": [
+      "scapholunate_interosseous_ligament__l",
+      "scapholunate_interosseous_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "scaphotrapeziotrapezoidal_ligament",
+     "name": "Scaphotrapeziotrapezoidal ligament",
+     "nodes": [
+      "scaphotrapeziotrapezoidal_ligament__l",
+      "scaphotrapeziotrapezoidal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "trapeziotrapezoidal_interosseous_ligament",
+     "name": "Trapeziotrapezoidal interosseous ligament",
+     "nodes": [
+      "trapeziotrapezoidal_interosseous_ligament__l",
+      "trapeziotrapezoidal_interosseous_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "trapezoideocapitate_interosseous_ligament",
+     "name": "Trapezoideocapitate interosseous ligament",
+     "nodes": [
+      "trapezoideocapitate_interosseous_ligament__l",
+      "trapezoideocapitate_interosseous_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "triquetrocapitate_ligament",
+     "name": "Triquetrocapitate ligament",
+     "nodes": [
+      "triquetrocapitate_ligament__l",
+      "triquetrocapitate_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "triquetrohamate_ligament",
+     "name": "Triquetrohamate ligament",
+     "nodes": [
+      "triquetrohamate_ligament__l",
+      "triquetrohamate_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "intermetacarpal_joints",
+   "name": "Intermetacarpal joints",
+   "path": [
+    "Joints of upper limb",
+    "Joints of free upper limb",
+    "Synovial joints of free upper limb",
+    "Joints of hand",
+    "Intermetacarpal joints"
+   ],
+   "parts": [
+    {
+     "id": "dorsal_metacarpal_ligaments",
+     "name": "Dorsal metacarpal ligaments",
+     "nodes": [
+      "dorsal_metacarpal_ligaments__l",
+      "dorsal_metacarpal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "interosseous_metacarpal_ligaments",
+     "name": "Interosseous metacarpal ligaments",
+     "nodes": [
+      "interosseous_metacarpal_ligaments__l",
+      "interosseous_metacarpal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "palmar_metacarpal_ligaments",
+     "name": "Palmar metacarpal ligaments",
+     "nodes": [
+      "palmar_metacarpal_ligaments__l",
+      "palmar_metacarpal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "interphalangeal_joints_of_hand",
+   "name": "Interphalangeal joints of hand",
+   "path": [
+    "Joints of upper limb",
+    "Joints of free upper limb",
+    "Synovial joints of free upper limb",
+    "Joints of hand",
+    "Interphalangeal joints of hand"
+   ],
+   "parts": [
+    {
+     "id": "articular_capsules_of_distal_interphalangeal_joints",
+     "name": "Articular capsules of distal interphalangeal joints",
+     "nodes": [
+      "articular_capsules_of_distal_interphalangeal_joints__l",
+      "articular_capsules_of_distal_interphalangeal_joints__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "articular_capsules_of_proximal_interphalangeal_joints",
+     "name": "Articular capsules of proximal interphalangeal joints",
+     "nodes": [
+      "articular_capsules_of_proximal_interphalangeal_joints__l",
+      "articular_capsules_of_proximal_interphalangeal_joints__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "collateral_interphalangeal_ligaments_of_hand",
+     "name": "Collateral interphalangeal ligaments of hand",
+     "nodes": [
+      "collateral_interphalangeal_ligaments_of_hand__l",
+      "collateral_interphalangeal_ligaments_of_hand__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "palmar_interphalangeal_ligaments",
+     "name": "Palmar interphalangeal ligaments",
+     "nodes": [
+      "palmar_interphalangeal_ligaments__l",
+      "palmar_interphalangeal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "metacarpophalangeal_joints",
+   "name": "Metacarpophalangeal joints",
+   "path": [
+    "Joints of upper limb",
+    "Joints of free upper limb",
+    "Synovial joints of free upper limb",
+    "Joints of hand",
+    "Metacarpophalangeal joints"
+   ],
+   "parts": [
+    {
+     "id": "articular_capsules_of_metacarpophalangeal_joints",
+     "name": "Articular capsules of metacarpophalangeal joints",
+     "nodes": [
+      "articular_capsules_of_metacarpophalangeal_joints__l",
+      "articular_capsules_of_metacarpophalangeal_joints__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "collateral_metacarpophalangeal_ligaments",
+     "name": "Collateral metacarpophalangeal ligaments",
+     "nodes": [
+      "collateral_metacarpophalangeal_ligaments__l",
+      "collateral_metacarpophalangeal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "deep_transverse_metacarpal_ligament",
+     "name": "Deep transverse metacarpal ligament",
+     "nodes": [
+      "deep_transverse_metacarpal_ligament__l",
+      "deep_transverse_metacarpal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "radiocarpal_joint",
+   "name": "Radiocarpal joint",
+   "path": [
+    "Joints of upper limb",
+    "Joints of free upper limb",
+    "Synovial joints of free upper limb",
+    "Radiocarpal joint"
+   ],
+   "parts": [
+    {
+     "id": "articular_capsule_of_radiocarpal_joint",
+     "name": "Articular capsule of radiocarpal joint",
+     "nodes": [
+      "articular_capsule_of_radiocarpal_joint__l",
+      "articular_capsule_of_radiocarpal_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_radiocarpal_ligament",
+     "name": "Dorsal radiocarpal ligament",
+     "nodes": [
+      "dorsal_radiocarpal_ligament__l",
+      "dorsal_radiocarpal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "radial_collateral_ligament_of_wrist_joint",
+     "name": "Radial collateral ligament of wrist joint",
+     "nodes": [
+      "radial_collateral_ligament_of_wrist_joint__l",
+      "radial_collateral_ligament_of_wrist_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "radiocapitate_ligament",
+     "name": "Radiocapitate ligament",
+     "nodes": [
+      "radiocapitate_ligament__l",
+      "radiocapitate_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "radioscaphocapitate_ligament",
+     "name": "Radioscaphocapitate ligament",
+     "nodes": [
+      "radioscaphocapitate_ligament__l",
+      "radioscaphocapitate_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ulnar_collateral_ligament_of_wrist_joint",
+     "name": "Ulnar collateral ligament of wrist joint",
+     "nodes": [
+      "ulnar_collateral_ligament_of_wrist_joint__l",
+      "ulnar_collateral_ligament_of_wrist_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ulnocapitate_ligament",
+     "name": "Ulnocapitate ligament",
+     "nodes": [
+      "ulnocapitate_ligament__l",
+      "ulnocapitate_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ulnolunate_ligament",
+     "name": "Ulnolunate ligament",
+     "nodes": [
+      "ulnolunate_ligament__l",
+      "ulnolunate_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ulnopisiform_ligament",
+     "name": "Ulnopisiform ligament",
+     "nodes": [
+      "ulnopisiform_ligament",
+      "ulnopisiform_ligament__l"
+     ],
+     "sides": [
+      "left"
+     ]
+    },
+    {
+     "id": "ulnotriquetral_ligament",
+     "name": "Ulnotriquetral ligament",
+     "nodes": [
+      "ulnotriquetral_ligament__l",
+      "ulnotriquetral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fibrous_joints_of_pectoral_girdle",
+   "name": "Fibrous joints of pectoral girdle",
+   "path": [
+    "Joints of upper limb",
+    "Joints of pectoral girdle",
+    "Fibrous joints of pectoral girdle"
+   ],
+   "parts": [
+    {
+     "id": "coraco_acromial_ligament",
+     "name": "Coraco-acromial ligament",
+     "nodes": [
+      "coraco_acromial_ligament__l",
+      "coraco_acromial_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_transverse_scapular_ligament",
+     "name": "Inferior transverse scapular ligament",
+     "nodes": [
+      "inferior_transverse_scapular_ligament__l",
+      "inferior_transverse_scapular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_transverse_scapular_ligament",
+     "name": "Superior transverse scapular ligament",
+     "nodes": [
+      "superior_transverse_scapular_ligament__l",
+      "superior_transverse_scapular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "acromioclavicular_joint",
+   "name": "Acromioclavicular joint",
+   "path": [
+    "Joints of upper limb",
+    "Joints of pectoral girdle",
+    "Synovial joints of pectoral girdle",
+    "Acromioclavicular joint"
+   ],
+   "parts": [
+    {
+     "id": "acromioclavicular_ligament",
+     "name": "Acromioclavicular ligament",
+     "nodes": [
+      "acromioclavicular_ligament__l",
+      "acromioclavicular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "articular_capsule_of_acromioclavicular_joint",
+     "name": "Articular capsule of acromioclavicular joint",
+     "nodes": [
+      "articular_capsule_of_acromioclavicular_joint__l",
+      "articular_capsule_of_acromioclavicular_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "articular_disc_of_acromioclavicular_joint",
+     "name": "Articular disc of acromioclavicular joint",
+     "nodes": [
+      "articular_disc_of_acromioclavicular_joint__l",
+      "articular_disc_of_acromioclavicular_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "conoid_ligament",
+     "name": "Conoid ligament",
+     "nodes": [
+      "conoid_ligament__l",
+      "conoid_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "trapezoid_ligament",
+     "name": "Trapezoid ligament",
+     "nodes": [
+      "trapezoid_ligament__l",
+      "trapezoid_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sternoclavicular_joint",
+   "name": "Sternoclavicular joint",
+   "path": [
+    "Joints of upper limb",
+    "Joints of pectoral girdle",
+    "Synovial joints of pectoral girdle",
+    "Sternoclavicular joint"
+   ],
+   "parts": [
+    {
+     "id": "anterior_sternoclavicular_ligament",
+     "name": "Anterior sternoclavicular ligament",
+     "nodes": [
+      "anterior_sternoclavicular_ligament__l",
+      "anterior_sternoclavicular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "articular_capsule_of_sternoclavicular_joint",
+     "name": "Articular capsule of sternoclavicular joint",
+     "nodes": [
+      "articular_capsule_of_sternoclavicular_joint__l",
+      "articular_capsule_of_sternoclavicular_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "articular_disc_of_sternoclavicular_joint",
+     "name": "Articular disc of sternoclavicular joint",
+     "nodes": [
+      "articular_disc_of_sternoclavicular_joint__l",
+      "articular_disc_of_sternoclavicular_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "costoclavicular_ligament",
+     "name": "Costoclavicular ligament",
+     "nodes": [
+      "costoclavicular_ligament__l",
+      "costoclavicular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "interclavicular_ligament",
+     "name": "Interclavicular ligament",
+     "nodes": [
+      "interclavicular_ligament__l",
+      "interclavicular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_sternoclavicular_ligament",
+     "name": "Posterior sternoclavicular ligament",
+     "nodes": [
+      "posterior_sternoclavicular_ligament__l",
+      "posterior_sternoclavicular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fibrous_joints_of_free_lower_limb",
+   "name": "Fibrous joints of free lower limb",
+   "path": [
+    "Joints of lower limb",
+    "Joints of free lower limb",
+    "Fibrous joints of free lower limb"
+   ],
+   "parts": [
+    {
+     "id": "interosseous_membrane_of_leg",
+     "name": "Interosseous membrane of leg",
+     "nodes": [
+      "interosseous_membrane_of_leg__l",
+      "interosseous_membrane_of_leg__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tibiofibular_syndesmosis",
+   "name": "Tibiofibular syndesmosis",
+   "path": [
+    "Joints of lower limb",
+    "Joints of free lower limb",
+    "Fibrous joints of free lower limb",
+    "Tibiofibular syndesmosis"
+   ],
+   "parts": [
+    {
+     "id": "anterior_tibiofibular_ligament",
+     "name": "Anterior tibiofibular ligament",
+     "nodes": [
+      "anterior_tibiofibular_ligament__l",
+      "anterior_tibiofibular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_tibiofibular_ligament",
+     "name": "Posterior tibiofibular ligament",
+     "nodes": [
+      "posterior_tibiofibular_ligament__l",
+      "posterior_tibiofibular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "transverse_tibiofibular_ligament",
+     "name": "Transverse tibiofibular ligament",
+     "nodes": [
+      "transverse_tibiofibular_ligament__l",
+      "transverse_tibiofibular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lateral_collateral_ligament_of_ankle",
+   "name": "Lateral collateral ligament of ankle",
+   "path": [
+    "Joints of lower limb",
+    "Joints of free lower limb",
+    "Synovial joints of free lower limb",
+    "Ankle joint",
+    "Lateral collateral ligament of ankle"
+   ],
+   "parts": [
+    {
+     "id": "anterior_talofibular_ligament",
+     "name": "Anterior talofibular ligament",
+     "nodes": [
+      "anterior_talofibular_ligament__l",
+      "anterior_talofibular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "calcaneofibular_ligament",
+     "name": "Calcaneofibular ligament",
+     "nodes": [
+      "calcaneofibular_ligament__l",
+      "calcaneofibular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_talofibular_ligament",
+     "name": "Posterior talofibular ligament",
+     "nodes": [
+      "posterior_talofibular_ligament__l",
+      "posterior_talofibular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "medial_collateral_ligament_of_ankle",
+   "name": "Medial collateral ligament of ankle",
+   "path": [
+    "Joints of lower limb",
+    "Joints of free lower limb",
+    "Synovial joints of free lower limb",
+    "Ankle joint",
+    "Medial collateral ligament of ankle"
+   ],
+   "parts": [
+    {
+     "id": "posterior_tibiotalar_ligament",
+     "name": "Posterior tibiotalar ligament",
+     "nodes": [
+      "posterior_tibiotalar_ligament__l",
+      "posterior_tibiotalar_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "tibiocalcaneal_ligament",
+     "name": "Tibiocalcaneal ligament",
+     "nodes": [
+      "tibiocalcaneal_ligament__l",
+      "tibiocalcaneal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "tibionavicular_ligament",
+     "name": "Tibionavicular ligament",
+     "nodes": [
+      "tibionavicular_ligament__l",
+      "tibionavicular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hip_joint",
+   "name": "Hip joint",
+   "path": [
+    "Joints of lower limb",
+    "Joints of free lower limb",
+    "Synovial joints of free lower limb",
+    "Hip joint"
+   ],
+   "parts": [
+    {
+     "id": "acetabular_labrum",
+     "name": "Acetabular labrum",
+     "nodes": [
+      "acetabular_labrum__l",
+      "acetabular_labrum__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "articular_capsule_of_hip_joint",
+     "name": "Articular capsule of hip joint",
+     "nodes": [
+      "articular_capsule_of_hip_joint__l",
+      "articular_capsule_of_hip_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "frenula_capsulae",
+     "name": "Frenula capsulae",
+     "nodes": [
+      "frenula_capsulae__l",
+      "frenula_capsulae__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "iliofemoral_ligament",
+     "name": "Iliofemoral ligament",
+     "nodes": [
+      "descending_part_of_iliofemoral_ligament__l",
+      "descending_part_of_iliofemoral_ligament__r",
+      "transverse_part_of_iliofemoral_ligament__l",
+      "transverse_part_of_iliofemoral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "ischiofemoral_ligament",
+     "name": "Ischiofemoral ligament",
+     "nodes": [
+      "ischiofemoral_ligament__l",
+      "ischiofemoral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ligament_of_head_of_femur",
+     "name": "Ligament of head of femur",
+     "nodes": [
+      "ligament_of_head_of_femur__l",
+      "ligament_of_head_of_femur__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pubofemoral_ligament",
+     "name": "Pubofemoral ligament",
+     "nodes": [
+      "pubofemoral_ligament__l",
+      "pubofemoral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "transverse_acetabular_ligament",
+     "name": "Transverse acetabular ligament",
+     "nodes": [
+      "transverse_acetabular_ligament__l",
+      "transverse_acetabular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "zona_orbicularis",
+     "name": "Zona orbicularis",
+     "nodes": [
+      "zona_orbicularis__l",
+      "zona_orbicularis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "intermetatarsal_joints",
+   "name": "Intermetatarsal joints",
+   "path": [
+    "Joints of lower limb",
+    "Joints of free lower limb",
+    "Synovial joints of free lower limb",
+    "Joints of foot",
+    "Intermetatarsal joints"
+   ],
+   "parts": [
+    {
+     "id": "dorsal_metatarsal_ligaments",
+     "name": "Dorsal metatarsal ligaments",
+     "nodes": [
+      "dorsal_metatarsal_ligaments__l",
+      "dorsal_metatarsal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "intersesamoid_ligament",
+     "name": "Intersesamoid ligament",
+     "nodes": [
+      "intersesamoid_ligament__l",
+      "intersesamoid_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "metatarsal_interosseous_ligaments",
+     "name": "Metatarsal interosseous ligaments",
+     "nodes": [
+      "metatarsal_interosseous_ligaments__l",
+      "metatarsal_interosseous_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "plantar_metatarsal_ligaments",
+     "name": "Plantar metatarsal ligaments",
+     "nodes": [
+      "plantar_metatarsal_ligaments__l",
+      "plantar_metatarsal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "interphalangeal_joints_of_foot",
+   "name": "Interphalangeal joints of foot",
+   "path": [
+    "Joints of lower limb",
+    "Joints of free lower limb",
+    "Synovial joints of free lower limb",
+    "Joints of foot",
+    "Interphalangeal joints of foot"
+   ],
+   "parts": [
+    {
+     "id": "articular_capsule_of_interphalangeal_joint_of_great_toe",
+     "name": "Articular capsule of interphalangeal joint of great toe",
+     "nodes": [
+      "articular_capsule_of_interphalangeal_joint_of_great_toe__l",
+      "articular_capsule_of_interphalangeal_joint_of_great_toe__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "articular_capsules_of_distal_interphalangeal_joints_of_foot",
+     "name": "Articular capsules of distal interphalangeal joints of foot",
+     "nodes": [
+      "articular_capsules_of_distal_interphalangeal_joints_of_foot__l",
+      "articular_capsules_of_distal_interphalangeal_joints_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "articular_capsules_of_proximal_interphalangeal_joints_of_foot",
+     "name": "Articular capsules of proximal interphalangeal joints of foot",
+     "nodes": [
+      "articular_capsules_of_proximal_interphalangeal_joints_of_foot__l",
+      "articular_capsules_of_proximal_interphalangeal_joints_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "collateral_interphalangeal_ligaments_of_foot",
+     "name": "Collateral interphalangeal ligaments of foot",
+     "nodes": [
+      "collateral_interphalangeal_ligaments_of_foot__l",
+      "collateral_interphalangeal_ligaments_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "plantar_interphalangeal_ligaments",
+     "name": "Plantar interphalangeal ligaments",
+     "nodes": [
+      "plantar_interphalangeal_ligaments__l",
+      "plantar_interphalangeal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "intertarsal_joints",
+   "name": "Intertarsal joints",
+   "path": [
+    "Joints of lower limb",
+    "Joints of free lower limb",
+    "Synovial joints of free lower limb",
+    "Joints of foot",
+    "Intertarsal joints"
+   ],
+   "parts": [
+    {
+     "id": "anterior_talocalcaneal_ligament",
+     "name": "Anterior talocalcaneal ligament",
+     "nodes": [
+      "anterior_talocalcaneal_ligament__l",
+      "anterior_talocalcaneal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "calcaneocuboid_ligament",
+     "name": "Calcaneocuboid ligament",
+     "nodes": [
+      "calcaneocuboid_ligament__l",
+      "calcaneocuboid_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "calcaneonavicular_ligament",
+     "name": "Calcaneonavicular ligament",
+     "nodes": [
+      "calcaneonavicular_ligament__l",
+      "calcaneonavicular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "cuneocuboid_interosseous_ligament",
+     "name": "Cuneocuboid interosseous ligament",
+     "nodes": [
+      "cuneocuboid_interosseous_ligament__l",
+      "cuneocuboid_interosseous_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_calcaneocuboid_ligament",
+     "name": "Dorsal calcaneocuboid ligament",
+     "nodes": [
+      "dorsal_calcaneocuboid_ligament__l",
+      "dorsal_calcaneocuboid_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_cuboideonavicular_ligament",
+     "name": "Dorsal cuboideonavicular ligament",
+     "nodes": [
+      "dorsal_cuboideonavicular_ligament__l",
+      "dorsal_cuboideonavicular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_cuneocuboid_ligament",
+     "name": "Dorsal cuneocuboid ligament",
+     "nodes": [
+      "dorsal_cuneocuboid_ligament__l",
+      "dorsal_cuneocuboid_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_cuneonavicular_ligaments",
+     "name": "Dorsal cuneonavicular ligaments",
+     "nodes": [
+      "dorsal_cuneonavicular_ligaments__l",
+      "dorsal_cuneonavicular_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_intercuneiform_ligaments",
+     "name": "Dorsal intercuneiform ligaments",
+     "nodes": [
+      "dorsal_intercuneiform_ligaments__l",
+      "dorsal_intercuneiform_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "intercuneiform_interosseous_ligaments",
+     "name": "Intercuneiform interosseous ligaments",
+     "nodes": [
+      "intercuneiform_interosseous_ligaments__l",
+      "intercuneiform_interosseous_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_talocalcaneal_ligament",
+     "name": "Lateral talocalcaneal ligament",
+     "nodes": [
+      "lateral_talocalcaneal_ligament__l",
+      "lateral_talocalcaneal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "long_plantar_ligament",
+     "name": "Long plantar ligament",
+     "nodes": [
+      "long_plantar_ligament__l",
+      "long_plantar_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_talocalcaneal_ligament",
+     "name": "Medial talocalcaneal ligament",
+     "nodes": [
+      "medial_talocalcaneal_ligament__l",
+      "medial_talocalcaneal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "plantar_calcaneocuboid_ligament",
+     "name": "Plantar calcaneocuboid ligament",
+     "nodes": [
+      "plantar_calcaneocuboid_ligament__l",
+      "plantar_calcaneocuboid_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "plantar_calcaneonavicular_ligament",
+     "name": "Plantar calcaneonavicular ligament",
+     "nodes": [
+      "plantar_calcaneonavicular_ligament__l",
+      "plantar_calcaneonavicular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "plantar_cuboideonavicular_ligament",
+     "name": "Plantar cuboideonavicular ligament",
+     "nodes": [
+      "plantar_cuboideonavicular_ligament__l",
+      "plantar_cuboideonavicular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "plantar_cuneocuboid_ligament",
+     "name": "Plantar cuneocuboid ligament",
+     "nodes": [
+      "plantar_cuneocuboid_ligament__l",
+      "plantar_cuneocuboid_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "plantar_cuneonavicular_ligaments",
+     "name": "Plantar cuneonavicular ligaments",
+     "nodes": [
+      "plantar_cuneonavicular_ligaments__l",
+      "plantar_cuneonavicular_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "plantar_intercuneiform_ligaments",
+     "name": "Plantar intercuneiform ligaments",
+     "nodes": [
+      "plantar_intercuneiform_ligaments__l",
+      "plantar_intercuneiform_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_talocalcaneal_ligament",
+     "name": "Posterior talocalcaneal ligament",
+     "nodes": [
+      "posterior_talocalcaneal_ligament__l",
+      "posterior_talocalcaneal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "talocalcaneal_interosseous_ligament",
+     "name": "Talocalcaneal interosseous ligament",
+     "nodes": [
+      "talocalcaneal_interosseous_ligament__l",
+      "talocalcaneal_interosseous_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "talonavicular_ligament",
+     "name": "Talonavicular ligament",
+     "nodes": [
+      "talonavicular_ligament__l",
+      "talonavicular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "metatarsophalangeal_joints",
+   "name": "Metatarsophalangeal joints",
+   "path": [
+    "Joints of lower limb",
+    "Joints of free lower limb",
+    "Synovial joints of free lower limb",
+    "Joints of foot",
+    "Metatarsophalangeal joints"
+   ],
+   "parts": [
+    {
+     "id": "articular_capsules_of_metatarsophalangeal_joints",
+     "name": "Articular capsules of metatarsophalangeal joints",
+     "nodes": [
+      "articular_capsules_of_metatarsophalangeal_joints__l",
+      "articular_capsules_of_metatarsophalangeal_joints__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "collateral_metatarsophalangeal_ligaments",
+     "name": "Collateral metatarsophalangeal ligaments",
+     "nodes": [
+      "collateral_metatarsophalangeal_ligaments__l",
+      "collateral_metatarsophalangeal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "deep_transverse_metatarsal_ligament",
+     "name": "Deep transverse metatarsal ligament",
+     "nodes": [
+      "deep_transverse_metatarsal_ligament__l",
+      "deep_transverse_metatarsal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "plantar_metatarsophalangeal_ligaments",
+     "name": "Plantar metatarsophalangeal ligaments",
+     "nodes": [
+      "plantar_metatarsophalangeal_ligaments__l",
+      "plantar_metatarsophalangeal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tarsometatarsal_joints",
+   "name": "Tarsometatarsal joints",
+   "path": [
+    "Joints of lower limb",
+    "Joints of free lower limb",
+    "Synovial joints of free lower limb",
+    "Joints of foot",
+    "Tarsometatarsal joints"
+   ],
+   "parts": [
+    {
+     "id": "cuneometatarsal_interosseous_ligaments",
+     "name": "Cuneometatarsal interosseous ligaments",
+     "nodes": [
+      "cuneometatarsal_interosseous_ligaments__l",
+      "cuneometatarsal_interosseous_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_tarsometatarsal_ligaments",
+     "name": "Dorsal tarsometatarsal ligaments",
+     "nodes": [
+      "dorsal_tarsometatarsal_ligaments__l",
+      "dorsal_tarsometatarsal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "plantar_tarsometatarsal_ligaments",
+     "name": "Plantar tarsometatarsal ligaments",
+     "nodes": [
+      "plantar_tarsometatarsal_ligaments__l",
+      "plantar_tarsometatarsal_ligaments__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "knee_joint",
+   "name": "Knee joint",
+   "path": [
+    "Joints of lower limb",
+    "Joints of free lower limb",
+    "Synovial joints of free lower limb",
+    "Knee joint"
+   ],
+   "parts": [
+    {
+     "id": "anterior_cruciate_ligament",
+     "name": "Anterior cruciate ligament",
+     "nodes": [
+      "anterior_cruciate_ligament__l",
+      "anterior_cruciate_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "anterior_meniscotibial_ligament_lateral_meniscus",
+     "name": "Anterior meniscotibial ligament (Lateral meniscus)",
+     "nodes": [
+      "anterior_meniscotibial_ligament_lateral_meniscus__l",
+      "anterior_meniscotibial_ligament_lateral_meniscus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "anterior_meniscotibial_ligament_medial_meniscus",
+     "name": "Anterior meniscotibial ligament (Medial meniscus)",
+     "nodes": [
+      "anterior_meniscotibial_ligament_medial_meniscus__l",
+      "anterior_meniscotibial_ligament_medial_meniscus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "arcuate_popliteal_ligament",
+     "name": "Arcuate popliteal ligament",
+     "nodes": [
+      "arcuate_popliteal_ligament__l",
+      "arcuate_popliteal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "articular_capsule_of_knee_joint",
+     "name": "Articular capsule of knee joint",
+     "nodes": [
+      "articular_capsule_of_knee_joint__l",
+      "articular_capsule_of_knee_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "fibular_collateral_ligament",
+     "name": "Fibular collateral ligament",
+     "nodes": [
+      "fibular_collateral_ligament__l",
+      "fibular_collateral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "infrapatellar_fat_pad",
+     "name": "Infrapatellar fat pad",
+     "nodes": [
+      "infrapatellar_fat_pad__l",
+      "infrapatellar_fat_pad__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_meniscus",
+     "name": "Lateral meniscus",
+     "nodes": [
+      "lateral_meniscus__l",
+      "lateral_meniscus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_meniscus",
+     "name": "Medial meniscus",
+     "nodes": [
+      "medial_meniscus__l",
+      "medial_meniscus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "meniscopatellar_ligament",
+     "name": "Meniscopatellar ligament",
+     "nodes": [
+      "meniscopatellar_ligament__l",
+      "meniscopatellar_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "oblique_popliteal_ligament",
+     "name": "Oblique popliteal ligament",
+     "nodes": [
+      "oblique_popliteal_ligament__l",
+      "oblique_popliteal_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "popliteofibular_ligament",
+     "name": "Popliteofibular ligament",
+     "nodes": [
+      "popliteofibular_ligament__l",
+      "popliteofibular_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_cruciate_ligament",
+     "name": "Posterior cruciate ligament",
+     "nodes": [
+      "posterior_cruciate_ligament__l",
+      "posterior_cruciate_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_meniscotibial_ligament_lateral_meniscus",
+     "name": "Posterior meniscotibial ligament (Lateral meniscus)",
+     "nodes": [
+      "posterior_meniscotibial_ligament_lateral_meniscus__l",
+      "posterior_meniscotibial_ligament_lateral_meniscus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_meniscotibial_ligament_medial_meniscus",
+     "name": "Posterior meniscotibial ligament (Medial meniscus)",
+     "nodes": [
+      "posterior_meniscotibial_ligament_medial_meniscus__l",
+      "posterior_meniscotibial_ligament_medial_meniscus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "tibial_collateral_ligament",
+     "name": "Tibial collateral ligament",
+     "nodes": [
+      "deep_part_of_tibial_collateral_ligament__l",
+      "deep_part_of_tibial_collateral_ligament__r",
+      "superficial_part_of_tibial_collateral_ligament__l",
+      "superficial_part_of_tibial_collateral_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "left",
+      "right",
+      "right"
+     ]
+    },
+    {
+     "id": "transverse_ligament_of_knee",
+     "name": "Transverse ligament of knee",
+     "nodes": [
+      "transverse_ligament_of_knee__l",
+      "transverse_ligament_of_knee__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "superior_tibiofibular_joint",
+   "name": "Superior tibiofibular joint",
+   "path": [
+    "Joints of lower limb",
+    "Joints of free lower limb",
+    "Synovial joints of free lower limb",
+    "Superior tibiofibular joint"
+   ],
+   "parts": [
+    {
+     "id": "anterior_ligament_of_fibular_head",
+     "name": "Anterior ligament of fibular head",
+     "nodes": [
+      "anterior_ligament_of_fibular_head__l",
+      "anterior_ligament_of_fibular_head__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "articular_capsule_of_superior_tibiofibular_joint",
+     "name": "Articular capsule of superior tibiofibular joint",
+     "nodes": [
+      "articular_capsule_of_superior_tibiofibular_joint__l",
+      "articular_capsule_of_superior_tibiofibular_joint__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_ligament_of_fibular_head",
+     "name": "Posterior ligament of fibular head",
+     "nodes": [
+      "posterior_ligament_of_fibular_head__l",
+      "posterior_ligament_of_fibular_head__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cartilaginous_joints_of_pelvic_girdle",
+   "name": "Cartilaginous joints of pelvic girdle",
+   "path": [
+    "Joints of lower limb",
+    "Joints of pelvic girdle",
+    "Cartilaginous joints of pelvic girdle"
+   ],
+   "parts": [
+    {
+     "id": "inferior_pubic_ligament",
+     "name": "Inferior pubic ligament",
+     "nodes": [
+      "inferior_pubic_ligament"
+     ],
+     "sides": null
+    },
+    {
+     "id": "interpubic_disc",
+     "name": "Interpubic disc",
+     "nodes": [
+      "interpubic_disc"
+     ],
+     "sides": null
+    },
+    {
+     "id": "pubic_symphysis",
+     "name": "Pubic symphysis",
+     "nodes": [
+      "pubic_symphysis"
+     ],
+     "sides": null
+    },
+    {
+     "id": "superior_pubic_ligament",
+     "name": "Superior pubic ligament",
+     "nodes": [
+      "superior_pubic_ligament"
+     ],
+     "sides": null
+    },
+    {
+     "id": "triradiate_cartilage",
+     "name": "Triradiate cartilage",
+     "nodes": [
+      "triradiate_cartilage__l",
+      "triradiate_cartilage__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fibrous_joints_of_pelvic_girdle",
+   "name": "Fibrous joints of pelvic girdle",
+   "path": [
+    "Joints of lower limb",
+    "Joints of pelvic girdle",
+    "Fibrous joints of pelvic girdle"
+   ],
+   "parts": [
+    {
+     "id": "iliolumbar_ligament",
+     "name": "Iliolumbar ligament",
+     "nodes": [
+      "iliolumbar_ligament__l",
+      "iliolumbar_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "obturator_membrane",
+     "name": "Obturator membrane",
+     "nodes": [
+      "obturator_membrane__l",
+      "obturator_membrane__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sacrospinous_ligament",
+     "name": "Sacrospinous ligament",
+     "nodes": [
+      "sacrospinous_ligament__l",
+      "sacrospinous_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sacrotuberous_ligament",
+     "name": "Sacrotuberous ligament",
+     "nodes": [
+      "sacrotuberous_ligament__l",
+      "sacrotuberous_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sacro_iliac_joint",
+   "name": "Sacro-iliac joint",
+   "path": [
+    "Joints of lower limb",
+    "Joints of pelvic girdle",
+    "Synovial joints of pelvic girdle",
+    "Sacro-iliac joint"
+   ],
+   "parts": [
+    {
+     "id": "anterior_sacro_iliac_ligament",
+     "name": "Anterior sacro-iliac ligament",
+     "nodes": [
+      "anterior_sacro_iliac_ligament__l",
+      "anterior_sacro_iliac_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "interosseous_sacro_iliac_ligament",
+     "name": "Interosseous sacro-iliac ligament",
+     "nodes": [
+      "interosseous_sacro_iliac_ligament__l",
+      "interosseous_sacro_iliac_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_sacro_iliac_ligament",
+     "name": "Posterior sacro-iliac ligament",
+     "nodes": [
+      "posterior_sacro_iliac_ligament__l",
+      "posterior_sacro_iliac_ligament__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  }
+ ]
+}

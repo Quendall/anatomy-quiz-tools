@@ -1,0 +1,1147 @@
+{
+ "id": "visceral",
+ "name": "Visceral systems",
+ "color": "#E39AB0",
+ "model": "models/visceral.glb",
+ "groups": [
+  {
+   "id": "larynx",
+   "name": "Larynx",
+   "path": [
+    "Respiratory system",
+    "Larynx"
+   ],
+   "parts": [
+    {
+     "id": "epiglottis",
+     "name": "Epiglottis",
+     "nodes": [
+      "epiglottis"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "left_lung",
+   "name": "Left lung",
+   "path": [
+    "Respiratory system",
+    "Lungs",
+    "Left lung"
+   ],
+   "parts": [
+    {
+     "id": "inferior_lobe_of_left_lung",
+     "name": "Inferior lobe of left lung",
+     "nodes": [
+      "inferior_lobe_of_left_lung"
+     ],
+     "sides": null
+    },
+    {
+     "id": "superior_lobe_of_left_lung",
+     "name": "Superior lobe of left lung",
+     "nodes": [
+      "superior_lobe_of_left_lung"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "right_lung",
+   "name": "Right lung",
+   "path": [
+    "Respiratory system",
+    "Lungs",
+    "Right lung"
+   ],
+   "parts": [
+    {
+     "id": "inferior_lobe_of_right_lung",
+     "name": "Inferior lobe of right lung",
+     "nodes": [
+      "inferior_lobe_of_right_lung"
+     ],
+     "sides": null
+    },
+    {
+     "id": "middle_lobe_of_right_lung",
+     "name": "Middle lobe of right lung",
+     "nodes": [
+      "middle_lobe_of_right_lung"
+     ],
+     "sides": null
+    },
+    {
+     "id": "superior_lobe_of_right_lung",
+     "name": "Superior lobe of right lung",
+     "nodes": [
+      "superior_lobe_of_right_lung"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "nose",
+   "name": "Nose",
+   "path": [
+    "Respiratory system",
+    "Nose"
+   ],
+   "parts": [
+    {
+     "id": "mucosa_of_nasal_cavity",
+     "name": "Mucosa of nasal cavity",
+     "nodes": [
+      "mucosa_of_nasal_cavity"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "tracheobronchial_tree",
+   "name": "Tracheobronchial tree",
+   "path": [
+    "Respiratory system",
+    "Tracheobronchial tree"
+   ],
+   "parts": [
+    {
+     "id": "trachea",
+     "name": "Trachea",
+     "nodes": [
+      "trachea"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "bronchi",
+   "name": "Bronchi",
+   "path": [
+    "Respiratory system",
+    "Tracheobronchial tree",
+    "Bronchi"
+   ],
+   "parts": [
+    {
+     "id": "anteromedial_basal_segmental_bronchus_of_left_lung",
+     "name": "(Anteromedial basal segmental bronchus of left lung)",
+     "nodes": [
+      "anteromedial_basal_segmental_bronchus_of_left_lung"
+     ],
+     "sides": null
+    },
+    {
+     "id": "anterior_basal_segmental_bronchus_of_left_lung_bviii",
+     "name": "Anterior basal segmental bronchus of left lung (BVIII)",
+     "nodes": [
+      "anterior_basal_segmental_bronchus_of_left_lung_bviii"
+     ],
+     "sides": null
+    },
+    {
+     "id": "anterior_basal_segmental_bronchus_of_right_lung_bviii",
+     "name": "Anterior basal segmental bronchus of right lung (BVIII)",
+     "nodes": [
+      "anterior_basal_segmental_bronchus_of_right_lung_bviii"
+     ],
+     "sides": null
+    },
+    {
+     "id": "anterior_segmental_bronchus_of_left_lung_biii",
+     "name": "Anterior segmental bronchus of left lung (BIII)",
+     "nodes": [
+      "anterior_segmental_bronchus_of_left_lung_biii"
+     ],
+     "sides": null
+    },
+    {
+     "id": "anterior_segmental_bronchus_of_right_lung_biii",
+     "name": "Anterior segmental bronchus of right lung (BIII)",
+     "nodes": [
+      "anterior_segmental_bronchus_of_right_lung_biii"
+     ],
+     "sides": null
+    },
+    {
+     "id": "apical_segmental_bronchus_of_right_lung_bi",
+     "name": "Apical segmental bronchus of right lung (BI)",
+     "nodes": [
+      "apical_segmental_bronchus_of_right_lung_bi"
+     ],
+     "sides": null
+    },
+    {
+     "id": "apicoposterior_segmental_bronchus_of_left_lung_bi_bii",
+     "name": "Apicoposterior segmental bronchus of left lung (BI+BII)",
+     "nodes": [
+      "apicoposterior_segmental_bronchus_of_left_lung_bi_bii"
+     ],
+     "sides": null
+    },
+    {
+     "id": "inferior_lingular_segmental_bronchus_of_left_lung_bv",
+     "name": "Inferior lingular segmental bronchus of left lung (BV)",
+     "nodes": [
+      "inferior_lingular_segmental_bronchus_of_left_lung_bv"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intermediate_bronchus",
+     "name": "Intermediate bronchus",
+     "nodes": [
+      "intermediate_bronchus__r"
+     ],
+     "sides": [
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_basal_segmental_bronchus_of_left_lung_bix",
+     "name": "Lateral basal segmental bronchus of left lung (BIX)",
+     "nodes": [
+      "lateral_basal_segmental_bronchus_of_left_lung_bix"
+     ],
+     "sides": null
+    },
+    {
+     "id": "lateral_basal_segmental_bronchus_of_right_lung_bix",
+     "name": "Lateral basal segmental bronchus of right lung (BIX)",
+     "nodes": [
+      "lateral_basal_segmental_bronchus_of_right_lung_bix"
+     ],
+     "sides": null
+    },
+    {
+     "id": "lateral_segmental_bronchus_of_right_lung_biv",
+     "name": "Lateral segmental bronchus of right lung (BIV)",
+     "nodes": [
+      "lateral_segmental_bronchus_of_right_lung_biv"
+     ],
+     "sides": null
+    },
+    {
+     "id": "left_inferior_lobar_bronchus",
+     "name": "Left inferior lobar bronchus",
+     "nodes": [
+      "left_inferior_lobar_bronchus"
+     ],
+     "sides": null
+    },
+    {
+     "id": "left_main_bronchus",
+     "name": "Left main bronchus",
+     "nodes": [
+      "left_main_bronchus"
+     ],
+     "sides": null
+    },
+    {
+     "id": "left_superior_lobar_bronchus",
+     "name": "Left superior lobar bronchus",
+     "nodes": [
+      "left_superior_lobar_bronchus"
+     ],
+     "sides": null
+    },
+    {
+     "id": "medial_basal_segmental_bronchus_of_left_lung_bvii",
+     "name": "Medial basal segmental bronchus of left lung (BVII)",
+     "nodes": [
+      "medial_basal_segmental_bronchus_of_left_lung_bvii"
+     ],
+     "sides": null
+    },
+    {
+     "id": "medial_basal_segmental_bronchus_of_right_lung_bvii",
+     "name": "Medial basal segmental bronchus of right lung (BVII)",
+     "nodes": [
+      "medial_basal_segmental_bronchus_of_right_lung_bvii"
+     ],
+     "sides": null
+    },
+    {
+     "id": "medial_segmental_bronchus_of_right_lung_bv",
+     "name": "Medial segmental bronchus of right lung (BV)",
+     "nodes": [
+      "medial_segmental_bronchus_of_right_lung_bv"
+     ],
+     "sides": null
+    },
+    {
+     "id": "middle_lobar_bronchus",
+     "name": "Middle lobar bronchus",
+     "nodes": [
+      "middle_lobar_bronchus__r"
+     ],
+     "sides": [
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_basal_segmental_bronchus_of_left_lung_bx",
+     "name": "Posterior basal segmental bronchus of left lung (BX)",
+     "nodes": [
+      "posterior_basal_segmental_bronchus_of_left_lung_bx"
+     ],
+     "sides": null
+    },
+    {
+     "id": "posterior_basal_segmental_bronchus_of_right_lung_bx",
+     "name": "Posterior basal segmental bronchus of right lung (BX)",
+     "nodes": [
+      "posterior_basal_segmental_bronchus_of_right_lung_bx"
+     ],
+     "sides": null
+    },
+    {
+     "id": "posterior_segmental_bronchus_of_right_lung_bii",
+     "name": "Posterior segmental bronchus of right lung (BII)",
+     "nodes": [
+      "posterior_segmental_bronchus_of_right_lung_bii"
+     ],
+     "sides": null
+    },
+    {
+     "id": "right_inferior_lobar_bronchus",
+     "name": "Right inferior lobar bronchus",
+     "nodes": [
+      "right_inferior_lobar_bronchus"
+     ],
+     "sides": null
+    },
+    {
+     "id": "right_main_bronchus",
+     "name": "Right main bronchus",
+     "nodes": [
+      "right_main_bronchus"
+     ],
+     "sides": null
+    },
+    {
+     "id": "right_superior_lobar_bronchus",
+     "name": "Right superior lobar bronchus",
+     "nodes": [
+      "right_superior_lobar_bronchus"
+     ],
+     "sides": null
+    },
+    {
+     "id": "superior_lingular_segmental_bronchus_of_left_lung_biv",
+     "name": "Superior lingular segmental bronchus of left lung (BIV)",
+     "nodes": [
+      "superior_lingular_segmental_bronchus_of_left_lung_biv"
+     ],
+     "sides": null
+    },
+    {
+     "id": "superior_segmental_bronchus_of_left_lung_bvi",
+     "name": "Superior segmental bronchus of left lung (BVI)",
+     "nodes": [
+      "superior_segmental_bronchus_of_left_lung_bvi"
+     ],
+     "sides": null
+    },
+    {
+     "id": "superior_segmental_bronchus_of_right_lung_bvi",
+     "name": "Superior segmental bronchus of right lung (BVI)",
+     "nodes": [
+      "superior_segmental_bronchus_of_right_lung_bvi"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "pleura",
+   "name": "Pleura",
+   "path": [
+    "Thoracic cavity"
+   ],
+   "parts": [
+    {
+     "id": "pleura",
+     "name": "Pleura",
+     "nodes": [
+      "pleura"
+     ],
+     "sides": null,
+     "hidden": true
+    }
+   ]
+  },
+  {
+   "id": "liver_gallbladder_and_pancreas",
+   "name": "Liver, gallbladder and pancreas",
+   "path": [
+    "Digestive system"
+   ],
+   "parts": [
+    {
+     "id": "accessory_pancreatic_duct",
+     "name": "Accessory pancreatic duct",
+     "nodes": [
+      "accessory_pancreatic_duct"
+     ],
+     "sides": null
+    },
+    {
+     "id": "gallbladder",
+     "name": "Gallbladder",
+     "nodes": [
+      "gallbladder"
+     ],
+     "sides": null
+    },
+    {
+     "id": "liver",
+     "name": "Liver",
+     "nodes": [
+      "liver"
+     ],
+     "sides": null
+    },
+    {
+     "id": "pancreas",
+     "name": "Pancreas",
+     "nodes": [
+      "pancreas"
+     ],
+     "sides": null
+    },
+    {
+     "id": "pancreatic_duct",
+     "name": "Pancreatic duct",
+     "nodes": [
+      "pancreatic_duct"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "segments_of_liver",
+   "name": "Segments of liver",
+   "path": [
+    "Digestive system"
+   ],
+   "parts": [
+    {
+     "id": "anterior_lateral_segment_of_liver_vi",
+     "name": "Anterior lateral segment of liver (VI)",
+     "nodes": [
+      "anterior_lateral_segment_of_liver_vi"
+     ],
+     "sides": null,
+     "hidden": true
+    },
+    {
+     "id": "anterior_medial_segment_of_liver_v",
+     "name": "Anterior medial segment of liver (V)",
+     "nodes": [
+      "anterior_medial_segment_of_liver_v"
+     ],
+     "sides": null,
+     "hidden": true
+    },
+    {
+     "id": "left_anterior_lateral_segment_of_liver_iii",
+     "name": "Left anterior lateral segment of liver (III)",
+     "nodes": [
+      "left_anterior_lateral_segment_of_liver_iii"
+     ],
+     "sides": null,
+     "hidden": true
+    },
+    {
+     "id": "left_medial_segment_of_liver_iv",
+     "name": "Left medial segment of liver (IV)",
+     "nodes": [
+      "left_medial_segment_of_liver_iv"
+     ],
+     "sides": null,
+     "hidden": true
+    },
+    {
+     "id": "left_posterior_lateral_segment_of_liver_ii",
+     "name": "Left posterior lateral segment of liver (II)",
+     "nodes": [
+      "left_posterior_lateral_segment_of_liver_ii"
+     ],
+     "sides": null,
+     "hidden": true
+    },
+    {
+     "id": "posterior_lateral_segment_of_liver_vii",
+     "name": "Posterior lateral segment of liver (VII)",
+     "nodes": [
+      "posterior_lateral_segment_of_liver_vii"
+     ],
+     "sides": null,
+     "hidden": true
+    },
+    {
+     "id": "posterior_medial_segment_of_liver_viii",
+     "name": "Posterior medial segment of liver (VIII)",
+     "nodes": [
+      "posterior_medial_segment_of_liver_viii"
+     ],
+     "sides": null,
+     "hidden": true
+    },
+    {
+     "id": "posterior_segment_of_liver_i",
+     "name": "Posterior segment of liver (I)",
+     "nodes": [
+      "posterior_segment_of_liver_i"
+     ],
+     "sides": null,
+     "hidden": true
+    }
+   ]
+  },
+  {
+   "id": "oesophagus_and_stomach",
+   "name": "Oesophagus and stomach",
+   "path": [
+    "Digestive system",
+    "Digestive canal"
+   ],
+   "parts": [
+    {
+     "id": "oesophagus",
+     "name": "Oesophagus",
+     "nodes": [
+      "oesophagus"
+     ],
+     "sides": null
+    },
+    {
+     "id": "stomach",
+     "name": "Stomach",
+     "nodes": [
+      "stomach"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "colon",
+   "name": "Colon",
+   "path": [
+    "Digestive system",
+    "Digestive canal",
+    "Large intestine",
+    "Colon"
+   ],
+   "parts": [
+    {
+     "id": "ascending_colon",
+     "name": "Ascending colon",
+     "nodes": [
+      "ascending_colon"
+     ],
+     "sides": null
+    },
+    {
+     "id": "descending_colon",
+     "name": "Descending colon",
+     "nodes": [
+      "descending_colon"
+     ],
+     "sides": null
+    },
+    {
+     "id": "sigmoid_colon",
+     "name": "Sigmoid colon",
+     "nodes": [
+      "sigmoid_colon"
+     ],
+     "sides": null
+    },
+    {
+     "id": "transverse_colon",
+     "name": "Transverse colon",
+     "nodes": [
+      "transverse_colon"
+     ],
+     "sides": null
+    },
+    {
+     "id": "vermiform_appendix",
+     "name": "Vermiform appendix",
+     "nodes": [
+      "vermiform_appendix"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "taeniae_coli",
+   "name": "Taeniae coli",
+   "path": [
+    "Digestive system",
+    "Digestive canal",
+    "Large intestine",
+    "Colon",
+    "Taeniae coli"
+   ],
+   "parts": [
+    {
+     "id": "free_taenia",
+     "name": "Free taenia",
+     "nodes": [
+      "free_taenia"
+     ],
+     "sides": null
+    },
+    {
+     "id": "mesocolic_taenia",
+     "name": "Mesocolic taenia",
+     "nodes": [
+      "mesocolic_taenia"
+     ],
+     "sides": null
+    },
+    {
+     "id": "omental_taenia",
+     "name": "Omental taenia",
+     "nodes": [
+      "omental_taenia"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "small_intestine",
+   "name": "Small intestine",
+   "path": [
+    "Digestive system",
+    "Digestive canal",
+    "Small intestine"
+   ],
+   "parts": [
+    {
+     "id": "duodenum",
+     "name": "Duodenum",
+     "nodes": [
+      "duodenum"
+     ],
+     "sides": null
+    },
+    {
+     "id": "jejunum",
+     "name": "Jejunum",
+     "nodes": [
+      "jejunum"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "extrahepatic_bile_ducts",
+   "name": "Extrahepatic bile ducts",
+   "path": [
+    "Digestive system",
+    "Extrahepatic bile ducts"
+   ],
+   "parts": [
+    {
+     "id": "bile_duct",
+     "name": "Bile duct",
+     "nodes": [
+      "bile_duct"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "mouth",
+   "name": "Mouth",
+   "path": [
+    "Digestive system",
+    "Mouth"
+   ],
+   "parts": [
+    {
+     "id": "gingiva",
+     "name": "Gingiva",
+     "nodes": [
+      "gingiva"
+     ],
+     "sides": null
+    },
+    {
+     "id": "soft_palate",
+     "name": "Soft palate",
+     "nodes": [
+      "soft_palate"
+     ],
+     "sides": null
+    },
+    {
+     "id": "tongue",
+     "name": "Tongue",
+     "nodes": [
+      "tongue"
+     ],
+     "sides": null
+    },
+    {
+     "id": "uvula_of_palate",
+     "name": "Uvula of palate",
+     "nodes": [
+      "uvula_of_palate"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "major_salivary_glands",
+   "name": "Major salivary glands",
+   "path": [
+    "Digestive system",
+    "Mouth",
+    "Salivary glands",
+    "Major salivary glands"
+   ],
+   "parts": [
+    {
+     "id": "accessory_parotid_gland",
+     "name": "(Accessory parotid gland)",
+     "nodes": [
+      "accessory_parotid_gland__l",
+      "accessory_parotid_gland__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "parotid_duct",
+     "name": "Parotid duct",
+     "nodes": [
+      "parotid_duct__l",
+      "parotid_duct__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "parotid_gland",
+     "name": "Parotid gland",
+     "nodes": [
+      "parotid_gland__l",
+      "parotid_gland__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sublingual_gland",
+     "name": "Sublingual gland",
+     "nodes": [
+      "sublingual_gland__l",
+      "sublingual_gland__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "submandibular_duct",
+     "name": "Submandibular duct",
+     "nodes": [
+      "submandibular_duct__l",
+      "submandibular_duct__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "submandibular_gland",
+     "name": "Submandibular gland",
+     "nodes": [
+      "submandibular_gland__l",
+      "submandibular_gland__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pharynx",
+   "name": "Pharynx",
+   "path": [
+    "Digestive system",
+    "Pharynx"
+   ],
+   "parts": [
+    {
+     "id": "laryngopharynx",
+     "name": "Laryngopharynx",
+     "nodes": [
+      "laryngopharynx"
+     ],
+     "sides": null
+    },
+    {
+     "id": "nasopharynx",
+     "name": "Nasopharynx",
+     "nodes": [
+      "nasopharynx"
+     ],
+     "sides": null
+    },
+    {
+     "id": "oropharynx",
+     "name": "Oropharynx",
+     "nodes": [
+      "oropharynx"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "peritoneal_structures",
+   "name": "Peritoneal structures",
+   "path": [
+    "Abdominopelvic cavity",
+    "Peritoneal structures"
+   ],
+   "parts": [
+    {
+     "id": "greater_omentum",
+     "name": "Greater omentum",
+     "nodes": [
+      "greater_omentum"
+     ],
+     "sides": null,
+     "hidden": true
+    },
+    {
+     "id": "lesser_omentum",
+     "name": "Lesser omentum",
+     "nodes": [
+      "lesser_omentum"
+     ],
+     "sides": null
+    },
+    {
+     "id": "meso_appendix",
+     "name": "Meso-appendix",
+     "nodes": [
+      "meso_appendix"
+     ],
+     "sides": null
+    },
+    {
+     "id": "mesocolon",
+     "name": "Mesocolon",
+     "nodes": [
+      "mesocolon"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "urinary_system",
+   "name": "Urinary system",
+   "path": [
+    "Urinary system"
+   ],
+   "parts": [
+    {
+     "id": "kidney",
+     "name": "Kidney",
+     "nodes": [
+      "kidney__l",
+      "kidney__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "renal_pelvis",
+     "name": "Renal pelvis",
+     "nodes": [
+      "renal_pelvis__l",
+      "renal_pelvis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ureter",
+     "name": "Ureter",
+     "nodes": [
+      "ureter__l",
+      "ureter__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "urethra",
+     "name": "Urethra",
+     "nodes": [
+      "urethra"
+     ],
+     "sides": null
+    },
+    {
+     "id": "urinary_bladder",
+     "name": "Urinary bladder",
+     "nodes": [
+      "urinary_bladder"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "penis",
+   "name": "Penis",
+   "path": [
+    "Genital systems",
+    "Male genital system",
+    "Male external genitalia",
+    "Penis"
+   ],
+   "parts": [
+    {
+     "id": "corpus_cavernosum_of_penis",
+     "name": "Corpus cavernosum of penis",
+     "nodes": [
+      "corpus_cavernosum_of_penis"
+     ],
+     "sides": null
+    },
+    {
+     "id": "corpus_spongiosum_of_penis",
+     "name": "Corpus spongiosum of penis",
+     "nodes": [
+      "corpus_spongiosum_of_penis"
+     ],
+     "sides": null
+    },
+    {
+     "id": "glans_penis",
+     "name": "Glans penis",
+     "nodes": [
+      "glans_penis"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "male_internal_genitalia",
+   "name": "Male internal genitalia",
+   "path": [
+    "Genital systems",
+    "Male genital system",
+    "Male internal genitalia"
+   ],
+   "parts": [
+    {
+     "id": "ductus_deferens",
+     "name": "Ductus deferens",
+     "nodes": [
+      "ductus_deferens__l",
+      "ductus_deferens__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ejaculatory_duct",
+     "name": "Ejaculatory duct",
+     "nodes": [
+      "ejaculatory_duct__l",
+      "ejaculatory_duct__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "epididymis",
+     "name": "Epididymis",
+     "nodes": [
+      "epididymis__l",
+      "epididymis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "prostate",
+     "name": "Prostate",
+     "nodes": [
+      "prostate"
+     ],
+     "sides": null
+    },
+    {
+     "id": "seminal_gland",
+     "name": "Seminal gland",
+     "nodes": [
+      "seminal_gland__l",
+      "seminal_gland__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "testis",
+     "name": "Testis",
+     "nodes": [
+      "testis__l",
+      "testis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "endocrine_glands",
+   "name": "Endocrine glands",
+   "path": [
+    "Endocrine glands"
+   ],
+   "parts": [
+    {
+     "id": "pineal_gland",
+     "name": "Pineal gland",
+     "nodes": [
+      "pineal_gland"
+     ],
+     "sides": null
+    },
+    {
+     "id": "suprarenal_gland",
+     "name": "Suprarenal gland",
+     "nodes": [
+      "suprarenal_gland__l",
+      "suprarenal_gland__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "thyroid_gland",
+     "name": "Thyroid gland",
+     "nodes": [
+      "thyroid_gland"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "hypophysis",
+   "name": "Hypophysis",
+   "path": [
+    "Endocrine glands",
+    "Hypophysis"
+   ],
+   "parts": [
+    {
+     "id": "adenohypophysis",
+     "name": "Adenohypophysis",
+     "nodes": [
+      "adenohypophysis"
+     ],
+     "sides": null
+    },
+    {
+     "id": "neurohypophysis",
+     "name": "Neurohypophysis",
+     "nodes": [
+      "neurohypophysis"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "parathyroid_glands",
+   "name": "Parathyroid glands",
+   "path": [
+    "Endocrine glands",
+    "Parathyroid glands"
+   ],
+   "parts": [
+    {
+     "id": "inferior_parathyroid_gland",
+     "name": "Inferior parathyroid gland",
+     "nodes": [
+      "inferior_parathyroid_gland__l",
+      "inferior_parathyroid_gland__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_parathyroid_gland",
+     "name": "Superior parathyroid gland",
+     "nodes": [
+      "superior_parathyroid_gland__l",
+      "superior_parathyroid_gland__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  }
+ ]
+}
