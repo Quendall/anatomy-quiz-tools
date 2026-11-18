@@ -48,6 +48,8 @@ For joints, the same "part/head of" merge applies (the two parts of the iliofemo
 
 For visceral systems, the pleura, greater omentum and liver segments are marked `"hidden": true` in the manifest (`DEFAULT_HIDDEN`). They start hidden because they would cover the organs, or overlap the whole liver. Liver segments get their own group. Empty placeholder meshes and `-profile` outline helpers are dropped. Z-Anatomy's file only has the male genital system.
 
+For cardiovascular, vessel branches are parented to their vessel mesh, and Z-Anatomy lists hundreds of them under a few flat groups. `convert.py` groups each vessel tree under its trunk, such as "Femoral artery and branches" or "Internal jugular vein and tributaries" (`TRUNK_GROUPS`). Groups get a `color`: blue for deoxygenated vessels (systemic veins and pulmonary arteries), and the app colors those meshes to match. Two vessels whose names are unreadable in the source ("?x", "????????") are skipped.
+
 `convert.py` refuses to write a manifest whose part ids or node names clash with another system's manifest, because the app indexes them all together.
 
 The `GROUP_ORDER`, `GROUP_RENAME` and `split_group` settings in `convert.py` tidy the tree. For example, Z-Anatomy keeps all the hand bones in one flat group, and `split_group` divides them into carpal, metacarpal and phalanges like the foot.
@@ -59,6 +61,7 @@ The `GROUP_ORDER`, `GROUP_RENAME` and `split_group` settings in `convert.py` tid
 | joints | 413 | 211 | 39 | 6.4 MB → 2.0 MB |
 | muscular | 489 | 216 | 47 | 34.4 MB → 8.9 MB |
 | visceral | 118 | 101 | 24 | 12.1 MB → 2.9 MB |
+| cardiovascular | 673 | 416 | 30 | 24.7 MB → 6.8 MB |
 
 The model is in meters (about 1.7 m tall) and Y-up.
 

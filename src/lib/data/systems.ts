@@ -1,3 +1,4 @@
+import cardiovascular from './manifest/cardiovascular.json';
 import joints from './manifest/joints.json';
 import muscular from './manifest/muscular.json';
 import skeletal from './manifest/skeletal.json';
@@ -20,6 +21,8 @@ export interface GroupDef {
 	name: string;
 	/** Z-Anatomy group path, outermost first. */
 	path: string[];
+	/** Overrides the system color (e.g. veins are blue in the cardiovascular system). */
+	color?: string;
 	parts: PartDef[];
 }
 
@@ -46,7 +49,7 @@ export const SYSTEMS: SystemDef[] = [
 	{ ...(skeletal as Omit<SystemDef, 'available'>), available: true },
 	{ ...(joints as Omit<SystemDef, 'available'>), available: true },
 	{ ...(muscular as Omit<SystemDef, 'available'>), available: true },
-	pending('cardiovascular', 'Cardiovascular system', '#D9465A'),
+	{ ...(cardiovascular as Omit<SystemDef, 'available'>), available: true },
 	pending('nervous', 'Nervous system & sense organs', '#F2D04B'),
 	{ ...(visceral as Omit<SystemDef, 'available'>), available: true },
 	pending('lymphoid', 'Lymphoid organs', '#9ADE7B')

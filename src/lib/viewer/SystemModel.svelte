@@ -6,7 +6,7 @@
 	import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
 	import { acceleratedRaycast, computeBoundsTree, disposeBoundsTree } from 'three-mesh-bvh';
 	import { onMount } from 'svelte';
-	import { nodeToPart, type SystemDef } from '#lib/data/systems.ts';
+	import { nodeToPart, partIndex, type SystemDef } from '#lib/data/systems.ts';
 	import { scene } from '#lib/state/scene.svelte.ts';
 	import { createMaterials } from './materials';
 	import { registry } from './registry';
@@ -19,7 +19,14 @@
 	let { system }: { system: SystemDef } = $props();
 
 	const { invalidate } = useThrelte();
-	const materials = $derived(createMaterials(system.color));
+	// One material set per color: the system color, plus any group overrides (blue veins).
+	const materialSets = new Map<string, ReturnType<typeof createMaterials>>();
+	function materialsFor(partId: string) {
+		const color = partIndex.get(partId)?.group.color ?? system.color;
+		let set = materialSets.get(color);
+		if (!set) materialSets.set(color, (set = createMaterials(color)));
+		return set;
+	}
 	let root = $state<Object3D | null>(null);
 	let meshes: { mesh: Mesh; partId: string }[] = [];
 	let error = $state<string | null>(null);
@@ -62,7 +69,7 @@
 		for (const { mesh, partId } of meshes) {
 			const st = scene.stateOf(partId);
 			mesh.visible = st !== 'hidden';
-			if (st !== 'hidden') mesh.material = materials[st];
+			if (st !== 'hidden') mesh.material = materialsFor(partId)[st];
 			mesh.renderOrder = st === 'xray' || st === 'ghost' ? 1 : 0;
 		}
 		invalidate();

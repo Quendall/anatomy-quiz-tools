@@ -70,6 +70,7 @@ ROOT_ORDERS = {
         "Joints of skull", "Laryngeal joints", "Joints of vertebral column", "Thoracic joints",
         "Joints of upper limb", "Joints of lower limb",
     ],
+    "cardiovascular": ["Arterial system", "Venous system"],
     "visceral": [
         "Respiratory system", "Thoracic cavity", "Digestive system", "Abdominopelvic cavity",
         "Urinary system", "Genital systems", "Endocrine glands",
@@ -82,7 +83,7 @@ DEFAULT_HIDDEN = re.compile(r"^(Pleura|Greater omentum|.* segment of liver \(.*\
 ROOT_ORDER = ROOT_ORDERS.get(SYSTEM_ID, [])
 
 # Systems where "X part/head of Y" siblings are merged into one part "Y".
-MERGE_HEADS = {"muscular", "joints"}
+MERGE_HEADS = {"muscular", "joints", "cardiovascular"}
 
 # Groups left out of the model: fasciae wrap whole limbs (hiding the muscles), and bursae
 # and tendon sheaths are not what a muscle quiz is about.
@@ -103,7 +104,11 @@ HEAD_OF = re.compile(r"^[A-Z][\w-]* (?:head|part|belly)s? of (.+)$")
 
 # Structures folded into another part: the nucleus pulposus sits inside its disc, so it can
 # never be seen or clicked on its own.
-FOLD_INTO = [(re.compile(r"^Nucleus pulposus (.+)$"), r"Intervertebral disc \1")]
+FOLD_INTO = [
+    (re.compile(r"^Nucleus pulposus (.+)$"), r"Intervertebral disc \1"),
+    # A second mesh with a garbled alias: "Inferior vein of left ventricle (//Posterior '')".
+    (re.compile(r"^(.+?) \(//.*\)$"), r"\1"),
+]
 
 
 def merged_part_name(name):
@@ -123,6 +128,10 @@ GROUP_RENAME = {
     "Digestive system": "Liver, gallbladder and pancreas",
     "Digestive canal": "Oesophagus and stomach",
     "Thoracic cavity": "Pleura",
+    # Cardiovascular: the source files a left-valve leaflet under the right valve.
+    "Right atrioventricular valve": "Atrioventricular valves",
+    # After trunk grouping, only the hepatic portal vein is left in "Systemic veins".
+    "Systemic veins": "Hepatic portal vein",
     "Vertebral column": "Sacrum and coccyx",
     "Bones of free part of lower limb": "Bones of thigh and leg",
     "Bones of foot": "Sesamoid bones of foot",
@@ -194,6 +203,10 @@ for o in bpy.data.objects:
     # Empty placeholders and outline helpers (e.g. "Oesophagus-profile") are not structures.
     if not o.data.vertices or o.name.endswith("-profile"):
         continue
+    # Names whose non-ASCII text was lost in the source ("?x", "????????") can't be labelled.
+    if "?" in o.name:
+        print(f"NOTE: skipped {o.name!r} (name is unreadable in the source)")
+        continue
     if suffix(root_of(o).name) != "g":
         continue
     g = nearest_group(o)
@@ -202,6 +215,37 @@ for o in bpy.data.objects:
     if any(SKIP_GROUP.search(n) for n in group_path(g)):
         continue
     keep.append((o, g))
+
+
+def trunk_of(o):
+    """The outermost vessel mesh this branch hangs off (branches are parented to their vessel)."""
+    while o.parent and o.parent.type == "MESH":
+        o = o.parent
+    return o
+
+
+def trunk_name(o):
+    name = re.sub(r"^(Right|Left) ", "", base_name(trunk_of(o).name))
+    name = name.replace(" (thoracic part)", "")
+    return name[0].upper() + name[1:]
+
+
+# Cardiovascular: Z-Anatomy lists hundreds of vessels flat under a few groups. Within these,
+# group each vessel tree under its trunk ("Femoral artery and branches") when it is big enough.
+TRUNK_GROUPS = {"Systemic arteries", "Systemic veins", "Aorta", "Aortic bifurcation"}
+TRUNK_MIN = 4
+trunk_sizes = {}
+for o, g in keep:
+    if base_name(g.name) in TRUNK_GROUPS:
+        trunk_sizes[trunk_name(o)] = trunk_sizes.get(trunk_name(o), 0) + 1
+
+
+def trunk_group(o, g):
+    if base_name(g.name) not in TRUNK_GROUPS or trunk_sizes.get(trunk_name(o), 0) < TRUNK_MIN:
+        return None
+    word = "tributaries" if "Venous system" in group_path(g) else "branches"
+    return f"{trunk_name(o)} and {word}"
+
 
 # Collect manifest data before re-parenting destroys the hierarchy.
 groups = {}  # display group name -> {path, parts: {part_id: part}}
@@ -219,6 +263,7 @@ for o, g in keep:
         part = merged_part_name(part)
     gname = split_group(base_name(g.name), part)
     gname = GROUP_RENAME.get(gname, gname)
+    gname = trunk_group(o, g) or gname
     # Keep both sides of a structure together even if the source files them in different groups.
     home = part_home.setdefault(slug(part), gname)
     if home != gname:
@@ -312,6 +357,19 @@ def order_key(name):
     )
 
 
+DEOXY_BLUE = "#5B7FD6"
+
+
+def group_color(path):
+    """Cardiovascular follows the textbook convention: deoxygenated vessels are blue. That is
+    the systemic veins and the pulmonary arteries; the pulmonary veins carry oxygenated blood."""
+    if SYSTEM_ID != "cardiovascular" or not path or "Valvular complex of heart" in path:
+        return None
+    venous = path[0] == "Venous system"
+    pulmonary = any("Pulmonary" in n or "lobar artery" in n for n in path)
+    return DEOXY_BLUE if venous != pulmonary else None
+
+
 meta = SYSTEMS.get(SYSTEM_ID, {"name": SYSTEM_ID, "color": "#CCCCCC"})
 manifest = {
     "id": SYSTEM_ID,
@@ -323,6 +381,7 @@ manifest = {
             "id": slug(gname),
             "name": gname,
             "path": groups[gname]["path"],
+            **({"color": c} if (c := group_color(groups[gname]["path"])) else {}),
             "parts": sorted(
                 (
                     {
