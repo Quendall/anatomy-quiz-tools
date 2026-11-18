@@ -37,7 +37,8 @@
 		muscular: 'All muscles',
 		visceral: 'All organs',
 		cardiovascular: 'Heart & vessels',
-		nervous: 'Brain, nerves & senses'
+		nervous: 'Brain, nerves & senses',
+		lymphoid: 'Lymph nodes & organs'
 	};
 	const viewerSel = $derived([...scene.selected]);
 	const presets = $derived([

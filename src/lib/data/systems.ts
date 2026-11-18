@@ -1,5 +1,6 @@
 import cardiovascular from './manifest/cardiovascular.json';
 import joints from './manifest/joints.json';
+import lymphoid from './manifest/lymphoid.json';
 import muscular from './manifest/muscular.json';
 import nervous from './manifest/nervous.json';
 import skeletal from './manifest/skeletal.json';
@@ -37,14 +38,6 @@ export interface SystemDef {
 	available: boolean;
 }
 
-const pending = (id: string, name: string, color: string): SystemDef => ({
-	id,
-	name,
-	color,
-	model: `models/${id}.glb`,
-	groups: [],
-	available: false
-});
 
 export const SYSTEMS: SystemDef[] = [
 	{ ...(skeletal as Omit<SystemDef, 'available'>), available: true },
@@ -53,7 +46,7 @@ export const SYSTEMS: SystemDef[] = [
 	{ ...(cardiovascular as Omit<SystemDef, 'available'>), available: true },
 	{ ...(nervous as Omit<SystemDef, 'available'>), available: true },
 	{ ...(visceral as Omit<SystemDef, 'available'>), available: true },
-	pending('lymphoid', 'Lymphoid organs', '#9ADE7B')
+	{ ...(lymphoid as Omit<SystemDef, 'available'>), available: true }
 ];
 
 export interface PartEntry {

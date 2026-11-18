@@ -1,0 +1,1204 @@
+{
+ "id": "lymphoid",
+ "name": "Lymphoid organs",
+ "color": "#9ADE7B",
+ "model": "models/lymphoid.glb",
+ "groups": [
+  {
+   "id": "thymus_spleen_and_tonsils",
+   "name": "Thymus, spleen and tonsils",
+   "path": [
+    "Primary lymphoid organs",
+    "Thymus"
+   ],
+   "parts": [
+    {
+     "id": "left_lobe_of_thymus",
+     "name": "Left lobe of thymus",
+     "nodes": [
+      "left_lobe_of_thymus"
+     ],
+     "sides": null
+    },
+    {
+     "id": "palatine_tonsil",
+     "name": "Palatine tonsil",
+     "nodes": [
+      "palatine_tonsil__l",
+      "palatine_tonsil__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "right_lobe_of_thymus",
+     "name": "Right lobe of thymus",
+     "nodes": [
+      "right_lobe_of_thymus"
+     ],
+     "sides": null
+    },
+    {
+     "id": "spleen",
+     "name": "Spleen",
+     "nodes": [
+      "spleen"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "lymph_nodes_of_head",
+   "name": "Lymph nodes of head",
+   "path": [
+    "Secondary lymphoid organs",
+    "Lymph nodes",
+    "Lymph nodes of head",
+    "Facial nodes"
+   ],
+   "parts": [
+    {
+     "id": "bucinator_node",
+     "name": "Bucinator node",
+     "nodes": [
+      "bucinator_node__l",
+      "bucinator_node__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "infra_auricular_nodes",
+     "name": "Infra-auricular nodes",
+     "nodes": [
+      "infra_auricular_nodes__l",
+      "infra_auricular_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "intraglandular_parotid_nodes",
+     "name": "Intraglandular parotid nodes",
+     "nodes": [
+      "intraglandular_parotid_nodes__l",
+      "intraglandular_parotid_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "mandibular_node",
+     "name": "Mandibular node",
+     "nodes": [
+      "mandibular_node__l",
+      "mandibular_node__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "mastoid_nodes",
+     "name": "Mastoid nodes",
+     "nodes": [
+      "mastoid_nodes__l",
+      "mastoid_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nasolabial_node",
+     "name": "Nasolabial node",
+     "nodes": [
+      "nasolabial_node__l",
+      "nasolabial_node__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "occipital_nodes",
+     "name": "Occipital nodes",
+     "nodes": [
+      "occipital_nodes__l",
+      "occipital_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pre_auricular_nodes",
+     "name": "Pre-auricular nodes",
+     "nodes": [
+      "pre_auricular_nodes__l",
+      "pre_auricular_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superficial_parotid_nodes",
+     "name": "Superficial parotid nodes",
+     "nodes": [
+      "superficial_parotid_nodes__l",
+      "superficial_parotid_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lymph_nodes_of_neck",
+   "name": "Lymph nodes of neck",
+   "path": [
+    "Secondary lymphoid organs",
+    "Lymph nodes",
+    "Lymph nodes of neck",
+    "Lateral cervical nodes",
+    "Inferior deep lateral cervical nodes"
+   ],
+   "parts": [
+    {
+     "id": "anterior_inferior_jugular_nodes",
+     "name": "Anterior inferior jugular nodes",
+     "nodes": [
+      "anterior_inferior_jugular_nodes__l",
+      "anterior_inferior_jugular_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_deep_lateral_cervical_nodes",
+     "name": "Inferior deep lateral cervical nodes",
+     "nodes": [
+      "inferior_deep_lateral_cervical_nodes__l",
+      "inferior_deep_lateral_cervical_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "jugulodigastric_node",
+     "name": "Jugulodigastric node",
+     "nodes": [
+      "jugulodigastric_node__l",
+      "jugulodigastric_node__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_superior_jugular_node",
+     "name": "Lateral superior jugular node",
+     "nodes": [
+      "lateral_superior_jugular_node__l",
+      "lateral_superior_jugular_node__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "paratracheal_cervical_nodes",
+     "name": "Paratracheal cervical nodes",
+     "nodes": [
+      "paratracheal_cervical_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "pretracheal_nodes",
+     "name": "Pretracheal nodes",
+     "nodes": [
+      "pretracheal_nodes__l",
+      "pretracheal_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "retropharyngeal_nodes",
+     "name": "Retropharyngeal nodes",
+     "nodes": [
+      "retropharyngeal_nodes__l",
+      "retropharyngeal_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "submandibular_nodes",
+     "name": "Submandibular nodes",
+     "nodes": [
+      "submandibular_nodes__l",
+      "submandibular_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "submental_nodes",
+     "name": "Submental nodes",
+     "nodes": [
+      "submental_nodes__l",
+      "submental_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superficial_anterior_cervical_nodes",
+     "name": "Superficial anterior cervical nodes",
+     "nodes": [
+      "superficial_anterior_cervical_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "superficial_lateral_cervical_nodes",
+     "name": "Superficial lateral cervical nodes",
+     "nodes": [
+      "superficial_lateral_cervical_nodes__l",
+      "superficial_lateral_cervical_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "supraclavicular_nodes",
+     "name": "Supraclavicular nodes",
+     "nodes": [
+      "supraclavicular_nodes__l",
+      "supraclavicular_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "thyroid_nodes",
+     "name": "Thyroid nodes",
+     "nodes": [
+      "thyroid_nodes__l",
+      "thyroid_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lymph_nodes_of_upper_limb",
+   "name": "Lymph nodes of upper limb",
+   "path": [
+    "Secondary lymphoid organs",
+    "Lymph nodes",
+    "Lymph nodes of upper limb",
+    "Axillary nodes"
+   ],
+   "parts": [
+    {
+     "id": "anterior_axillary_nodes",
+     "name": "Anterior axillary nodes",
+     "nodes": [
+      "anterior_axillary_nodes__l",
+      "anterior_axillary_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "apical_axillary_nodes",
+     "name": "Apical axillary nodes",
+     "nodes": [
+      "apical_axillary_nodes__l",
+      "apical_axillary_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "brachial_nodes",
+     "name": "Brachial nodes",
+     "nodes": [
+      "brachial_nodes__l",
+      "brachial_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "central_axillary_nodes",
+     "name": "Central axillary nodes",
+     "nodes": [
+      "central_axillary_nodes__l",
+      "central_axillary_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "cubital_nodes",
+     "name": "Cubital nodes",
+     "nodes": [
+      "cubital_nodes__l",
+      "cubital_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "infraclavicular_nodes",
+     "name": "Infraclavicular nodes",
+     "nodes": [
+      "infraclavicular_nodes__l",
+      "infraclavicular_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "interpectoral_nodes",
+     "name": "Interpectoral nodes",
+     "nodes": [
+      "interpectoral_nodes__l",
+      "interpectoral_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_axillary_nodes",
+     "name": "Lateral axillary nodes",
+     "nodes": [
+      "lateral_axillary_nodes__l",
+      "lateral_axillary_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_axillary_nodes",
+     "name": "Posterior axillary nodes",
+     "nodes": [
+      "posterior_axillary_nodes__l",
+      "posterior_axillary_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "supratrochlear_nodes",
+     "name": "Supratrochlear nodes",
+     "nodes": [
+      "supratrochlear_nodes__l",
+      "supratrochlear_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "thoracic_lymph_nodes",
+   "name": "Thoracic lymph nodes",
+   "path": [
+    "Secondary lymphoid organs",
+    "Lymph nodes",
+    "Thoracic lymph nodes",
+    "Mediastinal lymph nodes"
+   ],
+   "parts": [
+    {
+     "id": "brachiocephalic_nodes",
+     "name": "Brachiocephalic nodes",
+     "nodes": [
+      "brachiocephalic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "inferior_tracheobronchial_nodes",
+     "name": "Inferior tracheobronchial nodes",
+     "nodes": [
+      "inferior_tracheobronchial_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intercostal_nodes",
+     "name": "Intercostal nodes",
+     "nodes": [
+      "intercostal_nodes__l",
+      "intercostal_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "intrapulmonary_nodes",
+     "name": "Intrapulmonary nodes",
+     "nodes": [
+      "intrapulmonary_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "juxta_oesophageal_nodes",
+     "name": "Juxta-oesophageal nodes",
+     "nodes": [
+      "juxta_oesophageal_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "lateral_pericardial_nodes",
+     "name": "Lateral pericardial nodes",
+     "nodes": [
+      "lateral_pericardial_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "node_of_arch_of_azygos_vein",
+     "name": "Node of arch of azygos vein",
+     "nodes": [
+      "node_of_arch_of_azygos_vein"
+     ],
+     "sides": null
+    },
+    {
+     "id": "node_of_ligamentum_arteriosum",
+     "name": "Node of ligamentum arteriosum",
+     "nodes": [
+      "node_of_ligamentum_arteriosum"
+     ],
+     "sides": null
+    },
+    {
+     "id": "parasternal_nodes",
+     "name": "Parasternal nodes",
+     "nodes": [
+      "parasternal_nodes__l",
+      "parasternal_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "paratracheal_thoracic_nodes",
+     "name": "Paratracheal thoracic nodes",
+     "nodes": [
+      "paratracheal_thoracic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "prepericardial_nodes",
+     "name": "Prepericardial nodes",
+     "nodes": [
+      "prepericardial_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "prevertebral_nodes",
+     "name": "Prevertebral nodes",
+     "nodes": [
+      "prevertebral_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "superior_diaphragmatic_nodes",
+     "name": "Superior diaphragmatic nodes",
+     "nodes": [
+      "superior_diaphragmatic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "superior_tracheobronchial_nodes",
+     "name": "Superior tracheobronchial nodes",
+     "nodes": [
+      "superior_tracheobronchial_nodes"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "parietal_abdominal_lymph_nodes",
+   "name": "Parietal abdominal lymph nodes",
+   "path": [
+    "Secondary lymphoid organs",
+    "Lymph nodes",
+    "Abdominal lymph nodes",
+    "Parietal abdominal lymph nodes"
+   ],
+   "parts": [
+    {
+     "id": "inferior_diaphragmatic_nodes",
+     "name": "Inferior diaphragmatic nodes",
+     "nodes": [
+      "inferior_diaphragmatic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "inferior_epigastric_nodes",
+     "name": "Inferior epigastric nodes",
+     "nodes": [
+      "inferior_epigastric_nodes__l",
+      "inferior_epigastric_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_aortic_nodes",
+     "name": "Lateral aortic nodes",
+     "nodes": [
+      "lateral_aortic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "lateral_caval_nodes",
+     "name": "Lateral caval nodes",
+     "nodes": [
+      "lateral_caval_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "pre_aortic_nodes",
+     "name": "Pre-aortic nodes",
+     "nodes": [
+      "pre_aortic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "precaval_nodes",
+     "name": "Precaval nodes",
+     "nodes": [
+      "precaval_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "retro_aortic_nodes",
+     "name": "Retro-aortic nodes",
+     "nodes": [
+      "retro_aortic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "retrocaval_nodes",
+     "name": "Retrocaval nodes",
+     "nodes": [
+      "retrocaval_nodes"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "visceral_abdominal_lymph_nodes",
+   "name": "Visceral abdominal lymph nodes",
+   "path": [
+    "Secondary lymphoid organs",
+    "Lymph nodes",
+    "Abdominal lymph nodes",
+    "Visceral abdominal lymph nodes",
+    "Pyloric nodes"
+   ],
+   "parts": [
+    {
+     "id": "appendicular_nodes",
+     "name": "Appendicular nodes",
+     "nodes": [
+      "appendicular_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "central_superior_mesenteric_nodes",
+     "name": "Central superior mesenteric nodes",
+     "nodes": [
+      "central_superior_mesenteric_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "coeliac_nodes",
+     "name": "Coeliac nodes",
+     "nodes": [
+      "coeliac_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "cystic_node",
+     "name": "Cystic node",
+     "nodes": [
+      "cystic_node"
+     ],
+     "sides": null
+    },
+    {
+     "id": "ileocolic_nodes",
+     "name": "Ileocolic nodes",
+     "nodes": [
+      "ileocolic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "inferior_pancreatic_nodes",
+     "name": "Inferior pancreatic nodes",
+     "nodes": [
+      "inferior_pancreatic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intermediate_lumbar_nodes",
+     "name": "Intermediate lumbar nodes",
+     "nodes": [
+      "intermediate_lumbar_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "juxta_intestinal_mesenteric_nodes",
+     "name": "Juxta-intestinal mesenteric nodes",
+     "nodes": [
+      "juxta_intestinal_mesenteric_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "left_colic_nodes",
+     "name": "Left colic nodes",
+     "nodes": [
+      "left_colic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "middle_colic_nodes",
+     "name": "Middle colic nodes",
+     "nodes": [
+      "middle_colic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "paracolic_superior_mesenteric_nodes",
+     "name": "Paracolic superior mesenteric nodes",
+     "nodes": [
+      "paracolic_superior_mesenteric_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "precaecal_nodes",
+     "name": "Precaecal nodes",
+     "nodes": [
+      "precaecal_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "retrocaecal_nodes",
+     "name": "Retrocaecal nodes",
+     "nodes": [
+      "retrocaecal_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "retropyloric_nodes",
+     "name": "Retropyloric nodes",
+     "nodes": [
+      "retropyloric_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "right_colic_nodes",
+     "name": "Right colic nodes",
+     "nodes": [
+      "right_colic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "right_gastric_nodes",
+     "name": "Right gastric nodes",
+     "nodes": [
+      "right_gastric_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "right_gastro_omental_nodes",
+     "name": "Right gastro-omental nodes",
+     "nodes": [
+      "right_gastro_omental_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "sigmoid_nodes",
+     "name": "Sigmoid nodes",
+     "nodes": [
+      "sigmoid_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "splenic_nodes",
+     "name": "Splenic nodes",
+     "nodes": [
+      "splenic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "subpyloric_nodes",
+     "name": "Subpyloric nodes",
+     "nodes": [
+      "subpyloric_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "superior_pancreatic_nodes",
+     "name": "Superior pancreatic nodes",
+     "nodes": [
+      "superior_pancreatic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "superior_pancreaticoduodenal_nodes",
+     "name": "Superior pancreaticoduodenal nodes",
+     "nodes": [
+      "superior_pancreaticoduodenal_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "suprapyloric_node",
+     "name": "Suprapyloric node",
+     "nodes": [
+      "suprapyloric_node"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "pelvic_lymph_nodes",
+   "name": "Pelvic lymph nodes",
+   "path": [
+    "Secondary lymphoid organs",
+    "Lymph nodes",
+    "Pelvic lymph nodes",
+    "Parietal pelvic lymph nodes",
+    "External iliac nodes"
+   ],
+   "parts": [
+    {
+     "id": "inferior_gluteal_nodes",
+     "name": "Inferior gluteal nodes",
+     "nodes": [
+      "inferior_gluteal_nodes__l",
+      "inferior_gluteal_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "intermediate_common_iliac_nodes",
+     "name": "Intermediate common iliac nodes",
+     "nodes": [
+      "intermediate_common_iliac_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intermediate_external_iliac_nodes",
+     "name": "Intermediate external iliac nodes",
+     "nodes": [
+      "intermediate_external_iliac_nodes__l",
+      "intermediate_external_iliac_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "intermediate_lacunar_node",
+     "name": "Intermediate lacunar node",
+     "nodes": [
+      "intermediate_lacunar_node__l",
+      "intermediate_lacunar_node__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_common_iliac_nodes",
+     "name": "Lateral common iliac nodes",
+     "nodes": [
+      "lateral_common_iliac_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "lateral_lacunar_node",
+     "name": "Lateral lacunar node",
+     "nodes": [
+      "lateral_lacunar_node__l",
+      "lateral_lacunar_node__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_sacral_nodes",
+     "name": "Lateral sacral nodes",
+     "nodes": [
+      "lateral_sacral_nodes__l",
+      "lateral_sacral_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_vesical_nodes",
+     "name": "Lateral vesical nodes",
+     "nodes": [
+      "lateral_vesical_nodes__l",
+      "lateral_vesical_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_common_iliac_nodes",
+     "name": "Medial common iliac nodes",
+     "nodes": [
+      "medial_common_iliac_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "medial_external_iliac_nodes",
+     "name": "Medial external iliac nodes",
+     "nodes": [
+      "medial_external_iliac_nodes__l",
+      "medial_external_iliac_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_lacunar_node",
+     "name": "Medial lacunar node",
+     "nodes": [
+      "medial_lacunar_node__l",
+      "medial_lacunar_node__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "median_sacral_nodes",
+     "name": "Median sacral nodes",
+     "nodes": [
+      "median_sacral_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "obturator_nodes",
+     "name": "Obturator nodes",
+     "nodes": [
+      "obturator_nodes__l",
+      "obturator_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pararectal_nodes",
+     "name": "Pararectal nodes",
+     "nodes": [
+      "pararectal_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "postvesical_nodes",
+     "name": "Postvesical nodes",
+     "nodes": [
+      "postvesical_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "prevesical_nodes",
+     "name": "Prevesical nodes",
+     "nodes": [
+      "prevesical_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "subaortic_nodes",
+     "name": "Subaortic nodes",
+     "nodes": [
+      "subaortic_nodes"
+     ],
+     "sides": null
+    },
+    {
+     "id": "superior_gluteal_nodes",
+     "name": "Superior gluteal nodes",
+     "nodes": [
+      "superior_gluteal_nodes__l",
+      "superior_gluteal_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lymph_nodes_of_lower_limb",
+   "name": "Lymph nodes of lower limb",
+   "path": [
+    "Secondary lymphoid organs",
+    "Lymph nodes",
+    "Lymph nodes of lower limb"
+   ],
+   "parts": [
+    {
+     "id": "anterior_tibial_node",
+     "name": "Anterior tibial node",
+     "nodes": [
+      "anterior_tibial_node__l",
+      "anterior_tibial_node__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "deep_popliteal_nodes",
+     "name": "Deep popliteal nodes",
+     "nodes": [
+      "deep_popliteal_nodes__l",
+      "deep_popliteal_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "fibular_node",
+     "name": "Fibular node",
+     "nodes": [
+      "fibular_node__l",
+      "fibular_node__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_superficial_inguinal_nodes",
+     "name": "Inferior superficial inguinal nodes",
+     "nodes": [
+      "inferior_superficial_inguinal_nodes__l",
+      "inferior_superficial_inguinal_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "intermediate_deep_inguinal_node",
+     "name": "Intermediate deep inguinal node",
+     "nodes": [
+      "intermediate_deep_inguinal_node__l",
+      "intermediate_deep_inguinal_node__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_tibial_node",
+     "name": "Posterior tibial node",
+     "nodes": [
+      "posterior_tibial_node__l",
+      "posterior_tibial_node__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proximal_deep_inguinal_node",
+     "name": "Proximal deep inguinal node",
+     "nodes": [
+      "proximal_deep_inguinal_node__l",
+      "proximal_deep_inguinal_node__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superficial_popliteal_nodes",
+     "name": "Superficial popliteal nodes",
+     "nodes": [
+      "superficial_popliteal_nodes__l",
+      "superficial_popliteal_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superolateral_superficial_inguinal_nodes",
+     "name": "Superolateral superficial inguinal nodes",
+     "nodes": [
+      "superolateral_superficial_inguinal_nodes__l",
+      "superolateral_superficial_inguinal_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superomedial_superficial_inguinal_nodes",
+     "name": "Superomedial superficial inguinal nodes",
+     "nodes": [
+      "superomedial_superficial_inguinal_nodes__l",
+      "superomedial_superficial_inguinal_nodes__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  }
+ ]
+}

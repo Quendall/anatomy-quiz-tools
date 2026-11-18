@@ -52,6 +52,8 @@ For cardiovascular, vessel branches are parented to their vessel mesh, and Z-Ana
 
 For nervous, the same trunk grouping applies to big peripheral nerve trees ("Sciatic nerve and branches", at least 8 meshes). Z-Anatomy nests many groups of one to three parts (midbrain tegmentum, spinal cord funiculi), and `GROUP_RENAME` merges them into textbook-sized groups such as "Brainstem" and "Tracts of spinal cord". Names are cleaned (`clean_name`): stray `*` marks and abbreviations such as "Lat_Fis-post" are fixed, and two meshes that clean to the same name get distinct node names. Eyeball reference lines (axes, equator, meridians, `-curve` guides) are dropped. The spinal dura and the eyeball segments start hidden. The brain and spinal cord get a pinkish-grey group `color`, set apart from the pale yellow nerves.
 
+For lymphoid, Z-Anatomy nests lymph nodes up to five groups deep. Each body region swallows its subgroups (`COLLAPSE_GROUPS`), giving groups such as "Lymph nodes of neck" and "Pelvic lymph nodes", ordered head to toe. The thymus, spleen and palatine tonsils share one group.
+
 `convert.py` refuses to write a manifest whose part ids or node names clash with another system's manifest, because the app indexes them all together.
 
 The `GROUP_ORDER`, `GROUP_RENAME` and `split_group` settings in `convert.py` tidy the tree. For example, Z-Anatomy keeps all the hand bones in one flat group, and `split_group` divides them into carpal, metacarpal and phalanges like the foot.
@@ -65,6 +67,7 @@ The `GROUP_ORDER`, `GROUP_RENAME` and `split_group` settings in `convert.py` tid
 | visceral | 118 | 101 | 24 | 12.1 MB → 2.9 MB |
 | cardiovascular | 673 | 416 | 30 | 24.7 MB → 6.8 MB |
 | nervous | 582 | 316 | 33 | 37.8 MB → 9.2 MB |
+| lymphoid | 163 | 109 | 9 | 1.8 MB → 0.6 MB |
 
 The model is in meters (about 1.7 m tall) and Y-up.
 

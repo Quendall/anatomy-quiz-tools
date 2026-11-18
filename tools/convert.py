@@ -45,7 +45,18 @@ GROUP_ORDER = [
     "Phalanges of hand", "Sesamoid bones of hand",
     "Bones of pelvic girdle", "Bones of thigh and leg", "Tarsal bones",
     "Metatarsal bones", "Phalanges of foot", "Sesamoid bones of foot",
+    # Lymphoid, head to toe.
+    "Thymus, spleen and tonsils", "Lymph nodes of head", "Lymph nodes of neck",
+    "Lymph nodes of upper limb", "Thoracic lymph nodes", "Parietal abdominal lymph nodes",
+    "Visceral abdominal lymph nodes", "Pelvic lymph nodes", "Lymph nodes of lower limb",
 ]
+
+# Groups that swallow all their subgroups (Z-Anatomy nests lymph nodes up to five deep).
+COLLAPSE_GROUPS = {
+    "Lymph nodes of head", "Lymph nodes of neck", "Lymph nodes of upper limb",
+    "Thoracic lymph nodes", "Parietal abdominal lymph nodes", "Visceral abdominal lymph nodes",
+    "Pelvic lymph nodes", "Lymph nodes of lower limb",
+}
 
 ORDINALS = {w: i for i, w in enumerate(
     "first second third fourth fifth sixth seventh eighth ninth tenth eleventh twelfth".split(), 1)}
@@ -72,6 +83,7 @@ ROOT_ORDERS = {
     ],
     "cardiovascular": ["Arterial system", "Venous system"],
     "nervous": ["Central nervous system", "Peripheral nervous system", "Sense organs"],
+    "lymphoid": ["Primary lymphoid organs", "Secondary lymphoid organs"],
     "visceral": [
         "Respiratory system", "Thoracic cavity", "Digestive system", "Abdominopelvic cavity",
         "Urinary system", "Genital systems", "Endocrine glands",
@@ -184,6 +196,10 @@ GROUP_RENAME = {
     "Middle ear": "Ear",
     "Internal ear": "Ear",
     "Lacrimal apparatus": "Accessory visual structures",
+    # Lymphoid: the spleen sits directly in "Secondary lymphoid organs".
+    "Thymus": "Thymus, spleen and tonsils",
+    "Secondary lymphoid organs": "Thymus, spleen and tonsils",
+    "Pharyngeal lymphoid ring": "Thymus, spleen and tonsils",
     "Bones of free part of lower limb": "Bones of thigh and leg",
     "Bones of foot": "Sesamoid bones of foot",
 }
@@ -346,7 +362,8 @@ for o, g in keep:
         g = nearest_group(g)
     elif SYSTEM_ID in MERGE_HEADS:
         part = merged_part_name(part)
-    gname = split_group(base_name(g.name), part)
+    collapse = next((n for n in group_path(g) if n in COLLAPSE_GROUPS), None)
+    gname = collapse or split_group(base_name(g.name), part)
     gname = GROUP_RENAME.get(gname, gname)
     gname = trunk_group(o, g) or gname
     gname = GROUP_RENAME.get(gname, gname)
