@@ -33,4 +33,6 @@ Every push to `main` runs [.github/workflows/deploy.yml](.github/workflows/deplo
 
 ## Credits and license
 
+The code is licensed under the [MIT License](LICENSE).
+
 3D models: [Z-Anatomy](https://github.com/LluisV/Z-Anatomy), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The converted models in `static/models/` are adapted from Z-Anatomy and are shared under the same license.
