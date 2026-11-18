@@ -70,7 +70,12 @@
 			const st = scene.stateOf(partId);
 			mesh.visible = st !== 'hidden';
 			if (st !== 'hidden') mesh.material = materialsFor(partId)[st];
-			mesh.renderOrder = st === 'xray' || st === 'ghost' ? 1 : 0;
+			mesh.renderOrder =
+					st === 'target' || st === 'correct' || st === 'wrong'
+						? 2
+						: st === 'xray' || st === 'ghost'
+							? 1
+							: 0;
 		}
 		invalidate();
 	});

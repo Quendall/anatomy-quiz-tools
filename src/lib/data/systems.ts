@@ -1,6 +1,7 @@
 import cardiovascular from './manifest/cardiovascular.json';
 import joints from './manifest/joints.json';
 import muscular from './manifest/muscular.json';
+import nervous from './manifest/nervous.json';
 import skeletal from './manifest/skeletal.json';
 import visceral from './manifest/visceral.json';
 
@@ -50,7 +51,7 @@ export const SYSTEMS: SystemDef[] = [
 	{ ...(joints as Omit<SystemDef, 'available'>), available: true },
 	{ ...(muscular as Omit<SystemDef, 'available'>), available: true },
 	{ ...(cardiovascular as Omit<SystemDef, 'available'>), available: true },
-	pending('nervous', 'Nervous system & sense organs', '#F2D04B'),
+	{ ...(nervous as Omit<SystemDef, 'available'>), available: true },
 	{ ...(visceral as Omit<SystemDef, 'available'>), available: true },
 	pending('lymphoid', 'Lymphoid organs', '#9ADE7B')
 ];

@@ -153,6 +153,15 @@ describe('typed answer matching', () => {
 		expect(matchAnswer('levator scapulae muscle', 'Levator scapulae')).toBe('exact');
 		expect(matchAnswer('deltiod', 'Deltoid muscle', { fuzzy: true })).toBe('close');
 	});
+
+	it('a trailing parenthesis is optional, and a long one is an alias', () => {
+		expect(matchAnswer('trigeminal nerve', 'Trigeminal nerve (V)')).toBe('exact');
+		expect(matchAnswer('trigeminal nerve v', 'Trigeminal nerve (V)')).toBe('exact');
+		expect(matchAnswer('v', 'Trigeminal nerve (V)')).toBe('wrong');
+		const g = 'Lateral occipital gyrus (Middle occipital gyrus)';
+		expect(matchAnswer('middle occipital gyrus', g)).toBe('exact');
+		expect(matchAnswer('lateral occipital gyrus', g)).toBe('exact');
+	});
 });
 
 describe('flashcards', () => {

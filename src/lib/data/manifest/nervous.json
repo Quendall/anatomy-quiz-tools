@@ -1,0 +1,4009 @@
+{
+ "id": "nervous",
+ "name": "Nervous system & sense organs",
+ "color": "#E3D79A",
+ "model": "models/nervous.glb",
+ "groups": [
+  {
+   "id": "brainstem",
+   "name": "Brainstem",
+   "path": [
+    "Central nervous system",
+    "Brain",
+    "Brainstem",
+    "Midbrain",
+    "Cerebral peduncle",
+    "Tegmentum of midbrain",
+    "Grey matter of tegmentum of midbrain",
+    "Oculomotor complex"
+   ],
+   "color": "#CFAFA8",
+   "parts": [
+    {
+     "id": "fourth_ventricle",
+     "name": "Fourth ventricle",
+     "nodes": [
+      "fourth_ventricle"
+     ],
+     "sides": null
+    },
+    {
+     "id": "accessory_nucleus_of_oculomotor_nerve",
+     "name": "Accessory nucleus of oculomotor nerve",
+     "nodes": [
+      "accessory_nucleus_of_oculomotor_nerve__l",
+      "accessory_nucleus_of_oculomotor_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "anterior_cochlear_nucleus",
+     "name": "Anterior cochlear nucleus",
+     "nodes": [
+      "anterior_cochlear_nucleus__l",
+      "anterior_cochlear_nucleus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "aqueduct_of_midbrain",
+     "name": "Aqueduct of midbrain",
+     "nodes": [
+      "aqueduct_of_midbrain"
+     ],
+     "sides": null
+    },
+    {
+     "id": "base_of_peduncle",
+     "name": "Base of peduncle",
+     "nodes": [
+      "base_of_peduncle__l",
+      "base_of_peduncle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_colliculus",
+     "name": "Inferior colliculus",
+     "nodes": [
+      "inferior_colliculus__l",
+      "inferior_colliculus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_salivatory_nucleus",
+     "name": "Inferior salivatory nucleus",
+     "nodes": [
+      "inferior_salivatory_nucleus__l",
+      "inferior_salivatory_nucleus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "interpeduncular_fossa",
+     "name": "Interpeduncular fossa",
+     "nodes": [
+      "interpeduncular_fossa__l",
+      "interpeduncular_fossa__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medulla_oblongata",
+     "name": "Medulla oblongata",
+     "nodes": [
+      "medulla_oblongata__l",
+      "medulla_oblongata__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "midbrain",
+     "name": "Midbrain",
+     "nodes": [
+      "midbrain__l",
+      "midbrain__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "motor_nucleus_of_facial_nerve",
+     "name": "Motor nucleus of facial nerve",
+     "nodes": [
+      "motor_nucleus_of_facial_nerve__l",
+      "motor_nucleus_of_facial_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nucleus_ambiguus",
+     "name": "Nucleus ambiguus",
+     "nodes": [
+      "nucleus_ambiguus__l",
+      "nucleus_ambiguus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nucleus_of_abducens_nerve",
+     "name": "Nucleus of abducens nerve",
+     "nodes": [
+      "nucleus_of_abducens_nerve__l",
+      "nucleus_of_abducens_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nucleus_of_hypoglossal_nerve",
+     "name": "Nucleus of hypoglossal nerve",
+     "nodes": [
+      "nucleus_of_hypoglossal_nerve__l",
+      "nucleus_of_hypoglossal_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nucleus_of_oculomotor_nerve",
+     "name": "Nucleus of oculomotor nerve",
+     "nodes": [
+      "nucleus_of_oculomotor_nerve__l",
+      "nucleus_of_oculomotor_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nucleus_of_solitary_tract",
+     "name": "Nucleus of solitary tract",
+     "nodes": [
+      "nucleus_of_solitary_tract__l",
+      "nucleus_of_solitary_tract__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nucleus_of_trochlear_nerve",
+     "name": "Nucleus of trochlear nerve",
+     "nodes": [
+      "nucleus_of_trochlear_nerve__l",
+      "nucleus_of_trochlear_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "olive",
+     "name": "Olive",
+     "nodes": [
+      "olive__l",
+      "olive__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pons",
+     "name": "Pons",
+     "nodes": [
+      "pons__l",
+      "pons__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_cochlear_nucleus",
+     "name": "Posterior cochlear nucleus",
+     "nodes": [
+      "posterior_cochlear_nucleus__l",
+      "posterior_cochlear_nucleus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_nucleus_of_vagus_nerve",
+     "name": "Posterior nucleus of vagus nerve",
+     "nodes": [
+      "posterior_nucleus_of_vagus_nerve__l",
+      "posterior_nucleus_of_vagus_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pyramid_of_medulla_oblongata",
+     "name": "Pyramid of medulla oblongata",
+     "nodes": [
+      "pyramid_of_medulla_oblongata__l",
+      "pyramid_of_medulla_oblongata__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "red_nucleus",
+     "name": "Red nucleus",
+     "nodes": [
+      "red_nucleus__l",
+      "red_nucleus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_colliculus",
+     "name": "Superior colliculus",
+     "nodes": [
+      "superior_colliculus__l",
+      "superior_colliculus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_salivatory_nucleus",
+     "name": "Superior salivatory nucleus",
+     "nodes": [
+      "superior_salivatory_nucleus__l",
+      "superior_salivatory_nucleus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "vestibular_nuclei",
+     "name": "Vestibular nuclei",
+     "nodes": [
+      "vestibular_nuclei__l",
+      "vestibular_nuclei__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cerebellum",
+   "name": "Cerebellum",
+   "path": [
+    "Central nervous system",
+    "Brain",
+    "Cerebellum"
+   ],
+   "color": "#CFAFA8",
+   "parts": [
+    {
+     "id": "anterior_quadrangular_lobule",
+     "name": "Anterior quadrangular lobule",
+     "nodes": [
+      "anterior_quadrangular_lobule__l",
+      "anterior_quadrangular_lobule__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "biventral_lobule",
+     "name": "Biventral lobule",
+     "nodes": [
+      "biventral_lobule__l",
+      "biventral_lobule__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "central_lobule",
+     "name": "Central lobule",
+     "nodes": [
+      "central_lobule"
+     ],
+     "sides": null
+    },
+    {
+     "id": "culmen",
+     "name": "Culmen",
+     "nodes": [
+      "culmen"
+     ],
+     "sides": null
+    },
+    {
+     "id": "declive",
+     "name": "Declive",
+     "nodes": [
+      "declive"
+     ],
+     "sides": null
+    },
+    {
+     "id": "flocculus",
+     "name": "Flocculus",
+     "nodes": [
+      "flocculus__l",
+      "flocculus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "folium_of_vermis",
+     "name": "Folium of vermis",
+     "nodes": [
+      "folium_of_vermis"
+     ],
+     "sides": null
+    },
+    {
+     "id": "gracile_lobule",
+     "name": "Gracile lobule",
+     "nodes": [
+      "gracile_lobule__l",
+      "gracile_lobule__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_semilunar_lobule",
+     "name": "Inferior semilunar lobule",
+     "nodes": [
+      "inferior_semilunar_lobule__l",
+      "inferior_semilunar_lobule__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lingula_of_cerebellum",
+     "name": "Lingula of cerebellum",
+     "nodes": [
+      "lingula_of_cerebellum"
+     ],
+     "sides": null
+    },
+    {
+     "id": "nodule_of_vermis",
+     "name": "Nodule of vermis",
+     "nodes": [
+      "nodule_of_vermis"
+     ],
+     "sides": null
+    },
+    {
+     "id": "peduncle_of_flocculus",
+     "name": "Peduncle of flocculus",
+     "nodes": [
+      "peduncle_of_flocculus__l",
+      "peduncle_of_flocculus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_quadrangular_lobule",
+     "name": "Posterior quadrangular lobule",
+     "nodes": [
+      "posterior_quadrangular_lobule__l",
+      "posterior_quadrangular_lobule__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pyramis_of_vermis",
+     "name": "Pyramis of vermis",
+     "nodes": [
+      "pyramis_of_vermis"
+     ],
+     "sides": null
+    },
+    {
+     "id": "superior_cerebellar_peduncle",
+     "name": "Superior cerebellar peduncle",
+     "nodes": [
+      "superior_cerebellar_peduncle__l",
+      "superior_cerebellar_peduncle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_semilunar_lobule",
+     "name": "Superior semilunar lobule",
+     "nodes": [
+      "superior_semilunar_lobule__l",
+      "superior_semilunar_lobule__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "tonsil_of_cerebellum",
+     "name": "Tonsil of cerebellum",
+     "nodes": [
+      "tonsil_of_cerebellum__l",
+      "tonsil_of_cerebellum__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "tuber_of_vermis",
+     "name": "Tuber of vermis",
+     "nodes": [
+      "tuber_of_vermis"
+     ],
+     "sides": null
+    },
+    {
+     "id": "uvula_of_vermis",
+     "name": "Uvula of vermis",
+     "nodes": [
+      "uvula_of_vermis"
+     ],
+     "sides": null
+    },
+    {
+     "id": "wing_of_central_lobule",
+     "name": "Wing of central lobule",
+     "nodes": [
+      "wing_of_central_lobule__l",
+      "wing_of_central_lobule__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diencephalon",
+   "name": "Diencephalon",
+   "path": [
+    "Central nervous system",
+    "Brain",
+    "Cerebrum",
+    "Diencephalon"
+   ],
+   "color": "#CFAFA8",
+   "parts": [
+    {
+     "id": "third_ventricle",
+     "name": "Third ventricle",
+     "nodes": [
+      "third_ventricle"
+     ],
+     "sides": null
+    },
+    {
+     "id": "habenula",
+     "name": "Habenula",
+     "nodes": [
+      "habenula"
+     ],
+     "sides": null
+    },
+    {
+     "id": "hypothalamus",
+     "name": "Hypothalamus",
+     "nodes": [
+      "hypothalamus"
+     ],
+     "sides": null
+    },
+    {
+     "id": "lateral_geniculate_body",
+     "name": "Lateral geniculate body",
+     "nodes": [
+      "lateral_geniculate_body__l",
+      "lateral_geniculate_body__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "mamillary_body",
+     "name": "Mamillary body",
+     "nodes": [
+      "mamillary_body__l",
+      "mamillary_body__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_geniculate_body",
+     "name": "Medial geniculate body",
+     "nodes": [
+      "medial_geniculate_body__l",
+      "medial_geniculate_body__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "optic_chiasm",
+     "name": "Optic chiasm",
+     "nodes": [
+      "optic_chiasm__l",
+      "optic_chiasm__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "optic_tract",
+     "name": "Optic tract",
+     "nodes": [
+      "optic_tract__l",
+      "optic_tract__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_commissure",
+     "name": "Posterior commissure",
+     "nodes": [
+      "posterior_commissure"
+     ],
+     "sides": null
+    },
+    {
+     "id": "stria_medullaris_thalami",
+     "name": "Stria medullaris thalami",
+     "nodes": [
+      "stria_medullaris_thalami__l",
+      "stria_medullaris_thalami__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "thalamus",
+     "name": "Thalamus",
+     "nodes": [
+      "thalamus__l",
+      "thalamus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deep_structures_of_cerebrum",
+   "name": "Deep structures of cerebrum",
+   "path": [
+    "Central nervous system",
+    "Brain",
+    "Cerebrum",
+    "Telencephalon",
+    "Basal forebrain"
+   ],
+   "color": "#CFAFA8",
+   "parts": [
+    {
+     "id": "amygdaloid_body",
+     "name": "Amygdaloid body",
+     "nodes": [
+      "amygdaloid_body__l",
+      "amygdaloid_body__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "anterior_commissure",
+     "name": "Anterior commissure",
+     "nodes": [
+      "anterior_commissure"
+     ],
+     "sides": null
+    },
+    {
+     "id": "caudate_nucleus",
+     "name": "Caudate nucleus",
+     "nodes": [
+      "caudate_nucleus__l",
+      "caudate_nucleus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "corpus_callosum",
+     "name": "Corpus callosum",
+     "nodes": [
+      "corpus_callosum"
+     ],
+     "sides": null
+    },
+    {
+     "id": "fornix",
+     "name": "Fornix",
+     "nodes": [
+      "fornix__l",
+      "fornix__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "globus_pallidus",
+     "name": "Globus pallidus",
+     "nodes": [
+      "globus_pallidus__l",
+      "globus_pallidus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "hippocampal_commissure",
+     "name": "Hippocampal commissure",
+     "nodes": [
+      "hippocampal_commissure"
+     ],
+     "sides": null
+    },
+    {
+     "id": "lateral_ventricle",
+     "name": "Lateral ventricle",
+     "nodes": [
+      "lateral_ventricle__l",
+      "lateral_ventricle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lentiform_nucleus",
+     "name": "Lentiform nucleus",
+     "nodes": [
+      "lentiform_nucleus__l",
+      "lentiform_nucleus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "putamen",
+     "name": "Putamen",
+     "nodes": [
+      "putamen__l",
+      "putamen__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "septal_nuclei",
+     "name": "Septal nuclei",
+     "nodes": [
+      "septal_nuclei"
+     ],
+     "sides": null
+    },
+    {
+     "id": "septum_pellucidum",
+     "name": "Septum pellucidum",
+     "nodes": [
+      "septum_pellucidum"
+     ],
+     "sides": null
+    },
+    {
+     "id": "stria_terminalis",
+     "name": "Stria terminalis",
+     "nodes": [
+      "stria_terminalis__l",
+      "stria_terminalis__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "white_matter_of_telencephalon",
+     "name": "White matter of telencephalon",
+     "nodes": [
+      "white_matter_of_telencephalon__l",
+      "white_matter_of_telencephalon__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frontal_lobe",
+   "name": "Frontal lobe",
+   "path": [
+    "Central nervous system",
+    "Brain",
+    "Cerebrum",
+    "Telencephalon",
+    "Frontal lobe"
+   ],
+   "color": "#CFAFA8",
+   "parts": [
+    {
+     "id": "anterior_ramus_of_lateral_sulcus",
+     "name": "Anterior ramus of lateral sulcus",
+     "nodes": [
+      "anterior_ramus_of_lateral_sulcus__l",
+      "anterior_ramus_of_lateral_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ascending_ramus_of_lateral_sulcus",
+     "name": "Ascending ramus of lateral sulcus",
+     "nodes": [
+      "ascending_ramus_of_lateral_sulcus__l",
+      "ascending_ramus_of_lateral_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_frontal_sulcus",
+     "name": "Inferior frontal sulcus",
+     "nodes": [
+      "inferior_frontal_sulcus__l",
+      "inferior_frontal_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "middle_frontal_gyrus",
+     "name": "Middle frontal gyrus",
+     "nodes": [
+      "middle_frontal_gyrus__l",
+      "middle_frontal_gyrus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "olfactory_sulcus",
+     "name": "Olfactory sulcus",
+     "nodes": [
+      "olfactory_sulcus__l",
+      "olfactory_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "opercular_part_of_inferior_frontal_gyrus",
+     "name": "Opercular part of inferior frontal gyrus",
+     "nodes": [
+      "opercular_part_of_inferior_frontal_gyrus__l",
+      "opercular_part_of_inferior_frontal_gyrus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "orbital_gyri",
+     "name": "Orbital gyri",
+     "nodes": [
+      "orbital_gyri__l",
+      "orbital_gyri__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "orbital_gyri_frontomarginal_gyrus_and_sulcus",
+     "name": "Orbital gyri (Frontomarginal gyrus and sulcus)",
+     "nodes": [
+      "orbital_gyri_frontomarginal_gyrus_and_sulcus__l",
+      "orbital_gyri_frontomarginal_gyrus_and_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "orbital_part_of_inferior_frontal_gyrus",
+     "name": "Orbital part of inferior frontal gyrus",
+     "nodes": [
+      "orbital_part_of_inferior_frontal_gyrus__l",
+      "orbital_part_of_inferior_frontal_gyrus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "orbital_sulci_h_shaped_orbital_sulci",
+     "name": "Orbital sulci (H-shaped orbital sulci)",
+     "nodes": [
+      "orbital_sulci_h_shaped_orbital_sulci__l",
+      "orbital_sulci_h_shaped_orbital_sulci__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "orbital_sulci_lateral_orbital_sulcus",
+     "name": "Orbital sulci (Lateral Orbital sulcus)",
+     "nodes": [
+      "orbital_sulci_lateral_orbital_sulcus__l",
+      "orbital_sulci_lateral_orbital_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "paracentral_gyrus_and_sulcus",
+     "name": "Paracentral gyrus and sulcus",
+     "nodes": [
+      "paracentral_gyrus_and_sulcus__l",
+      "paracentral_gyrus_and_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "paracentral_sulcus",
+     "name": "Paracentral sulcus",
+     "nodes": [
+      "paracentral_sulcus__l",
+      "paracentral_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "precentral_gyrus",
+     "name": "Precentral gyrus",
+     "nodes": [
+      "precentral_gyrus__l",
+      "precentral_gyrus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "precentral_sulcus_inferior_part",
+     "name": "Precentral sulcus (inferior part)",
+     "nodes": [
+      "precentral_sulcus_inferior_part__l",
+      "precentral_sulcus_inferior_part__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "precentral_sulcus_superior_part",
+     "name": "Precentral sulcus (Superior part)",
+     "nodes": [
+      "precentral_sulcus_superior_part__l",
+      "precentral_sulcus_superior_part__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "straight_gyrus_gyrus_rectus",
+     "name": "Straight gyrus (Gyrus rectus)",
+     "nodes": [
+      "straight_gyrus_gyrus_rectus__l",
+      "straight_gyrus_gyrus_rectus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_frontal_gyrus",
+     "name": "Superior frontal gyrus",
+     "nodes": [
+      "superior_frontal_gyrus__l",
+      "superior_frontal_gyrus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_frontal_sulcus",
+     "name": "Superior frontal sulcus",
+     "nodes": [
+      "superior_frontal_sulcus__l",
+      "superior_frontal_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "transverse_frontopolar_gyrus_and_sulcus",
+     "name": "Transverse frontopolar gyrus and sulcus",
+     "nodes": [
+      "transverse_frontopolar_gyrus_and_sulcus__l",
+      "transverse_frontopolar_gyrus_and_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "triangular_part_of_inferior_frontal_gyrus",
+     "name": "Triangular part of inferior frontal gyrus",
+     "nodes": [
+      "triangular_part_of_inferior_frontal_gyrus__l",
+      "triangular_part_of_inferior_frontal_gyrus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "insula_and_interlobar_sulci",
+   "name": "Insula and interlobar sulci",
+   "path": [
+    "Central nervous system",
+    "Brain",
+    "Cerebrum",
+    "Telencephalon",
+    "Interlobar sulci"
+   ],
+   "color": "#CFAFA8",
+   "parts": [
+    {
+     "id": "anterior_occipital_sulcus",
+     "name": "Anterior occipital sulcus",
+     "nodes": [
+      "anterior_occipital_sulcus__l",
+      "anterior_occipital_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "central_sulcus",
+     "name": "Central sulcus",
+     "nodes": [
+      "central_sulcus__l",
+      "central_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "circular_sulcus_of_insula",
+     "name": "Circular sulcus of insula",
+     "nodes": [
+      "circular_sulcus_of_insula__l",
+      "circular_sulcus_of_insula__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "collateral_sulcus",
+     "name": "Collateral sulcus",
+     "nodes": [
+      "collateral_sulcus__l",
+      "collateral_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "insula_subcentral_gyrus_and_ant_and_post_sulci",
+     "name": "Insula (Subcentral gyrus and ant. and post. sulci)",
+     "nodes": [
+      "insula_subcentral_gyrus_and_ant_and_post_sulci__l",
+      "insula_subcentral_gyrus_and_ant_and_post_sulci__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "intermediate_sulcus_of_jensen",
+     "name": "Intermediate sulcus of Jensen",
+     "nodes": [
+      "intermediate_sulcus_of_jensen__l",
+      "intermediate_sulcus_of_jensen__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "parieto_occipital_sulcus",
+     "name": "Parieto-occipital sulcus",
+     "nodes": [
+      "parieto_occipital_sulcus__l",
+      "parieto_occipital_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_ramus_of_lateral_sulcus",
+     "name": "Posterior ramus of lateral sulcus",
+     "nodes": [
+      "posterior_ramus_of_lateral_sulcus__l",
+      "posterior_ramus_of_lateral_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_transverse_collateral_sulcus",
+     "name": "Posterior transverse collateral sulcus",
+     "nodes": [
+      "posterior_transverse_collateral_sulcus__l",
+      "posterior_transverse_collateral_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "subparietal_sulcus",
+     "name": "Subparietal sulcus",
+     "nodes": [
+      "subparietal_sulcus__l",
+      "subparietal_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "limbic_lobe",
+   "name": "Limbic lobe",
+   "path": [
+    "Central nervous system",
+    "Brain",
+    "Cerebrum",
+    "Telencephalon",
+    "Limbic lobe"
+   ],
+   "color": "#CFAFA8",
+   "parts": [
+    {
+     "id": "cingulate_gyrus_posteroventral_part",
+     "name": "Cingulate gyrus (Posteroventral part)",
+     "nodes": [
+      "cingulate_gyrus_posteroventral_part__l",
+      "cingulate_gyrus_posteroventral_part__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "cingulate_gyrus_and_sulcus_middle_anterior_part",
+     "name": "Cingulate gyrus and sulcus (Middle anterior part)",
+     "nodes": [
+      "cingulate_gyrus_and_sulcus_middle_anterior_part__l",
+      "cingulate_gyrus_and_sulcus_middle_anterior_part__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "cingulate_gyrus_and_sulcus_middle_posterior_part",
+     "name": "Cingulate gyrus and sulcus (Middle posterior part)",
+     "nodes": [
+      "cingulate_gyrus_and_sulcus_middle_posterior_part__l",
+      "cingulate_gyrus_and_sulcus_middle_posterior_part__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "cingulate_gyrus_and_sulcus_posterior_dorsal_part",
+     "name": "Cingulate gyrus and sulcus (Posterior dorsal part)",
+     "nodes": [
+      "cingulate_gyrus_and_sulcus_posterior_dorsal_part__l",
+      "cingulate_gyrus_and_sulcus_posterior_dorsal_part__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "cingulate_sulcus_marginal_part",
+     "name": "Cingulate sulcus (Marginal part)",
+     "nodes": [
+      "cingulate_sulcus_marginal_part__l",
+      "cingulate_sulcus_marginal_part__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "hippocampus",
+     "name": "Hippocampus",
+     "nodes": [
+      "hippocampus__l",
+      "hippocampus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "occipital_lobe",
+   "name": "Occipital lobe",
+   "path": [
+    "Central nervous system",
+    "Brain",
+    "Cerebrum",
+    "Telencephalon",
+    "Occipital lobe"
+   ],
+   "color": "#CFAFA8",
+   "parts": [
+    {
+     "id": "calcarine_sulcus",
+     "name": "Calcarine sulcus",
+     "nodes": [
+      "calcarine_sulcus__l",
+      "calcarine_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "cuneus",
+     "name": "Cuneus",
+     "nodes": [
+      "cuneus__l",
+      "cuneus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_occipital_gyrus_and_sulcus",
+     "name": "Inferior occipital gyrus and sulcus",
+     "nodes": [
+      "inferior_occipital_gyrus_and_sulcus__l",
+      "inferior_occipital_gyrus_and_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_occipital_gyrus_middle_occipital_gyrus",
+     "name": "Lateral occipital gyrus (Middle occipital gyrus)",
+     "nodes": [
+      "lateral_occipital_gyrus_middle_occipital_gyrus__l",
+      "lateral_occipital_gyrus_middle_occipital_gyrus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lingual_gyrus",
+     "name": "Lingual gyrus",
+     "nodes": [
+      "lingual_gyrus__l",
+      "lingual_gyrus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lunate_sulcus",
+     "name": "Lunate sulcus",
+     "nodes": [
+      "lunate_sulcus__l",
+      "lunate_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "occipital_pole",
+     "name": "Occipital pole",
+     "nodes": [
+      "occipital_pole__l",
+      "occipital_pole__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_occipital_gyri",
+     "name": "Superior occipital gyri",
+     "nodes": [
+      "superior_occipital_gyri__l",
+      "superior_occipital_gyri__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "transverse_occipital_sulcus",
+     "name": "Transverse occipital sulcus",
+     "nodes": [
+      "transverse_occipital_sulcus__l",
+      "transverse_occipital_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "parietal_lobe",
+   "name": "Parietal lobe",
+   "path": [
+    "Central nervous system",
+    "Brain",
+    "Cerebrum",
+    "Telencephalon",
+    "Parietal lobe"
+   ],
+   "color": "#CFAFA8",
+   "parts": [
+    {
+     "id": "angular_gyrus",
+     "name": "Angular gyrus",
+     "nodes": [
+      "angular_gyrus__l",
+      "angular_gyrus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "intraparietal_sulcus",
+     "name": "Intraparietal sulcus",
+     "nodes": [
+      "intraparietal_sulcus__l",
+      "intraparietal_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "postcentral_gyrus",
+     "name": "Postcentral gyrus",
+     "nodes": [
+      "postcentral_gyrus__l",
+      "postcentral_gyrus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "postcentral_sulcus",
+     "name": "Postcentral sulcus",
+     "nodes": [
+      "postcentral_sulcus__l",
+      "postcentral_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "precuneus",
+     "name": "Precuneus",
+     "nodes": [
+      "precuneus__l",
+      "precuneus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_parietal_lobule",
+     "name": "Superior parietal lobule",
+     "nodes": [
+      "superior_parietal_lobule__l",
+      "superior_parietal_lobule__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "supramarginal_gyrus",
+     "name": "Supramarginal gyrus",
+     "nodes": [
+      "supramarginal_gyrus__l",
+      "supramarginal_gyrus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "temporal_lobe",
+   "name": "Temporal lobe",
+   "path": [
+    "Central nervous system",
+    "Brain",
+    "Cerebrum",
+    "Telencephalon",
+    "Temporal lobe"
+   ],
+   "color": "#CFAFA8",
+   "parts": [
+    {
+     "id": "inferior_temporal_gyrus",
+     "name": "Inferior temporal gyrus",
+     "nodes": [
+      "inferior_temporal_gyrus__l",
+      "inferior_temporal_gyrus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_temporal_sulcus",
+     "name": "Inferior temporal sulcus",
+     "nodes": [
+      "inferior_temporal_sulcus__l",
+      "inferior_temporal_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_occipitotemporal_gyrus",
+     "name": "Lateral occipitotemporal gyrus",
+     "nodes": [
+      "lateral_occipitotemporal_gyrus__l",
+      "lateral_occipitotemporal_gyrus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_occipitotemporal_gyrus_parahippocampal",
+     "name": "Medial occipitotemporal gyrus (Parahippocampal)",
+     "nodes": [
+      "medial_occipitotemporal_gyrus_parahippocampal__l",
+      "medial_occipitotemporal_gyrus_parahippocampal__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "middle_temporal_gyrus",
+     "name": "Middle temporal gyrus",
+     "nodes": [
+      "middle_temporal_gyrus__l",
+      "middle_temporal_gyrus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "occipitotemporal_sulcus_lateral_part",
+     "name": "Occipitotemporal sulcus (Lateral part)",
+     "nodes": [
+      "occipitotemporal_sulcus_lateral_part__l",
+      "occipitotemporal_sulcus_lateral_part__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_temporal_gyrus_lateral_part",
+     "name": "Superior temporal gyrus (Lateral part)",
+     "nodes": [
+      "superior_temporal_gyrus_lateral_part__l",
+      "superior_temporal_gyrus_lateral_part__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_temporal_sulcus",
+     "name": "Superior temporal sulcus",
+     "nodes": [
+      "superior_temporal_sulcus__l",
+      "superior_temporal_sulcus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "temporal_plane",
+     "name": "Temporal plane",
+     "nodes": [
+      "temporal_plane__l",
+      "temporal_plane__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "temporal_pole",
+     "name": "Temporal pole",
+     "nodes": [
+      "temporal_pole__l",
+      "temporal_pole__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "transverse_temporal_gyri",
+     "name": "Transverse temporal gyri",
+     "nodes": [
+      "transverse_temporal_gyri__l",
+      "transverse_temporal_gyri__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meninges_and_choroid_plexus",
+   "name": "Meninges and choroid plexus",
+   "path": [
+    "Central nervous system",
+    "Meninges",
+    "Leptomeninges",
+    "Pia",
+    "Cranial pia"
+   ],
+   "color": "#CFAFA8",
+   "parts": [
+    {
+     "id": "choroid_plexus",
+     "name": "Choroid plexus",
+     "nodes": [
+      "choroid_plexus__l",
+      "choroid_plexus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "falx_cerebri",
+     "name": "Falx cerebri",
+     "nodes": [
+      "falx_cerebri"
+     ],
+     "sides": null
+    },
+    {
+     "id": "spinal_dura",
+     "name": "Spinal dura",
+     "nodes": [
+      "spinal_dura"
+     ],
+     "sides": null,
+     "hidden": true
+    },
+    {
+     "id": "tentorium_cerebelli",
+     "name": "Tentorium cerebelli",
+     "nodes": [
+      "tentorium_cerebelli__l",
+      "tentorium_cerebelli__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grey_matter_of_spinal_cord",
+   "name": "Grey matter of spinal cord",
+   "path": [
+    "Central nervous system",
+    "Spinal cord",
+    "Grey matter of spinal cord",
+    "Anterior horn of spinal cord"
+   ],
+   "color": "#CFAFA8",
+   "parts": [
+    {
+     "id": "anterior_horn_of_spinal_cord",
+     "name": "Anterior horn of spinal cord",
+     "nodes": [
+      "anterior_horn_of_spinal_cord"
+     ],
+     "sides": null
+    },
+    {
+     "id": "central_canal",
+     "name": "Central canal",
+     "nodes": [
+      "central_canal",
+      "central_canal_2"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intermediolateral_nucleus",
+     "name": "Intermediolateral nucleus",
+     "nodes": [
+      "intermediolateral_nucleus"
+     ],
+     "sides": null
+    },
+    {
+     "id": "intermediomedial_nucleus",
+     "name": "Intermediomedial nucleus",
+     "nodes": [
+      "intermediomedial_nucleus"
+     ],
+     "sides": null
+    },
+    {
+     "id": "lateral_intermediate_substance",
+     "name": "Lateral intermediate substance",
+     "nodes": [
+      "lateral_intermediate_substance"
+     ],
+     "sides": null
+    },
+    {
+     "id": "nucleus_of_accessory_nerve",
+     "name": "Nucleus of accessory nerve",
+     "nodes": [
+      "nucleus_of_accessory_nerve__l",
+      "nucleus_of_accessory_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nucleus_proprius",
+     "name": "Nucleus proprius",
+     "nodes": [
+      "nucleus_proprius"
+     ],
+     "sides": null
+    },
+    {
+     "id": "posterior_horn_of_spinal_cord",
+     "name": "Posterior horn of spinal cord",
+     "nodes": [
+      "posterior_horn_of_spinal_cord"
+     ],
+     "sides": null
+    },
+    {
+     "id": "spinal_reticular_process",
+     "name": "Spinal reticular process",
+     "nodes": [
+      "spinal_reticular_process"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "tracts_of_spinal_cord",
+   "name": "Tracts of spinal cord",
+   "path": [
+    "Central nervous system",
+    "Spinal cord",
+    "White matter of spinal cord",
+    "Anterior funiculus"
+   ],
+   "color": "#CFAFA8",
+   "parts": [
+    {
+     "id": "anterior_corticospinal_tract",
+     "name": "Anterior corticospinal tract",
+     "nodes": [
+      "anterior_corticospinal_tract"
+     ],
+     "sides": null
+    },
+    {
+     "id": "anterior_fasciculus_proprius",
+     "name": "Anterior fasciculus proprius",
+     "nodes": [
+      "anterior_fasciculus_proprius"
+     ],
+     "sides": null
+    },
+    {
+     "id": "anterior_spinocerebellar_tract",
+     "name": "Anterior spinocerebellar tract",
+     "nodes": [
+      "anterior_spinocerebellar_tract"
+     ],
+     "sides": null
+    },
+    {
+     "id": "anterior_spinothalamic_tract",
+     "name": "Anterior spinothalamic tract",
+     "nodes": [
+      "anterior_spinothalamic_tract"
+     ],
+     "sides": null
+    },
+    {
+     "id": "cuneate_fasciculus",
+     "name": "Cuneate fasciculus",
+     "nodes": [
+      "cuneate_fasciculus"
+     ],
+     "sides": null
+    },
+    {
+     "id": "gracile_fasciculus",
+     "name": "Gracile fasciculus",
+     "nodes": [
+      "gracile_fasciculus"
+     ],
+     "sides": null
+    },
+    {
+     "id": "lateral_corticospinal_tract",
+     "name": "Lateral corticospinal tract",
+     "nodes": [
+      "lateral_corticospinal_tract"
+     ],
+     "sides": null
+    },
+    {
+     "id": "lateral_fasciculus_proprius",
+     "name": "Lateral fasciculus proprius",
+     "nodes": [
+      "lateral_fasciculus_proprius"
+     ],
+     "sides": null
+    },
+    {
+     "id": "lateral_reticulospinal_tract",
+     "name": "Lateral reticulospinal tract",
+     "nodes": [
+      "lateral_reticulospinal_tract"
+     ],
+     "sides": null
+    },
+    {
+     "id": "lateral_spinothalamic_tract",
+     "name": "Lateral spinothalamic tract",
+     "nodes": [
+      "lateral_spinothalamic_tract"
+     ],
+     "sides": null
+    },
+    {
+     "id": "lateral_vestibulospinal_tract",
+     "name": "Lateral vestibulospinal tract",
+     "nodes": [
+      "lateral_vestibulospinal_tract"
+     ],
+     "sides": null
+    },
+    {
+     "id": "medial_reticulospinal_tract",
+     "name": "Medial reticulospinal tract",
+     "nodes": [
+      "medial_reticulospinal_tract"
+     ],
+     "sides": null
+    },
+    {
+     "id": "medial_vestibulospinal_tract",
+     "name": "Medial vestibulospinal tract",
+     "nodes": [
+      "medial_vestibulospinal_tract"
+     ],
+     "sides": null
+    },
+    {
+     "id": "posterior_fasciculus_proprius",
+     "name": "Posterior fasciculus proprius",
+     "nodes": [
+      "posterior_fasciculus_proprius"
+     ],
+     "sides": null
+    },
+    {
+     "id": "posterior_spinocerebellar_tract",
+     "name": "Posterior spinocerebellar tract",
+     "nodes": [
+      "posterior_spinocerebellar_tract"
+     ],
+     "sides": null
+    },
+    {
+     "id": "posterolateral_tract",
+     "name": "Posterolateral tract",
+     "nodes": [
+      "posterolateral_tract"
+     ],
+     "sides": null
+    },
+    {
+     "id": "rubrospinal_tract",
+     "name": "Rubrospinal tract",
+     "nodes": [
+      "rubrospinal_tract"
+     ],
+     "sides": null
+    },
+    {
+     "id": "spinotectal_tract",
+     "name": "Spinotectal tract",
+     "nodes": [
+      "spinotectal_tract"
+     ],
+     "sides": null
+    },
+    {
+     "id": "tectospinal_tract",
+     "name": "Tectospinal tract",
+     "nodes": [
+      "tectospinal_tract"
+     ],
+     "sides": null
+    },
+    {
+     "id": "white_matter_of_spinal_cord",
+     "name": "White matter of spinal cord",
+     "nodes": [
+      "white_matter_of_spinal_cord"
+     ],
+     "sides": null
+    }
+   ]
+  },
+  {
+   "id": "sympathetic_trunk_and_nerves",
+   "name": "Sympathetic trunk and nerves",
+   "path": [
+    "Peripheral nervous system",
+    "Autonomic division of peripheral nervous system",
+    "Thoracolumbar part of autonomic division"
+   ],
+   "parts": [
+    {
+     "id": "ganglia_of_sympathetic_trunk",
+     "name": "Ganglia of sympathetic trunk",
+     "nodes": [
+      "ganglia_of_sympathetic_trunk__l",
+      "ganglia_of_sympathetic_trunk__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sympathetic_nerves",
+     "name": "Sympathetic nerves",
+     "nodes": [
+      "sympathetic_nerves__l",
+      "sympathetic_nerves__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sympathetic_trunk",
+     "name": "Sympathetic trunk",
+     "nodes": [
+      "sympathetic_trunk__l",
+      "sympathetic_trunk__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cranial_nerves",
+   "name": "Cranial nerves",
+   "path": [
+    "Peripheral nervous system",
+    "Cranial nerves"
+   ],
+   "parts": [
+    {
+     "id": "abducens_nerve_vi",
+     "name": "Abducens nerve (VI)",
+     "nodes": [
+      "abducens_nerve_vi__l",
+      "abducens_nerve_vi__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "accessory_nerve_xi",
+     "name": "Accessory nerve (XI)",
+     "nodes": [
+      "accessory_nerve_xi__l",
+      "accessory_nerve_xi__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "chorda_tympani",
+     "name": "Chorda tympani",
+     "nodes": [
+      "chorda_tympani__l",
+      "chorda_tympani__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "cochlear_nerve",
+     "name": "Cochlear nerve",
+     "nodes": [
+      "cochlear_nerve",
+      "cochlear_nerve__l"
+     ],
+     "sides": [
+      "left"
+     ]
+    },
+    {
+     "id": "facial_nerve_vii",
+     "name": "Facial nerve (VII)",
+     "nodes": [
+      "facial_nerve_vii__l",
+      "facial_nerve_vii__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "glossopharyngeal_nerve_ix",
+     "name": "Glossopharyngeal nerve (IX)",
+     "nodes": [
+      "glossopharyngeal_nerve_ix__l",
+      "glossopharyngeal_nerve_ix__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "hypoglossal_nerve_xii",
+     "name": "Hypoglossal nerve (XII)",
+     "nodes": [
+      "hypoglossal_nerve_xii__l",
+      "hypoglossal_nerve_xii__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "oculomotor_nerve_iii",
+     "name": "Oculomotor nerve (III)",
+     "nodes": [
+      "oculomotor_nerve_iii__l",
+      "oculomotor_nerve_iii__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "olfactory_nerve_i",
+     "name": "Olfactory nerve (I)",
+     "nodes": [
+      "olfactory_nerve_i__l",
+      "olfactory_nerve_i__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "optic_nerve_ii",
+     "name": "Optic nerve (II)",
+     "nodes": [
+      "optic_nerve_ii__l",
+      "optic_nerve_ii__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "trochlear_nerve_iv",
+     "name": "Trochlear nerve (IV)",
+     "nodes": [
+      "trochlear_nerve_iv__l",
+      "trochlear_nerve_iv__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "vagus_nerve_x",
+     "name": "Vagus nerve (X)",
+     "nodes": [
+      "vagus_nerve_x__l",
+      "vagus_nerve_x__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "vestibular_nerve",
+     "name": "Vestibular nerve",
+     "nodes": [
+      "vestibular_nerve__l",
+      "vestibular_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "vestibulocochlear_nerve_viii",
+     "name": "Vestibulocochlear nerve (VIII)",
+     "nodes": [
+      "vestibulocochlear_nerve_viii__l",
+      "vestibulocochlear_nerve_viii__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trigeminal_nerve_v_and_branches",
+   "name": "Trigeminal nerve (V) and branches",
+   "path": [
+    "Peripheral nervous system",
+    "Cranial nerves"
+   ],
+   "parts": [
+    {
+     "id": "maxillary_nerve",
+     "name": "Maxillary nerve",
+     "nodes": [
+      "maxillary_nerve__l",
+      "maxillary_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "meningeal_branch_of_maxillary_nerve",
+     "name": "Meningeal branch of maxillary nerve",
+     "nodes": [
+      "meningeal_branch_of_maxillary_nerve__l",
+      "meningeal_branch_of_maxillary_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "motor_root_of_trigeminal_nerve",
+     "name": "Motor root of trigeminal nerve",
+     "nodes": [
+      "motor_root_of_trigeminal_nerve__l",
+      "motor_root_of_trigeminal_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ophthalmic_nerve",
+     "name": "Ophthalmic nerve",
+     "nodes": [
+      "ophthalmic_nerve__l",
+      "ophthalmic_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sensory_root_of_trigeminal_nerve",
+     "name": "Sensory root of trigeminal nerve",
+     "nodes": [
+      "sensory_root_of_trigeminal_nerve__l",
+      "sensory_root_of_trigeminal_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "trigeminal_nerve_v",
+     "name": "Trigeminal nerve (V)",
+     "nodes": [
+      "trigeminal_nerve_v__l",
+      "trigeminal_nerve_v__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mandibular_nerve_and_branches",
+   "name": "Mandibular nerve and branches",
+   "path": [
+    "Peripheral nervous system",
+    "Cranial nerves",
+    "Mandibular nerve"
+   ],
+   "parts": [
+    {
+     "id": "anterior_division_of_mandibular_nerve",
+     "name": "Anterior division of mandibular nerve",
+     "nodes": [
+      "anterior_division_of_mandibular_nerve__l",
+      "anterior_division_of_mandibular_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "buccal_nerve",
+     "name": "Buccal nerve",
+     "nodes": [
+      "buccal_nerve__l",
+      "buccal_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_alveolar_nerve",
+     "name": "Inferior alveolar nerve",
+     "nodes": [
+      "inferior_alveolar_nerve__l",
+      "inferior_alveolar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lingual_nerve",
+     "name": "Lingual nerve",
+     "nodes": [
+      "lingual_nerve__l",
+      "lingual_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "mental_nerve",
+     "name": "Mental nerve",
+     "nodes": [
+      "mental_nerve__l",
+      "mental_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nerve_to_mylohyoid_muscle",
+     "name": "Nerve to mylohyoid muscle",
+     "nodes": [
+      "nerve_to_mylohyoid_muscle__l",
+      "nerve_to_mylohyoid_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_division_of_mandibular_nerve",
+     "name": "Posterior division of mandibular nerve",
+     "nodes": [
+      "posterior_division_of_mandibular_nerve__l",
+      "posterior_division_of_mandibular_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spinal_nerves",
+   "name": "Spinal nerves",
+   "path": [
+    "Peripheral nervous system",
+    "Spinal nerves"
+   ],
+   "parts": [
+    {
+     "id": "anterior_root_of_spinal_nerve",
+     "name": "Anterior root of spinal nerve",
+     "nodes": [
+      "anterior_root_of_spinal_nerve__l",
+      "anterior_root_of_spinal_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "cauda_equina",
+     "name": "Cauda equina",
+     "nodes": [
+      "cauda_equina"
+     ],
+     "sides": null
+    },
+    {
+     "id": "ilio_inguinal_nerve",
+     "name": "Ilio-inguinal nerve",
+     "nodes": [
+      "ilio_inguinal_nerve__l",
+      "ilio_inguinal_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "iliohypogastric_nerve",
+     "name": "Iliohypogastric nerve",
+     "nodes": [
+      "iliohypogastric_nerve__l",
+      "iliohypogastric_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "intercostal_nerves",
+     "name": "Intercostal nerves",
+     "nodes": [
+      "intercostal_nerves__l",
+      "intercostal_nerves__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_root_of_spinal_nerve",
+     "name": "Posterior root of spinal nerve",
+     "nodes": [
+      "posterior_root_of_spinal_nerve__l",
+      "posterior_root_of_spinal_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "spinal_ganglion",
+     "name": "Spinal ganglion",
+     "nodes": [
+      "spinal_ganglion__l",
+      "spinal_ganglion__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "median_nerve_and_branches",
+   "name": "Median nerve and branches",
+   "path": [
+    "Peripheral nervous system",
+    "Spinal nerves",
+    "Brachial plexus"
+   ],
+   "parts": [
+    {
+     "id": "anterior_interosseous_nerve_of_forearm",
+     "name": "Anterior interosseous nerve of forearm",
+     "nodes": [
+      "anterior_interosseous_nerve_of_forearm__l",
+      "anterior_interosseous_nerve_of_forearm__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "common_palmar_digital_branches_of_median_nerve",
+     "name": "Common palmar digital branches of median nerve",
+     "nodes": [
+      "common_palmar_digital_branches_of_median_nerve__l",
+      "common_palmar_digital_branches_of_median_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "communicating_branch_of_median_nerve_with_ulnar_nerve",
+     "name": "Communicating branch of median nerve with ulnar nerve",
+     "nodes": [
+      "communicating_branch_of_median_nerve_with_ulnar_nerve__l",
+      "communicating_branch_of_median_nerve_with_ulnar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "median_nerve",
+     "name": "Median nerve",
+     "nodes": [
+      "median_nerve__l",
+      "median_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "muscular_branches_of_median_nerve",
+     "name": "Muscular branches of median nerve",
+     "nodes": [
+      "muscular_branches_of_median_nerve__l",
+      "muscular_branches_of_median_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "palmar_branch_of_median_nerve",
+     "name": "Palmar branch of median nerve",
+     "nodes": [
+      "palmar_branch_of_median_nerve__l",
+      "palmar_branch_of_median_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proper_palmar_digital_branches_of_median_nerve",
+     "name": "Proper palmar digital branches of median nerve",
+     "nodes": [
+      "proper_palmar_digital_branches_of_median_nerve__l",
+      "proper_palmar_digital_branches_of_median_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "branches_of_lateral_cord_of_brachial_plexus",
+   "name": "Branches of lateral cord of brachial plexus",
+   "path": [
+    "Peripheral nervous system",
+    "Spinal nerves",
+    "Brachial plexus",
+    "Branches of lateral cord of brachial plexus"
+   ],
+   "parts": [
+    {
+     "id": "lateral_antebrachial_cutaneous_nerve",
+     "name": "Lateral antebrachial cutaneous nerve",
+     "nodes": [
+      "lateral_antebrachial_cutaneous_nerve__l",
+      "lateral_antebrachial_cutaneous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_pectoral_nerve",
+     "name": "Lateral pectoral nerve",
+     "nodes": [
+      "lateral_pectoral_nerve__l",
+      "lateral_pectoral_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "musculocutaneous_nerve",
+     "name": "Musculocutaneous nerve",
+     "nodes": [
+      "musculocutaneous_nerve__l",
+      "musculocutaneous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "branches_of_medial_cord_of_brachial_plexus",
+   "name": "Branches of medial cord of brachial plexus",
+   "path": [
+    "Peripheral nervous system",
+    "Spinal nerves",
+    "Brachial plexus",
+    "Branches of medial cord of brachial plexus"
+   ],
+   "parts": [
+    {
+     "id": "anterior_branch_of_medial_antebrachial_cutaneous_nerve",
+     "name": "Anterior branch of medial antebrachial cutaneous nerve",
+     "nodes": [
+      "anterior_branch_of_medial_antebrachial_cutaneous_nerve__l",
+      "anterior_branch_of_medial_antebrachial_cutaneous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_antebrachial_cutaneous_nerve",
+     "name": "Medial antebrachial cutaneous nerve",
+     "nodes": [
+      "medial_antebrachial_cutaneous_nerve__l",
+      "medial_antebrachial_cutaneous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_brachial_cutaneous_nerve",
+     "name": "Medial brachial cutaneous nerve",
+     "nodes": [
+      "medial_brachial_cutaneous_nerve__l",
+      "medial_brachial_cutaneous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_pectoral_nerve",
+     "name": "Medial pectoral nerve",
+     "nodes": [
+      "medial_pectoral_nerve__l",
+      "medial_pectoral_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_branch_of_medial_antebrachial_cutaneous_nerve",
+     "name": "Posterior branch of medial antebrachial cutaneous nerve",
+     "nodes": [
+      "posterior_branch_of_medial_antebrachial_cutaneous_nerve__l",
+      "posterior_branch_of_medial_antebrachial_cutaneous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ulnar_nerve_and_branches",
+   "name": "Ulnar nerve and branches",
+   "path": [
+    "Peripheral nervous system",
+    "Spinal nerves",
+    "Brachial plexus",
+    "Branches of medial cord of brachial plexus"
+   ],
+   "parts": [
+    {
+     "id": "common_palmar_digital_branches_of_ulnar_nerve",
+     "name": "Common palmar digital branches of ulnar nerve",
+     "nodes": [
+      "common_palmar_digital_branches_of_ulnar_nerve__l",
+      "common_palmar_digital_branches_of_ulnar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "deep_branch_of_ulnar_nerve",
+     "name": "Deep branch of ulnar nerve",
+     "nodes": [
+      "deep_branch_of_ulnar_nerve__l",
+      "deep_branch_of_ulnar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_branch_of_ulnar_nerve",
+     "name": "Dorsal branch of ulnar nerve",
+     "nodes": [
+      "dorsal_branch_of_ulnar_nerve__l",
+      "dorsal_branch_of_ulnar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_digital_branches_of_ulnar_nerve",
+     "name": "Dorsal digital branches of ulnar nerve",
+     "nodes": [
+      "dorsal_digital_branches_of_ulnar_nerve__l",
+      "dorsal_digital_branches_of_ulnar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "muscular_branches_of_ulnar_nerve",
+     "name": "Muscular branches of ulnar nerve",
+     "nodes": [
+      "muscular_branches_of_ulnar_nerve__l",
+      "muscular_branches_of_ulnar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "palmar_branch_of_ulnar_nerve",
+     "name": "Palmar branch of ulnar nerve",
+     "nodes": [
+      "palmar_branch_of_ulnar_nerve__l",
+      "palmar_branch_of_ulnar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proper_palmar_digital_branches_of_ulnar_nerve",
+     "name": "Proper palmar digital branches of ulnar nerve",
+     "nodes": [
+      "proper_palmar_digital_branches_of_ulnar_nerve__l",
+      "proper_palmar_digital_branches_of_ulnar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superficial_branch_of_ulnar_nerve",
+     "name": "Superficial branch of ulnar nerve",
+     "nodes": [
+      "superficial_branch_of_ulnar_nerve__l",
+      "superficial_branch_of_ulnar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "ulnar_nerve",
+     "name": "Ulnar nerve",
+     "nodes": [
+      "ulnar_nerve__l",
+      "ulnar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "branches_of_posterior_cord_of_brachial_plexus",
+   "name": "Branches of posterior cord of brachial plexus",
+   "path": [
+    "Peripheral nervous system",
+    "Spinal nerves",
+    "Brachial plexus",
+    "Branches of posterior cord of brachial plexus"
+   ],
+   "parts": [
+    {
+     "id": "axillary_nerve",
+     "name": "Axillary nerve",
+     "nodes": [
+      "axillary_nerve__l",
+      "axillary_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_subscapular_nerve",
+     "name": "Inferior subscapular nerve",
+     "nodes": [
+      "inferior_subscapular_nerve__l",
+      "inferior_subscapular_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "muscular_branches_of_axillary_nerve",
+     "name": "Muscular branches of axillary nerve",
+     "nodes": [
+      "muscular_branches_of_axillary_nerve__l",
+      "muscular_branches_of_axillary_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_lateral_brachial_cutaneous_nerve",
+     "name": "Superior lateral brachial cutaneous nerve",
+     "nodes": [
+      "superior_lateral_brachial_cutaneous_nerve__l",
+      "superior_lateral_brachial_cutaneous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_subscapular_nerve",
+     "name": "Superior subscapular nerve",
+     "nodes": [
+      "superior_subscapular_nerve__l",
+      "superior_subscapular_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "thoracodorsal_nerve",
+     "name": "Thoracodorsal nerve",
+     "nodes": [
+      "thoracodorsal_nerve__l",
+      "thoracodorsal_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "radial_nerve_and_branches",
+   "name": "Radial nerve and branches",
+   "path": [
+    "Peripheral nervous system",
+    "Spinal nerves",
+    "Brachial plexus",
+    "Branches of posterior cord of brachial plexus"
+   ],
+   "parts": [
+    {
+     "id": "deep_branch_of_radial_nerve",
+     "name": "Deep branch of radial nerve",
+     "nodes": [
+      "deep_branch_of_radial_nerve__l",
+      "deep_branch_of_radial_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_digital_branches_of_radial_nerve",
+     "name": "Dorsal digital branches of radial nerve",
+     "nodes": [
+      "dorsal_digital_branches_of_radial_nerve__l",
+      "dorsal_digital_branches_of_radial_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_lateral_brachial_cutaneous_nerve",
+     "name": "Inferior lateral brachial cutaneous nerve",
+     "nodes": [
+      "inferior_lateral_brachial_cutaneous_nerve__l",
+      "inferior_lateral_brachial_cutaneous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "muscular_branches_of_radial_nerve",
+     "name": "Muscular branches of radial nerve",
+     "nodes": [
+      "muscular_branches_of_radial_nerve__l",
+      "muscular_branches_of_radial_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_antebrachial_cutaneous_nerve",
+     "name": "Posterior antebrachial cutaneous nerve",
+     "nodes": [
+      "posterior_antebrachial_cutaneous_nerve__l",
+      "posterior_antebrachial_cutaneous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_interosseous_nerve_of_forearm",
+     "name": "Posterior interosseous nerve of forearm",
+     "nodes": [
+      "posterior_interosseous_nerve_of_forearm__l",
+      "posterior_interosseous_nerve_of_forearm__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "radial_nerve",
+     "name": "Radial nerve",
+     "nodes": [
+      "radial_nerve__l",
+      "radial_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superficial_branch_of_radial_nerve",
+     "name": "Superficial branch of radial nerve",
+     "nodes": [
+      "superficial_branch_of_radial_nerve__l",
+      "superficial_branch_of_radial_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "supraclavicular_branches_of_brachial_plexus",
+   "name": "Supraclavicular branches of brachial plexus",
+   "path": [
+    "Peripheral nervous system",
+    "Spinal nerves",
+    "Brachial plexus",
+    "Supraclavicular branches of brachial plexus"
+   ],
+   "parts": [
+    {
+     "id": "dorsal_scapular_nerve",
+     "name": "Dorsal scapular nerve",
+     "nodes": [
+      "dorsal_scapular_nerve__l",
+      "dorsal_scapular_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "long_thoracic_nerve",
+     "name": "Long thoracic nerve",
+     "nodes": [
+      "long_thoracic_nerve__l",
+      "long_thoracic_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "subclavian_nerve",
+     "name": "Subclavian nerve",
+     "nodes": [
+      "subclavian_nerve__l",
+      "subclavian_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "suprascapular_nerve",
+     "name": "Suprascapular nerve",
+     "nodes": [
+      "suprascapular_nerve__l",
+      "suprascapular_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "roots_trunks_and_cords_of_brachial_plexus",
+   "name": "Roots, trunks and cords of brachial plexus",
+   "path": [
+    "Peripheral nervous system",
+    "Spinal nerves",
+    "Brachial plexus",
+    "Supraclavicular part of brachial plexus"
+   ],
+   "parts": [
+    {
+     "id": "anterior_division_of_inferior_trunk_of_brachial_plexus",
+     "name": "Anterior division of inferior trunk of brachial plexus",
+     "nodes": [
+      "anterior_division_of_inferior_trunk_of_brachial_plexus__l",
+      "anterior_division_of_inferior_trunk_of_brachial_plexus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "anterior_division_of_middle_trunk_of_brachial_plexus",
+     "name": "Anterior division of middle trunk of brachial plexus",
+     "nodes": [
+      "anterior_division_of_middle_trunk_of_brachial_plexus__l",
+      "anterior_division_of_middle_trunk_of_brachial_plexus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "anterior_division_of_superior_trunk_of_brachial_plexus",
+     "name": "Anterior division of superior trunk of brachial plexus",
+     "nodes": [
+      "anterior_division_of_superior_trunk_of_brachial_plexus__l",
+      "anterior_division_of_superior_trunk_of_brachial_plexus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "inferior_trunk_of_brachial_plexus",
+     "name": "Inferior trunk of brachial plexus",
+     "nodes": [
+      "inferior_trunk_of_brachial_plexus__l",
+      "inferior_trunk_of_brachial_plexus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "middle_trunk_of_brachial_plexus",
+     "name": "Middle trunk of brachial plexus",
+     "nodes": [
+      "middle_trunk_of_brachial_plexus__l",
+      "middle_trunk_of_brachial_plexus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_cord_of_brachial_plexus",
+     "name": "Posterior cord of brachial plexus",
+     "nodes": [
+      "posterior_cord_of_brachial_plexus__l",
+      "posterior_cord_of_brachial_plexus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_division_of_inferior_trunk_of_brachial_plexus",
+     "name": "Posterior division of inferior trunk of brachial plexus",
+     "nodes": [
+      "posterior_division_of_inferior_trunk_of_brachial_plexus__l",
+      "posterior_division_of_inferior_trunk_of_brachial_plexus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_division_of_middle_trunk_of_brachial_plexus",
+     "name": "Posterior division of middle trunk of brachial plexus",
+     "nodes": [
+      "posterior_division_of_middle_trunk_of_brachial_plexus__l",
+      "posterior_division_of_middle_trunk_of_brachial_plexus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_division_of_superior_trunk_of_brachial_plexus",
+     "name": "Posterior division of superior trunk of brachial plexus",
+     "nodes": [
+      "posterior_division_of_superior_trunk_of_brachial_plexus__l",
+      "posterior_division_of_superior_trunk_of_brachial_plexus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "roots_of_brachial_plexus",
+     "name": "Roots of brachial plexus",
+     "nodes": [
+      "roots_of_brachial_plexus__l",
+      "roots_of_brachial_plexus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_trunk_of_brachial_plexus",
+     "name": "Superior trunk of brachial plexus",
+     "nodes": [
+      "superior_trunk_of_brachial_plexus__l",
+      "superior_trunk_of_brachial_plexus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lumbar_plexus",
+   "name": "Lumbar plexus",
+   "path": [
+    "Peripheral nervous system",
+    "Spinal nerves",
+    "Lumbosacral plexus",
+    "Lumbar plexus",
+    "Branches of anterior part of lumbar plexus"
+   ],
+   "parts": [
+    {
+     "id": "anterior_branch_of_obturator_nerve",
+     "name": "Anterior branch of obturator nerve",
+     "nodes": [
+      "anterior_branch_of_obturator_nerve__l",
+      "anterior_branch_of_obturator_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "femoral_branch_of_genitofemoral_nerve",
+     "name": "Femoral branch of genitofemoral nerve",
+     "nodes": [
+      "femoral_branch_of_genitofemoral_nerve__l",
+      "femoral_branch_of_genitofemoral_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "genital_branch_of_genitofemoral_nerve",
+     "name": "Genital branch of genitofemoral nerve",
+     "nodes": [
+      "genital_branch_of_genitofemoral_nerve__l",
+      "genital_branch_of_genitofemoral_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "genitofemoral_nerve",
+     "name": "Genitofemoral nerve",
+     "nodes": [
+      "genitofemoral_nerve__l",
+      "genitofemoral_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_femoral_cutaneous_nerve",
+     "name": "Lateral femoral cutaneous nerve",
+     "nodes": [
+      "lateral_femoral_cutaneous_nerve__l",
+      "lateral_femoral_cutaneous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "obturator_nerve",
+     "name": "Obturator nerve",
+     "nodes": [
+      "obturator_nerve__l",
+      "obturator_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_branch_of_obturator_nerve",
+     "name": "Posterior branch of obturator nerve",
+     "nodes": [
+      "posterior_branch_of_obturator_nerve__l",
+      "posterior_branch_of_obturator_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "femoral_nerve_and_branches",
+   "name": "Femoral nerve and branches",
+   "path": [
+    "Peripheral nervous system",
+    "Spinal nerves",
+    "Lumbosacral plexus",
+    "Lumbar plexus",
+    "Branches of posterior part of lumbar plexus"
+   ],
+   "parts": [
+    {
+     "id": "anterior_cutaneous_branches_of_femoral_nerve",
+     "name": "Anterior cutaneous branches of femoral nerve",
+     "nodes": [
+      "anterior_cutaneous_branches_of_femoral_nerve__l",
+      "anterior_cutaneous_branches_of_femoral_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "femoral_nerve",
+     "name": "Femoral nerve",
+     "nodes": [
+      "femoral_nerve__l",
+      "femoral_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "infrapatellar_branch_of_saphenous_nerve",
+     "name": "Infrapatellar branch of saphenous nerve",
+     "nodes": [
+      "infrapatellar_branch_of_saphenous_nerve__l",
+      "infrapatellar_branch_of_saphenous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_crural_cutaneous_branches_of_saphenous_nerve",
+     "name": "Medial crural cutaneous branches of saphenous nerve",
+     "nodes": [
+      "medial_crural_cutaneous_branches_of_saphenous_nerve__l",
+      "medial_crural_cutaneous_branches_of_saphenous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "saphenous_nerve",
+     "name": "Saphenous nerve",
+     "nodes": [
+      "saphenous_nerve__l",
+      "saphenous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sacral_plexus",
+   "name": "Sacral plexus",
+   "path": [
+    "Peripheral nervous system",
+    "Spinal nerves",
+    "Lumbosacral plexus",
+    "Sacral plexus"
+   ],
+   "parts": [
+    {
+     "id": "anterior_root_of_posterior_femoral_cutaneous_nerve",
+     "name": "Anterior root of posterior femoral cutaneous nerve",
+     "nodes": [
+      "anterior_root_of_posterior_femoral_cutaneous_nerve__l",
+      "anterior_root_of_posterior_femoral_cutaneous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nerve_to_piriformis_muscle",
+     "name": "Nerve to piriformis muscle",
+     "nodes": [
+      "nerve_to_piriformis_muscle__l",
+      "nerve_to_piriformis_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nerve_to_quadratus_femoris_muscle",
+     "name": "Nerve to quadratus femoris muscle",
+     "nodes": [
+      "nerve_to_quadratus_femoris_muscle__l",
+      "nerve_to_quadratus_femoris_muscle__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_femoral_cutaneous_nerve",
+     "name": "Posterior femoral cutaneous nerve",
+     "nodes": [
+      "posterior_femoral_cutaneous_nerve__l",
+      "posterior_femoral_cutaneous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_root_of_posterior_femoral_cutaneous_nerve",
+     "name": "Posterior root of posterior femoral cutaneous nerve",
+     "nodes": [
+      "posterior_root_of_posterior_femoral_cutaneous_nerve__l",
+      "posterior_root_of_posterior_femoral_cutaneous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "pudendal_nerve",
+     "name": "Pudendal nerve",
+     "nodes": [
+      "pudendal_nerve__l",
+      "pudendal_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superior_gluteal_nerve",
+     "name": "Superior gluteal nerve",
+     "nodes": [
+      "superior_gluteal_nerve__l",
+      "superior_gluteal_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sciatic_nerve_and_branches",
+   "name": "Sciatic nerve and branches",
+   "path": [
+    "Peripheral nervous system",
+    "Spinal nerves",
+    "Lumbosacral plexus",
+    "Sacral plexus"
+   ],
+   "parts": [
+    {
+     "id": "common_fibular_nerve",
+     "name": "Common fibular nerve",
+     "nodes": [
+      "common_fibular_nerve__l",
+      "common_fibular_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "common_plantar_digital_branches_of_lateral_plantar_nerve",
+     "name": "Common plantar digital branches of lateral plantar nerve",
+     "nodes": [
+      "common_plantar_digital_branches_of_lateral_plantar_nerve__l",
+      "common_plantar_digital_branches_of_lateral_plantar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "common_plantar_digital_branches_of_medial_plantar_nerve",
+     "name": "Common plantar digital branches of medial plantar nerve",
+     "nodes": [
+      "common_plantar_digital_branches_of_medial_plantar_nerve",
+      "common_plantar_digital_branches_of_medial_plantar_nerve__l"
+     ],
+     "sides": [
+      "left"
+     ]
+    },
+    {
+     "id": "deep_fibular_nerve",
+     "name": "Deep fibular nerve",
+     "nodes": [
+      "deep_fibular_nerve__l",
+      "deep_fibular_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_digital_branches_of_deep_fibular_nerve",
+     "name": "Dorsal digital branches of deep fibular nerve",
+     "nodes": [
+      "dorsal_digital_branches_of_deep_fibular_nerve__l",
+      "dorsal_digital_branches_of_deep_fibular_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "dorsal_digital_branches_of_superficial_fibular_nerve",
+     "name": "Dorsal digital branches of superficial fibular nerve",
+     "nodes": [
+      "dorsal_digital_branches_of_superficial_fibular_nerve__l",
+      "dorsal_digital_branches_of_superficial_fibular_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "intermediate_dorsal_cutaneous_nerve_of_foot",
+     "name": "Intermediate dorsal cutaneous nerve of foot",
+     "nodes": [
+      "intermediate_dorsal_cutaneous_nerve_of_foot__l",
+      "intermediate_dorsal_cutaneous_nerve_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lateral_plantar_nerve",
+     "name": "Lateral plantar nerve",
+     "nodes": [
+      "lateral_plantar_nerve__l",
+      "lateral_plantar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_dorsal_cutaneous_nerve_of_foot",
+     "name": "Medial dorsal cutaneous nerve of foot",
+     "nodes": [
+      "medial_dorsal_cutaneous_nerve_of_foot__l",
+      "medial_dorsal_cutaneous_nerve_of_foot__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_plantar_nerve",
+     "name": "Medial plantar nerve",
+     "nodes": [
+      "medial_plantar_nerve__l",
+      "medial_plantar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "medial_sural_cutaneous_nerve",
+     "name": "Medial sural cutaneous nerve",
+     "nodes": [
+      "medial_sural_cutaneous_nerve__l",
+      "medial_sural_cutaneous_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "muscular_branches_of_deep_fibular_nerve",
+     "name": "Muscular branches of deep fibular nerve",
+     "nodes": [
+      "muscular_branches_of_deep_fibular_nerve__l",
+      "muscular_branches_of_deep_fibular_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proper_plantar_digital_branches_of_lateral_plantar_nerve",
+     "name": "Proper plantar digital branches of lateral plantar nerve",
+     "nodes": [
+      "proper_plantar_digital_branches_of_lateral_plantar_nerve__l",
+      "proper_plantar_digital_branches_of_lateral_plantar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "proper_plantar_digital_branches_of_medial_plantar_nerve",
+     "name": "Proper plantar digital branches of medial plantar nerve",
+     "nodes": [
+      "proper_plantar_digital_branches_of_medial_plantar_nerve__l",
+      "proper_plantar_digital_branches_of_medial_plantar_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sciatic_nerve",
+     "name": "Sciatic nerve",
+     "nodes": [
+      "sciatic_nerve__l",
+      "sciatic_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "superficial_fibular_nerve",
+     "name": "Superficial fibular nerve",
+     "nodes": [
+      "superficial_fibular_nerve__l",
+      "superficial_fibular_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sural_communicating_branch_of_common_fibular_nerve",
+     "name": "Sural communicating branch of common fibular nerve",
+     "nodes": [
+      "sural_communicating_branch_of_common_fibular_nerve__l",
+      "sural_communicating_branch_of_common_fibular_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sural_nerve",
+     "name": "Sural nerve",
+     "nodes": [
+      "sural_nerve__l",
+      "sural_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "tibial_nerve",
+     "name": "Tibial nerve",
+     "nodes": [
+      "tibial_nerve__l",
+      "tibial_nerve__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ear",
+   "name": "Ear",
+   "path": [
+    "Sense organs",
+    "Ear",
+    "Middle ear"
+   ],
+   "parts": [
+    {
+     "id": "auditory_tube",
+     "name": "Auditory tube",
+     "nodes": [
+      "auditory_tube__l",
+      "auditory_tube__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "cochlea",
+     "name": "Cochlea",
+     "nodes": [
+      "cochlea__l",
+      "cochlea__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "tympanic_membrane",
+     "name": "Tympanic membrane",
+     "nodes": [
+      "tympanic_membrane__l",
+      "tympanic_membrane__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "vestibule",
+     "name": "Vestibule",
+     "nodes": [
+      "vestibule__l",
+      "vestibule__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "accessory_visual_structures",
+   "name": "Accessory visual structures",
+   "path": [
+    "Sense organs",
+    "Eye",
+    "Accessory visual structures",
+    "Lacrimal apparatus"
+   ],
+   "parts": [
+    {
+     "id": "ampulla_of_lacrimal_canaliculus",
+     "name": "Ampulla of lacrimal canaliculus",
+     "nodes": [
+      "ampulla_of_lacrimal_canaliculus__l",
+      "ampulla_of_lacrimal_canaliculus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lacrimal_canaliculus",
+     "name": "Lacrimal canaliculus",
+     "nodes": [
+      "lacrimal_canaliculus__l",
+      "lacrimal_canaliculus__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lacrimal_gland",
+     "name": "Lacrimal gland",
+     "nodes": [
+      "lacrimal_gland__l",
+      "lacrimal_gland__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lacrimal_sac",
+     "name": "Lacrimal sac",
+     "nodes": [
+      "lacrimal_sac__l",
+      "lacrimal_sac__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "nasolacrimal_duct",
+     "name": "Nasolacrimal duct",
+     "nodes": [
+      "nasolacrimal_duct__l",
+      "nasolacrimal_duct__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "suspensory_ligament_of_eyeball",
+     "name": "Suspensory ligament of eyeball",
+     "nodes": [
+      "suspensory_ligament_of_eyeball__l",
+      "suspensory_ligament_of_eyeball__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eyeball",
+   "name": "Eyeball",
+   "path": [
+    "Sense organs",
+    "Eye",
+    "Eyeball"
+   ],
+   "parts": [
+    {
+     "id": "anterior_chamber_of_eyeball",
+     "name": "Anterior chamber of eyeball",
+     "nodes": [
+      "anterior_chamber_of_eyeball__l",
+      "anterior_chamber_of_eyeball__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "anterior_segment_of_eyeball",
+     "name": "Anterior segment of eyeball",
+     "nodes": [
+      "anterior_segment_of_eyeball__l",
+      "anterior_segment_of_eyeball__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ],
+     "hidden": true
+    },
+    {
+     "id": "cornea",
+     "name": "Cornea",
+     "nodes": [
+      "cornea__l",
+      "cornea__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "iris",
+     "name": "Iris",
+     "nodes": [
+      "iris__l",
+      "iris__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "lens",
+     "name": "Lens",
+     "nodes": [
+      "lens__l",
+      "lens__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "posterior_segment_of_eyeball",
+     "name": "Posterior segment of eyeball",
+     "nodes": [
+      "posterior_segment_of_eyeball__l",
+      "posterior_segment_of_eyeball__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ],
+     "hidden": true
+    },
+    {
+     "id": "retina",
+     "name": "Retina",
+     "nodes": [
+      "retina__l",
+      "retina__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "sclera",
+     "name": "Sclera",
+     "nodes": [
+      "sclera__l",
+      "sclera__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "vitreous_body",
+     "name": "Vitreous body",
+     "nodes": [
+      "vitreous_body__l",
+      "vitreous_body__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    },
+    {
+     "id": "zonular_fibres",
+     "name": "Zonular fibres",
+     "nodes": [
+      "zonular_fibres__l",
+      "zonular_fibres__r"
+     ],
+     "sides": [
+      "left",
+      "right"
+     ]
+    }
+   ]
+  }
+ ]
+}

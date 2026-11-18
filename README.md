@@ -11,7 +11,7 @@ Learn and quiz yourself on human anatomy in 3D, in the browser.
 
 Built for laptops: two-finger scroll orbits, pinch zooms, Shift + scroll pans, and a mouse wheel zooms. Progress and stars are saved in your browser; there are no accounts.
 
-Systems so far: skeletal, joints & ligaments, muscular, cardiovascular, and visceral.
+Systems so far: skeletal, joints & ligaments, muscular, cardiovascular, nervous system & sense organs, and visceral.
 
 ## Developing
 

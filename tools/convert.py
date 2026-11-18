@@ -30,7 +30,7 @@ SYSTEMS = {
     "joints": {"name": "Joints & ligaments", "color": "#A3B8CC"},
     "muscular": {"name": "Muscular system", "color": "#E2665C"},
     "cardiovascular": {"name": "Cardiovascular system", "color": "#D9465A"},
-    "nervous": {"name": "Nervous system & sense organs", "color": "#F2D04B"},
+    "nervous": {"name": "Nervous system & sense organs", "color": "#E3D79A"},
     "visceral": {"name": "Visceral systems", "color": "#E39AB0"},
     "lymphoid": {"name": "Lymphoid organs", "color": "#9ADE7B"},
 }
@@ -71,6 +71,7 @@ ROOT_ORDERS = {
         "Joints of upper limb", "Joints of lower limb",
     ],
     "cardiovascular": ["Arterial system", "Venous system"],
+    "nervous": ["Central nervous system", "Peripheral nervous system", "Sense organs"],
     "visceral": [
         "Respiratory system", "Thoracic cavity", "Digestive system", "Abdominopelvic cavity",
         "Urinary system", "Genital systems", "Endocrine glands",
@@ -79,7 +80,11 @@ ROOT_ORDERS = {
 
 # Parts that start hidden in the viewer (a quiz that includes them shows them): large sheets
 # that would cover the organs on first view, and liver segments, which overlap the whole liver.
-DEFAULT_HIDDEN = re.compile(r"^(Pleura|Greater omentum|.* segment of liver \(.*\))$")
+DEFAULT_HIDDEN = re.compile(
+    r"^(Pleura|Greater omentum|.* segment of liver \(.*\)"
+    # Nervous: the spinal dura wraps the cord; the eyeball segments wrap the lens and iris.
+    r"|Spinal dura|(Anterior|Posterior) segment of eyeball)$"
+)
 ROOT_ORDER = ROOT_ORDERS.get(SYSTEM_ID, [])
 
 # Systems where "X part/head of Y" siblings are merged into one part "Y".
@@ -133,6 +138,52 @@ GROUP_RENAME = {
     # After trunk grouping, only the hepatic portal vein is left in "Systemic veins".
     "Systemic veins": "Hepatic portal vein",
     "Vertebral column": "Sacrum and coccyx",
+    # Nervous: Z-Anatomy nests many 1-3 part groups; merge them into textbook-sized groups.
+    "Midbrain": "Brainstem",
+    "Central mesencephalic structures": "Brainstem",
+    "Cerebral peduncle": "Brainstem",
+    "Grey matter of tegmentum of midbrain": "Brainstem",
+    "Oculomotor complex": "Brainstem",
+    "Tectum of midbrain": "Brainstem",
+    "Grey matter of pontine tegmentum": "Brainstem",
+    "White matter of diencephalon": "Diencephalon",
+    "Telencephalon": "Deep structures of cerebrum",
+    "Basal forebrain": "Deep structures of cerebrum",
+    "Commissural fibres of telencephalon": "Deep structures of cerebrum",
+    "Corpus striatum": "Deep structures of cerebrum",
+    "Dorsal striatum": "Deep structures of cerebrum",
+    "Projection fibres of telencephalon": "Deep structures of cerebrum",
+    "Walls of lateral ventricle": "Deep structures of cerebrum",
+    "Insula": "Insula and interlobar sulci",
+    "Interlobar sulci": "Insula and interlobar sulci",
+    "Dura": "Meninges and choroid plexus",
+    "Cranial dura": "Meninges and choroid plexus",
+    "Cranial pia": "Meninges and choroid plexus",
+    "Central structures of spinal cord": "Grey matter of spinal cord",
+    "Anterior horn of spinal cord": "Grey matter of spinal cord",
+    "Intermediate zone of spinal cord": "Grey matter of spinal cord",
+    "Posterior horn of spinal cord": "Grey matter of spinal cord",
+    "White matter of spinal cord": "Tracts of spinal cord",
+    "Anterior funiculus": "Tracts of spinal cord",
+    "Anterolateral fasciculus": "Tracts of spinal cord",
+    "Lateral funiculus": "Tracts of spinal cord",
+    "Posterior funiculus": "Tracts of spinal cord",
+    "Thoracolumbar part of autonomic division": "Sympathetic trunk and nerves",
+    "Cervical nerves": "Cranial nerves",  # holds only the accessory nerve (XI)
+    "Mandibular nerve": "Mandibular nerve and branches",
+    "Posterior division of mandibular nerve and branches": "Mandibular nerve and branches",
+    "Ganglia": "Spinal nerves",
+    "Roots of nerves": "Spinal nerves",
+    "Thoracic nerves": "Spinal nerves",
+    "Anterior rami of lumbar nerves": "Spinal nerves",
+    "Supraclavicular part of brachial plexus": "Roots, trunks and cords of brachial plexus",
+    "Infraclavicular part of brachial plexus": "Roots, trunks and cords of brachial plexus",
+    "Branches of anterior part of lumbar plexus": "Lumbar plexus",
+    "Branches of posterior part of lumbar plexus": "Lumbar plexus",
+    "External ear": "Ear",
+    "Middle ear": "Ear",
+    "Internal ear": "Ear",
+    "Lacrimal apparatus": "Accessory visual structures",
     "Bones of free part of lower limb": "Bones of thigh and leg",
     "Bones of foot": "Sesamoid bones of foot",
 }
@@ -155,6 +206,28 @@ def split_group(group, part):
     if p in ("humerus", "radius", "ulna"):
         return "Bones of arm and forearm"
     return "Carpal bones"
+
+
+# Source names that are abbreviations or carry stray marks ("Anterior occipital sulcus*").
+NAME_FIX = {
+    "Lat_Fis-ant-Horizont": "Anterior ramus of lateral sulcus",
+    "Lat_Fis-ant-Vertical": "Ascending ramus of lateral sulcus",
+    "Lat_Fis-post": "Posterior ramus of lateral sulcus",
+    "Sulcus interm_prim-Jensen": "Intermediate sulcus of Jensen",
+    "Central canal'": "Central canal",
+}
+
+# Reference geometry, not structures: eyeball axes and meridians, and "-curve" guide lines.
+HELPER_MESH = re.compile(r"-curve$|^(Equator|Meridians|External axis|Internal axis) of eyeball$")
+
+
+def clean_name(name):
+    name = NAME_FIX.get(name, name)
+    name = re.sub(r"\s+", " ", name.replace("*", "")).strip()
+    # "(Communicating branch of median nerve with ulnar nerve)": the whole name in brackets.
+    if name.startswith("(") and name.endswith(")") and name.count("(") == 1:
+        name = name[1:-1]
+    return name
 
 
 def suffix(name):
@@ -203,6 +276,8 @@ for o in bpy.data.objects:
     # Empty placeholders and outline helpers (e.g. "Oesophagus-profile") are not structures.
     if not o.data.vertices or o.name.endswith("-profile"):
         continue
+    if HELPER_MESH.search(base_name(o.name)):
+        continue
     # Names whose non-ASCII text was lost in the source ("?x", "????????") can't be labelled.
     if "?" in o.name:
         print(f"NOTE: skipped {o.name!r} (name is unreadable in the source)")
@@ -225,23 +300,32 @@ def trunk_of(o):
 
 
 def trunk_name(o):
-    name = re.sub(r"^(Right|Left) ", "", base_name(trunk_of(o).name))
+    name = re.sub(r"^(Right|Left) ", "", clean_name(base_name(trunk_of(o).name)))
     name = name.replace(" (thoracic part)", "")
     return name[0].upper() + name[1:]
 
 
 # Cardiovascular: Z-Anatomy lists hundreds of vessels flat under a few groups. Within these,
 # group each vessel tree under its trunk ("Femoral artery and branches") when it is big enough.
+# Nervous: the same for big peripheral nerve trees ("Sciatic nerve and branches").
 TRUNK_GROUPS = {"Systemic arteries", "Systemic veins", "Aorta", "Aortic bifurcation"}
-TRUNK_MIN = 4
+TRUNK_MIN = 8 if SYSTEM_ID == "nervous" else 4
+
+
+def trunk_scope(g):
+    if SYSTEM_ID == "nervous":
+        return "Peripheral nervous system" in group_path(g)
+    return base_name(g.name) in TRUNK_GROUPS
+
+
 trunk_sizes = {}
 for o, g in keep:
-    if base_name(g.name) in TRUNK_GROUPS:
+    if trunk_scope(g):
         trunk_sizes[trunk_name(o)] = trunk_sizes.get(trunk_name(o), 0) + 1
 
 
 def trunk_group(o, g):
-    if base_name(g.name) not in TRUNK_GROUPS or trunk_sizes.get(trunk_name(o), 0) < TRUNK_MIN:
+    if not trunk_scope(g) or trunk_sizes.get(trunk_name(o), 0) < TRUNK_MIN:
         return None
     word = "tributaries" if "Venous system" in group_path(g) else "branches"
     return f"{trunk_name(o)} and {word}"
@@ -252,8 +336,9 @@ groups = {}  # display group name -> {path, parts: {part_id: part}}
 group_seen = []
 part_home = {}  # part id -> display group it was first seen in
 records = []
+used_nodes = set()
 for o, g in keep:
-    part = base_name(o.name)
+    part = clean_name(base_name(o.name))
     mesh_id = slug(part)
     side = {"l": "left", "r": "right"}.get(suffix(o.name))
     if base_name(g.name) in MERGE_GROUPS:
@@ -264,6 +349,7 @@ for o, g in keep:
     gname = split_group(base_name(g.name), part)
     gname = GROUP_RENAME.get(gname, gname)
     gname = trunk_group(o, g) or gname
+    gname = GROUP_RENAME.get(gname, gname)
     # Keep both sides of a structure together even if the source files them in different groups.
     home = part_home.setdefault(slug(part), gname)
     if home != gname:
@@ -274,6 +360,12 @@ for o, g in keep:
         group_seen.append(gname)
     pid = slug(part)
     node = mesh_id + ("__" + side[0] if side else "")
+    # Two source meshes can clean to the same name ("Central canal" and "Central canal'").
+    n = 2
+    while node in used_nodes:
+        node = f"{mesh_id}_{n}" + ("__" + side[0] if side else "")
+        n += 1
+    used_nodes.add(node)
     parts = groups[gname]["parts"]
     entry = parts.setdefault(pid, {"id": pid, "name": part, "nodes": [], "sides": []})
     entry["nodes"].append(node)
@@ -358,11 +450,15 @@ def order_key(name):
 
 
 DEOXY_BLUE = "#5B7FD6"
+BRAIN_GREY = "#CFAFA8"
 
 
 def group_color(path):
     """Cardiovascular follows the textbook convention: deoxygenated vessels are blue. That is
-    the systemic veins and the pulmonary arteries; the pulmonary veins carry oxygenated blood."""
+    the systemic veins and the pulmonary arteries; the pulmonary veins carry oxygenated blood.
+    Nervous: brain and spinal cord are pinkish grey, which sets them apart from the nerves."""
+    if SYSTEM_ID == "nervous":
+        return BRAIN_GREY if path and path[0] == "Central nervous system" else None
     if SYSTEM_ID != "cardiovascular" or not path or "Valvular complex of heart" in path:
         return None
     venous = path[0] == "Venous system"

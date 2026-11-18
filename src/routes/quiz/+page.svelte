@@ -36,7 +36,8 @@
 		joints: 'All joints & ligaments',
 		muscular: 'All muscles',
 		visceral: 'All organs',
-		cardiovascular: 'Heart & vessels'
+		cardiovascular: 'Heart & vessels',
+		nervous: 'Brain, nerves & senses'
 	};
 	const viewerSel = $derived([...scene.selected]);
 	const presets = $derived([

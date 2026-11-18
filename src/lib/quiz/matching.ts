@@ -60,7 +60,18 @@ export interface MatchOptions {
 	aliases?: string[];
 }
 
-export type MatchResult = 'exact' | 'close' | 'wrong-side' | 'wrong';
+/**
+ * A trailing "(...)" is optional, and a long one is an accepted alias:
+ * "Trigeminal nerve (V)" accepts "trigeminal nerve";
+ * "Lateral occipital gyrus (Middle occipital gyrus)" also accepts "middle occipital gyrus".
+ */
+export function parenAliases(answer: string): string[] {
+	const m = /^(.+?)\s*\(([^()]+)\)$/.exec(answer.trim());
+	if (!m) return [];
+	return m[2].replace(/\s/g, '').length >= 5 ? [m[1], m[2]] : [m[1]];
+}
+
+export type MatchResult ='exact' | 'close' | 'wrong-side' | 'wrong';
 
 export function matchAnswer(input: string, answer: string, opts: MatchOptions = {}): MatchResult {
 	// Side words and the word "muscle(s)" are optional: "deltoid" matches "Deltoid muscle".
@@ -68,7 +79,7 @@ export function matchAnswer(input: string, answer: string, opts: MatchOptions = 
 		normalize(s).replace(SIDE_WORDS, ' ').replace(OPTIONAL_WORDS, ' ').replace(/\s+/g, ' ').trim();
 	const typed = strip(input);
 	if (!typed) return 'wrong';
-	const targets = [answer, ...(opts.aliases ?? [])].map(strip);
+	const targets = [answer, ...parenAliases(answer), ...(opts.aliases ?? [])].map(strip);
 
 	let result: MatchResult = 'wrong';
 	for (const t of targets) {
